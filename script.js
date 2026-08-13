@@ -4,6 +4,32 @@
 // 30 Questions + 15 Second Timer
 // ==========================================
 
+// ==========================================
+// SOUND ENGINE
+// ==========================================
+
+const sounds = {
+    start: new Audio("Start.wav"),
+    correct: new Audio("Correct.wav"),
+    wrong: new Audio("Wrong.wav"),
+    tryAgain: new Audio("TryAgain.wav"),
+    success: new Audio("Success.wav"),
+    victory: new Audio("Victory.wav"),
+    complete: new Audio("Complete.wav")
+};
+
+function playSound(soundName) {
+
+    const sound = sounds[soundName];
+
+    if (!sound) return;
+
+    sound.currentTime = 0;
+
+    sound.play().catch(error => {
+        console.log("Sound could not play:", error);
+    });
+}
 const quizData = [
 
 {
@@ -248,7 +274,7 @@ function startQuiz(mode) {
     currentQuestion = 0;
     score = 0;
 
-    clearInterval(timer);
+    playSound("start");
 
     showQuestion();
 }
@@ -355,12 +381,14 @@ function startTimer() {
         }
 
         // Time is over
-        if (timeLeft <= 0) {
+if (timeLeft <= 0) {
 
-            clearInterval(timer);
+    clearInterval(timer);
 
-            timeUp();
-        }
+    playSound("tryAgain");
+
+    timeUp();
+}
 
     }, 1000);
 }
@@ -432,7 +460,7 @@ function selectAnswer(selected) {
     if (selected === q.answer) {
 
         score++;
-
+	playSound("correct");
         buttons[selected].classList.add("correct");
 
         feedback.innerHTML = `
@@ -451,7 +479,7 @@ function selectAnswer(selected) {
 
     // Wrong answer
     else {
-
+	playSound("wrong");
         buttons[selected].classList.add("wrong");
         buttons[q.answer].classList.add("correct");
 
