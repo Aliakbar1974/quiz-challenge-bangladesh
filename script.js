@@ -9,13 +9,13 @@
 // ==========================================
 
 const sounds = {
-    start: new Audio("Start.wav"),
-    correct: new Audio("Correct.wav"),
-    wrong: new Audio("Wrong.wav"),
-    tryAgain: new Audio("TryAgain.wav"),
-    success: new Audio("Success.wav"),
-    victory: new Audio("Victory.wav"),
-    complete: new Audio("Complete.wav")
+    start: new Audio("Sounds/Start.wav"),
+    correct: new Audio("Sounds/Correct.wav"),
+    wrong: new Audio("Sounds/Wrong.wav"),
+    tryAgain: new Audio("Sounds/TryAgain.wav"),
+    success: new Audio("Sounds/Success.wav"),
+    victory: new Audio("Sounds/Victory.wav"),
+    complete: new Audio("Sounds/Complete.wav")
 };
 
 function playSound(soundName) {
@@ -296,6 +296,15 @@ function showQuestion() {
 
     const q = quizData[currentQuestion];
 
+    // Exam Mode হলে Timer দেখাবে
+    const timerHTML = selectedMode === "exam"
+        ? `
+            <div class="timer-box">
+                Time: <span id="timer">15</span>
+            </div>
+          `
+        : "";
+
     main.innerHTML = `
         <div class="quiz-screen">
 
@@ -311,9 +320,7 @@ function showQuestion() {
 
             </div>
 
-            <div class="timer-box">
-                Time: <span id="timer">15</span>
-            </div>
+            ${timerHTML}
 
             <div class="progress">
                 <div class="progress-bar"
@@ -350,9 +357,11 @@ function showQuestion() {
         </div>
     `;
 
-    startTimer();
+    // শুধুমাত্র Exam Mode-এ Timer চালু হবে
+    if (selectedMode === "exam") {
+        startTimer();
+    }
 }
-
 
 // ==========================================
 // START TIMER
@@ -527,7 +536,14 @@ function nextQuestion() {
     }
 }
 
+function restartQuiz() {
 
+    playSound("start");
+
+    setTimeout(function () {
+        location.reload();
+    }, 500);
+}
 // ==========================================
 // RESULT SCREEN
 // ==========================================
@@ -535,7 +551,7 @@ function nextQuestion() {
 function showResult() {
 
     clearInterval(timer);
-
+playSound("victory");
     const main = document.querySelector("main");
 
     const percentage =
@@ -572,7 +588,7 @@ function showResult() {
 
             <h2>${message}</h2>
 
-            <button onclick="location.reload()">
+            <button onclick="playSound('start'); location.reload()">
                 🔄 Play Again
             </button>
 
@@ -596,16 +612,18 @@ document.addEventListener("DOMContentLoaded", function () {
         if (text.includes("LEARNING")) {
 
             button.onclick = function () {
-                startQuiz("learning");
-            };
+    playSound("start");
+    startQuiz("learning");
+};
 
         }
 
         if (text.includes("EXAM")) {
 
             button.onclick = function () {
-                startQuiz("exam");
-            };
+    playSound("start");
+    startQuiz("exam");
+};
 
         }
 
