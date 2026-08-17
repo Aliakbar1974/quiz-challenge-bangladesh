@@ -31,215 +31,186 @@ function playSound(soundName) {
     });
 }
 const quizData = [
-{
-    question: "What is the meaning of \"Abstain\"?",
-    options: ["Avoid or refrain from something", "Support strongly", "Explain in detail", "Increase gradually"],
-    answer: 0,
-    explanation: "Abstain means to deliberately avoid or refrain from something.<br><br><strong>Example:</strong> The doctor advised him to abstain from smoking."
-},
-
-{
-    question: "What is the meaning of \"Benevolent\"?",
-    options: ["Extremely ambitious", "Kind and generous", "Difficult to understand", "Strict and demanding"],
-    answer: 1,
-    explanation: "Benevolent means kind, generous, and willing to help others.<br><br><strong>Example:</strong> The benevolent organization provided food and education to poor children."
-},
-
-{
-    question: "What is the meaning of \"Coerce\"?",
-    options: ["Encourage gently", "Praise publicly", "Force someone to do something", "Help someone succeed"],
-    answer: 2,
-    explanation: "Coerce means to force someone to do something by using pressure or threats.<br><br><strong>Example:</strong> No employee should be coerced into accepting unfair working conditions."
-},
-
-{
-    question: "What is the meaning of \"Defy\"?",
-    options: ["Follow willingly", "Explain carefully", "Accept without question", "Resist or refuse to obey"],
-    answer: 3,
-    explanation: "Defy means to resist or refuse to obey someone or something.<br><br><strong>Example:</strong> The protesters decided to defy the government's order."
-},
-
-{
-    question: "What is the meaning of \"Deter\"?",
-    options: ["Discourage someone from doing something", "Encourage immediate action", "Make something larger", "Describe something accurately"],
-    answer: 0,
-    explanation: "Deter means to discourage someone from doing something, usually by making them aware of possible consequences.<br><br><strong>Example:</strong> Strict penalties may deter people from committing crimes."
-},
-
-{
-    question: "What is the meaning of \"Empathy\"?",
-    options: ["A strong desire to compete", "The ability to understand another person's feelings", "A fear of failure", "A method of solving problems"],
-    answer: 1,
-    explanation: "Empathy means the ability to understand and share another person's feelings or experiences.<br><br><strong>Example:</strong> A good manager should show empathy toward employees facing personal difficulties."
-},
-
-{
-    question: "What is the meaning of \"Frugal\"?",
-    options: ["Extremely wealthy", "Careless with money", "Careful about spending money", "Generous to everyone"],
-    answer: 2,
-    explanation: "Frugal means careful about spending money and avoiding unnecessary expenses.<br><br><strong>Example:</strong> His frugal lifestyle allowed him to save enough money to buy a house."
-},
-
-{
-    question: "What is the meaning of \"Genuine\"?",
-    options: ["Artificial or fake", "Temporary and uncertain", "Difficult to recognize", "Real and authentic"],
-    answer: 3,
-    explanation: "Genuine means real, authentic, and not false or artificial.<br><br><strong>Example:</strong> The customer wanted to know whether the antique was genuine."
-},
-
-{
-    question: "What is the meaning of \"Hinder\"?",
-    options: ["Obstruct or make something difficult", "Improve rapidly", "Support completely", "Finish successfully"],
-    answer: 0,
-    explanation: "Hinder means to make something difficult or prevent it from progressing normally.<br><br><strong>Example:</strong> Poor communication can hinder the progress of a project."
-},
-
-{
-    question: "What is the meaning of \"Innovative\"?",
-    options: ["Traditional and unchanged", "Introducing new ideas or methods", "Unable to adapt", "Based entirely on the past"],
-    answer: 1,
-    explanation: "Innovative means introducing new ideas, methods, or technologies.<br><br><strong>Example:</strong> The company developed an innovative solution to reduce energy consumption."
-},
-
-{
-    question: "What is the meaning of \"Justify\"?",
-    options: ["Reject without explanation", "Hide a mistake", "Give a good reason for something", "Prevent someone from acting"],
-    answer: 2,
-    explanation: "Justify means to give a valid reason or explanation for something.<br><br><strong>Example:</strong> The manager had to justify the decision to increase the budget."
-},
-
-{
-    question: "What is the meaning of \"Lucid\"?",
-    options: ["Extremely complicated", "Completely uncertain", "Rarely discussed", "Clear and easy to understand"],
-    answer: 3,
-    explanation: "Lucid means clear and easy to understand, especially when describing an explanation or piece of writing.<br><br><strong>Example:</strong> The professor gave a lucid explanation of the economic theory."
-},
-
-{
-    question: "What is the meaning of \"Mandatory\"?",
-    options: ["Required by rule or law", "Completely optional", "Rarely recommended", "Difficult to arrange"],
-    answer: 0,
-    explanation: "Mandatory means required by a rule, regulation, or law.<br><br><strong>Example:</strong> Wearing a helmet is mandatory for all motorcycle riders."
-},
-
-{
-    question: "What is the meaning of \"Novice\"?",
-    options: ["An expert in a field", "A beginner with little experience", "A senior manager", "A professional researcher"],
-    answer: 1,
-    explanation: "Novice means a person who is new to a particular activity or subject and has little experience.<br><br><strong>Example:</strong> Although he was a novice programmer, he learned quickly."
-},
-
-{
-    question: "What is the meaning of \"Omit\"?",
-    options: ["Add something important", "Repeat several times", "Leave something out", "Explain something fully"],
-    answer: 2,
-    explanation: "Omit means to leave something out or fail to include it.<br><br><strong>Example:</strong> Please do not omit any important information from the report."
-},
-
-{
-    question: "What is the meaning of \"Pessimistic\"?",
-    options: ["Highly confident about success", "Always willing to help", "Extremely ambitious", "Expecting negative outcomes"],
-    answer: 3,
-    explanation: "Pessimistic means expecting bad or negative results rather than positive ones.<br><br><strong>Example:</strong> His pessimistic attitude made it difficult for the team to remain motivated."
-},
-
-{
-    question: "What is the meaning of \"Reconcile\"?",
-    options: ["Restore agreement between people or ideas", "Create a serious conflict", "Avoid all communication", "Reject a proposal"],
-    answer: 0,
-    explanation: "Reconcile means to restore friendly relations or make two different ideas or facts compatible.<br><br><strong>Example:</strong> The two departments worked together to reconcile their differences."
-},
-
-{
-    question: "What is the meaning of \"Scarce\"?",
-    options: ["Available in large quantities", "Limited or difficult to find", "Completely unnecessary", "Easy to replace"],
-    answer: 1,
-    explanation: "Scarce means limited in quantity or difficult to obtain.<br><br><strong>Example:</strong> Clean drinking water is scarce in some parts of the world."
-},
-
-{
-    question: "What is the meaning of \"Tangible\"?",
-    options: ["Impossible to describe", "Based only on emotions", "Real and capable of being touched or clearly identified", "Completely theoretical"],
-    answer: 2,
-    explanation: "Tangible means real, concrete, or capable of being touched or clearly measured.<br><br><strong>Example:</strong> The new policy produced tangible benefits for local businesses."
-},
-
-{
-    question: "What is the meaning of \"Unprecedented\"?",
-    options: ["Very common and ordinary", "Repeated many times", "Expected in advance", "Never having happened before"],
-    answer: 3,
-    explanation: "Unprecedented means something that has never happened or existed before.<br><br><strong>Example:</strong> The country experienced an unprecedented rise in online education."
-},
-
-{
-    question: "What is the meaning of \"Validate\"?",
-    options: ["Confirm that something is accurate or valid", "Destroy completely", "Ignore evidence", "Make something less useful"],
-    answer: 0,
-    explanation: "Validate means to confirm that something is correct, accurate, or acceptable.<br><br><strong>Example:</strong> Researchers conducted additional tests to validate the results."
-},
-
-{
-    question: "What is the meaning of \"Wary\"?",
-    options: ["Completely confident", "Cautious and watchful", "Highly enthusiastic", "Unaware of danger"],
-    answer: 1,
-    explanation: "Wary means being careful and alert because something may be dangerous or problematic.<br><br><strong>Example:</strong> Investors are wary of putting money into an unstable market."
-},
-
-{
-    question: "What is the meaning of \"Yield\"?",
-    options: ["Refuse to give way", "Increase resistance", "Produce or provide a result", "Destroy an opportunity"],
-    answer: 2,
-    explanation: "Yield can mean to produce or provide a result, amount, or benefit.<br><br><strong>Example:</strong> The new farming method yielded a much larger crop."
-},
-
-{
-    question: "What is the meaning of \"Zealous\"?",
-    options: ["Uninterested and passive", "Careless and unreliable", "Unable to make decisions", "Extremely enthusiastic and devoted"],
-    answer: 3,
-    explanation: "Zealous means extremely enthusiastic, passionate, or devoted to a cause or activity.<br><br><strong>Example:</strong> The zealous volunteers worked tirelessly to support the campaign."
-},
-
-{
-    question: "What is the meaning of \"Assert\"?",
-    options: ["State something confidently", "Withdraw a statement", "Avoid expressing an opinion", "Ask for permission"],
-    answer: 0,
-    explanation: "Assert means to state or declare something confidently and firmly.<br><br><strong>Example:</strong> The lawyer asserted that the evidence was insufficient."
-},
-
-{
-    question: "What is the meaning of \"Bolster\"?",
-    options: ["Weaken significantly", "Support or strengthen", "Hide completely", "Delay unnecessarily"],
-    answer: 1,
-    explanation: "Bolster means to support, strengthen, or improve something.<br><br><strong>Example:</strong> The new investment will bolster the company's financial position."
-},
-
-{
-    question: "What is the meaning of \"Conventional\"?",
-    options: ["Completely experimental", "Extremely unusual", "Based on traditional or commonly accepted methods", "Impossible to predict"],
-    answer: 2,
-    explanation: "Conventional means traditional or based on commonly accepted ideas, methods, or practices.<br><br><strong>Example:</strong> The company chose a conventional approach to solve the problem."
-},
-
-{
-    question: "What is the meaning of \"Discreet\"?",
-    options: ["Very loud and attention-seeking", "Publicly announced", "Careless with private information", "Careful to avoid attracting attention"],
-    answer: 3,
-    explanation: "Discreet means careful and tactful, especially in order to avoid attracting attention or revealing private information.<br><br><strong>Example:</strong> The assistant was discreet when handling the client's confidential documents."
-},
-
-{
-    question: "What is the meaning of \"Endorse\"?",
-    options: ["Publicly support or approve", "Strongly oppose", "Ignore completely", "Question repeatedly"],
-    answer: 0,
-    explanation: "Endorse means to publicly or officially support, approve, or recommend something.<br><br><strong>Example:</strong> Several respected experts endorsed the new education policy."
-},
-
-{
-    question: "What is the meaning of \"Impede\"?",
-    options: ["Accelerate progress", "Delay or obstruct progress", "Guarantee success", "Improve efficiency"],
-    answer: 1,
-    explanation: "Impede means to delay, obstruct, or make progress more difficult.<br><br><strong>Example:</strong> Bureaucratic delays can impede economic development."
-}
+    {
+        question: "What is the meaning of \"Mitigate\"?",
+        options: ["Increase", "Create", "Reduce", "Ignore"],
+        answer: 2,
+        explanation: "Mitigate means to reduce the severity or harmful effect of something.<br><br><strong>Example:</strong> The government introduced new measures to mitigate the impact of inflation."
+    },
+    {
+        question: "What is the meaning of \"Abundant\"?",
+        options: ["Limited", "Scarce", "Expensive", "Plentiful"],
+        answer: 3,
+        explanation: "Abundant means existing in large quantities; plentiful.<br><br><strong>Example:</strong> The region has abundant natural resources."
+    },
+    {
+        question: "What is the meaning of \"Reluctant\"?",
+        options: ["Prepared", "Unwilling", "Certain", "Excited"],
+        answer: 1,
+        explanation: "Reluctant means unwilling or hesitant to do something.<br><br><strong>Example:</strong> He was reluctant to accept the offer without further discussion."
+    },
+    {
+        question: "What is the meaning of \"Diligent\"?",
+        options: ["Hardworking", "Impatient", "Careless", "Confused"],
+        answer: 0,
+        explanation: "Diligent means showing careful and persistent effort.<br><br><strong>Example:</strong> She is a diligent employee who always completes her work on time."
+    },
+    {
+        question: "What is the meaning of \"Concise\"?",
+        options: ["Complicated", "Emotional", "Brief", "Repetitive"],
+        answer: 2,
+        explanation: "Concise means expressing something clearly in a few words.<br><br><strong>Example:</strong> The manager asked for a concise summary of the proposal."
+    },
+    {
+        question: "What is the meaning of \"Compel\"?",
+        options: ["Permit", "Prevent", "Delay", "Force"],
+        answer: 3,
+        explanation: "Compel means to force someone to do something.<br><br><strong>Example:</strong> The evidence compelled the committee to reconsider its decision."
+    },
+    {
+        question: "What is the meaning of \"Vulnerable\"?",
+        options: ["Independent", "Protected", "Easily harmed", "Powerful"],
+        answer: 2,
+        explanation: "Vulnerable means exposed to the possibility of harm or attack.<br><br><strong>Example:</strong> Small businesses are particularly vulnerable to economic shocks."
+    },
+    {
+        question: "What is the meaning of \"Relieve\"?",
+        options: ["Conceal", "Reduce suffering", "Prevent completely", "Worsen"],
+        answer: 1,
+        explanation: "Relieve means to reduce pain, difficulty, or distress.<br><br><strong>Example:</strong> The new measures may relieve pressure on low-income families."
+    },
+    {
+        question: "What is the meaning of \"Enhance\"?",
+        options: ["Hide", "Reduce", "Improve", "Destroy"],
+        answer: 2,
+        explanation: "Enhance means to improve the quality, value, or effectiveness of something.<br><br><strong>Example:</strong> The training program was designed to enhance employees' skills."
+    },
+    {
+        question: "What is the meaning of \"Obsolete\"?",
+        options: ["No longer useful", "Essential", "Modern", "Expensive"],
+        answer: 0,
+        explanation: "Obsolete means no longer useful or necessary because something newer exists.<br><br><strong>Example:</strong> Many traditional technologies have become obsolete."
+    },
+    {
+        question: "What is the meaning of \"Ambiguous\"?",
+        options: ["Complete", "Accurate", "Uncertain in meaning", "Clear"],
+        answer: 2,
+        explanation: "Ambiguous means open to more than one interpretation.<br><br><strong>Example:</strong> The wording of the agreement was ambiguous and caused confusion."
+    },
+    {
+        question: "What is the meaning of \"Inevitable\"?",
+        options: ["Uncertain", "Certain to happen", "Avoidable", "Unusual"],
+        answer: 1,
+        explanation: "Inevitable means certain to happen and impossible to avoid.<br><br><strong>Example:</strong> Some degree of change is inevitable in a growing organization."
+    },
+    {
+        question: "What is the meaning of \"Feasible\"?",
+        options: ["Impossible", "Extremely expensive", "Unnecessary", "Practical and possible"],
+        answer: 3,
+        explanation: "Feasible means possible and practical to achieve.<br><br><strong>Example:</strong> The committee concluded that the proposed project was financially feasible."
+    },
+    {
+        question: "What is the meaning of \"Adverse\"?",
+        options: ["Temporary", "Favorable", "Harmful or unfavorable", "Predictable"],
+        answer: 2,
+        explanation: "Adverse means harmful or unfavorable.<br><br><strong>Example:</strong> The company faced adverse economic conditions."
+    },
+    {
+        question: "What is the meaning of \"Allocate\"?",
+        options: ["Remove", "Distribute", "Combine", "Delay"],
+        answer: 1,
+        explanation: "Allocate means to distribute something for a particular purpose.<br><br><strong>Example:</strong> The government allocated additional funds to education."
+    },
+    {
+        question: "What is the meaning of \"Relinquish\"?",
+        options: ["Acquire", "Improve", "Protect", "Give up"],
+        answer: 3,
+        explanation: "Relinquish means to voluntarily give up or surrender something.<br><br><strong>Example:</strong> The director agreed to relinquish control of the project."
+    },
+    {
+        question: "What is the meaning of \"Scrutinize\"?",
+        options: ["Examine carefully", "Simplify", "Ignore completely", "Approve immediately"],
+        answer: 0,
+        explanation: "Scrutinize means to examine something very carefully.<br><br><strong>Example:</strong> The auditors scrutinized the company's financial records."
+    },
+    {
+        question: "What is the meaning of \"Substantial\"?",
+        options: ["Very small", "Uncertain", "Temporary", "Significant or considerable"],
+        answer: 3,
+        explanation: "Substantial means considerable in size, importance, or value.<br><br><strong>Example:</strong> The company made a substantial investment in technology."
+    },
+    {
+        question: "What is the meaning of \"Coherent\"?",
+        options: ["Incomplete", "Logical and well organized", "Unrelated", "Extremely difficult"],
+        answer: 1,
+        explanation: "Coherent means logical, consistent, and easy to understand.<br><br><strong>Example:</strong> The candidate presented a coherent argument during the interview."
+    },
+    {
+        question: "What is the meaning of \"Resilient\"?",
+        options: ["Able to recover quickly", "Easily discouraged", "Unpredictable", "Completely dependent"],
+        answer: 0,
+        explanation: "Resilient means able to recover from difficulties or setbacks.<br><br><strong>Example:</strong> The economy proved remarkably resilient after the crisis."
+    },
+    {
+        question: "What is the meaning of \"Commence\"?",
+        options: ["Cancel", "End", "Repeat", "Begin"],
+        answer: 3,
+        explanation: "Commence means to begin or start.<br><br><strong>Example:</strong> The meeting will commence at nine o'clock."
+    },
+    {
+        question: "What is the meaning of \"Cease\"?",
+        options: ["Continue", "Stop", "Improve", "Begin"],
+        answer: 1,
+        explanation: "Cease means to stop or come to an end.<br><br><strong>Example:</strong> The company decided to cease operations in the region."
+    },
+    {
+        question: "What is the meaning of \"Explicit\"?",
+        options: ["Uncertain", "Implied", "Clearly stated", "Secret"],
+        answer: 2,
+        explanation: "Explicit means clearly and directly stated.<br><br><strong>Example:</strong> The contract contains explicit instructions regarding confidentiality."
+    },
+    {
+        question: "What is the meaning of \"Imply\"?",
+        options: ["Suggest without saying directly", "State directly", "Explain repeatedly", "Reject formally"],
+        answer: 0,
+        explanation: "Imply means to suggest something without stating it directly.<br><br><strong>Example:</strong> His remarks implied that further negotiations might be necessary."
+    },
+    {
+        question: "What is the meaning of \"Infer\"?",
+        options: ["Avoid a conclusion", "Draw a conclusion from evidence", "State something loudly", "Change the evidence"],
+        answer: 1,
+        explanation: "Infer means to reach a conclusion based on evidence or reasoning.<br><br><strong>Example:</strong> From the available data, researchers inferred that demand was declining."
+    },
+    {
+        question: "What is the meaning of \"Proficient\"?",
+        options: ["Highly skilled", "Unwilling", "Completely inexperienced", "Uncertain"],
+        answer: 0,
+        explanation: "Proficient means skilled or competent at doing something.<br><br><strong>Example:</strong> She is proficient in English and Mandarin."
+    },
+    {
+        question: "What is the meaning of \"Commend\"?",
+        options: ["Question", "Criticize", "Punish", "Praise"],
+        answer: 3,
+        explanation: "Commend means to praise someone or something officially or publicly.<br><br><strong>Example:</strong> The officer was commended for his exceptional service."
+    },
+    {
+        question: "What is the meaning of \"Deter\"?",
+        options: ["Discourage", "Permit", "Reward", "Encourage"],
+        answer: 0,
+        explanation: "Deter means to discourage someone from doing something.<br><br><strong>Example:</strong> Higher penalties may deter people from violating the law."
+    },
+    {
+        question: "What is the meaning of \"Plausible\"?",
+        options: ["Impossible to believe", "Seemingly reasonable or believable", "Completely proven", "Obviously false"],
+        answer: 1,
+        explanation: "Plausible means seeming reasonable or likely to be true.<br><br><strong>Example:</strong> The researcher offered a plausible explanation for the unexpected result."
+    },
+    {
+        question: "What is the meaning of \"Versatile\"?",
+        options: ["Able to perform many different functions", "Difficult to control", "Completely unreliable", "Limited to one purpose"],
+        answer: 0,
+        explanation: "Versatile means able to adapt to many different uses, activities, or situations.<br><br><strong>Example:</strong> Her versatile skills made her an effective member of the management team."
+    }
 ];
 
 
