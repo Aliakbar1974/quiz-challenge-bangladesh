@@ -32,184 +32,304 @@ function playSound(soundName) {
 }
 const quizData = [
     {
-        question: "What is the meaning of \"Mitigate\"?",
-        options: ["Increase", "Create", "Reduce", "Ignore"],
+        question: "What is the meaning of \"Alert\"?",
+        options: ["Watchful", "Sleepy", "Angry", "Weak"],
+        answer: 0,
+        explanation: "Alert means watchful, attentive, or quick to notice something.<br><br><strong>Example:</strong> The security guard remained alert throughout the night."
+    },
+{
+    question: "What is the meaning of \"Mend\"?",
+    options: ["To break something", "To hide something", "To repair or fix something", "To replace something"],
+    answer: 2,
+    explanation: "Mend means to repair or fix something that is damaged or broken.<br><br><strong>Example:</strong> The tailor will mend the torn shirt before returning it to the customer."
+},    
+{
+        question: "What is the meaning of \"Bitter\"?",
+        options: ["Sweet", "Having a sharp, unpleasant taste", "Salty", "Soft"],
+        answer: 1,
+        explanation: "Bitter means having a sharp, unpleasant taste or feeling.<br><br><strong>Example:</strong> The medicine had a bitter taste."
+    },
+    {
+        question: "What is the meaning of \"Ignore\"?",
+        options: ["Notice", "Help", "Pay no attention to", "Follow"],
         answer: 2,
-        explanation: "Mitigate means to reduce the severity or harmful effect of something.<br><br><strong>Example:</strong> The government introduced new measures to mitigate the impact of inflation."
+        explanation: "Ignore means to pay no attention to someone or something.<br><br><strong>Example:</strong> She decided to ignore the negative comments."
     },
     {
-        question: "What is the meaning of \"Abundant\"?",
-        options: ["Limited", "Scarce", "Expensive", "Plentiful"],
+        question: "What is the meaning of \"Chore\"?",
+        options: ["A difficult journey", "A celebration", "A reward", "A routine task or household duty"],
         answer: 3,
-        explanation: "Abundant means existing in large quantities; plentiful.<br><br><strong>Example:</strong> The region has abundant natural resources."
+        explanation: "Chore means a routine task, especially a household task.<br><br><strong>Example:</strong> Washing the dishes is one of my daily chores."
     },
     {
-        question: "What is the meaning of \"Reluctant\"?",
-        options: ["Prepared", "Unwilling", "Certain", "Excited"],
-        answer: 1,
-        explanation: "Reluctant means unwilling or hesitant to do something.<br><br><strong>Example:</strong> He was reluctant to accept the offer without further discussion."
-    },
-    {
-        question: "What is the meaning of \"Diligent\"?",
-        options: ["Hardworking", "Impatient", "Careless", "Confused"],
+        question: "What is the meaning of \"Beverage\"?",
+        options: ["A drink", "Food", "Clothing", "Medicine"],
         answer: 0,
-        explanation: "Diligent means showing careful and persistent effort.<br><br><strong>Example:</strong> She is a diligent employee who always completes her work on time."
+        explanation: "Beverage means any type of drink, especially one prepared for people to drink.<br><br><strong>Example:</strong> Water is the most common beverage served at the meeting."
     },
     {
-        question: "What is the meaning of \"Concise\"?",
-        options: ["Complicated", "Emotional", "Brief", "Repetitive"],
+        question: "What is the meaning of \"Applaud\"?",
+        options: ["Criticize", "Clap to show approval", "Leave suddenly", "Whisper"],
+        answer: 1,
+        explanation: "Applaud means to clap your hands to show approval or appreciation.<br><br><strong>Example:</strong> The audience applauded the performer after the show."
+    },
+    {
+        question: "What is the meaning of \"Compliment\"?",
+        options: ["An insult", "A complaint", "A warning", "A polite expression of praise"],
+        answer: 3,
+        explanation: "Compliment means a polite expression of praise or admiration.<br><br><strong>Example:</strong> She received a compliment on her new dress."
+    },
+    {
+        question: "What is the meaning of \"Appropriate\"?",
+        options: ["Suitable or proper", "Expensive", "Dangerous", "Unusual"],
+        answer: 0,
+        explanation: "Appropriate means suitable or proper for a particular situation or purpose.<br><br><strong>Example:</strong> Please wear appropriate clothing for the interview."
+    },
+    {
+        question: "What is the meaning of \"Accurate\"?",
+        options: ["Fast", "Difficult", "Incomplete", "Correct and exact"],
+        answer: 3,
+        explanation: "Accurate means correct, exact, and free from mistakes.<br><br><strong>Example:</strong> The report contains accurate information about the company's sales."
+    },
+    {
+        question: "What is the meaning of \"Agile\"?",
+        options: ["Slow and weak", "Able to move quickly and easily", "Very large", "Unable to move"],
+        answer: 1,
+        explanation: "Agile means able to move quickly, easily, and efficiently.<br><br><strong>Example:</strong> The agile athlete quickly changed direction during the game."
+    },
+    {
+        question: "What is the meaning of \"Ample\"?",
+        options: ["Very small", "Almost empty", "More than enough", "Extremely expensive"],
         answer: 2,
-        explanation: "Concise means expressing something clearly in a few words.<br><br><strong>Example:</strong> The manager asked for a concise summary of the proposal."
+        explanation: "Ample means more than enough; plentiful.<br><br><strong>Example:</strong> There is ample space for everyone in the conference room."
     },
     {
-        question: "What is the meaning of \"Compel\"?",
-        options: ["Permit", "Prevent", "Delay", "Force"],
+        question: "What is the meaning of \"Antique\"?",
+        options: ["Modern", "Very expensive", "Broken", "Old and often valuable"],
         answer: 3,
-        explanation: "Compel means to force someone to do something.<br><br><strong>Example:</strong> The evidence compelled the committee to reconsider its decision."
+        explanation: "Antique means something old, especially an object that is valuable because of its age.<br><br><strong>Example:</strong> The museum displayed an antique wooden chair."
     },
     {
-        question: "What is the meaning of \"Vulnerable\"?",
-        options: ["Independent", "Protected", "Easily harmed", "Powerful"],
+        question: "What is the meaning of \"Audible\"?",
+        options: ["Able to be heard", "Able to be seen", "Difficult to understand", "Completely silent"],
+        answer: 0,
+        explanation: "Audible means able to be heard.<br><br><strong>Example:</strong> Her voice was barely audible from the back of the room."
+    },
+    {
+        question: "What is the meaning of \"Expand\"?",
+        options: ["Become smaller", "Become larger", "Disappear", "Break apart"],
+        answer: 1,
+        explanation: "Expand means to become or make something larger or more extensive.<br><br><strong>Example:</strong> The company plans to expand its business into new markets."
+    },
+    {
+        question: "What is the meaning of \"Output\"?",
+        options: ["A workplace", "A problem", "A financial loss", "The amount produced"],
+        answer: 3,
+        explanation: "Output means the amount of something produced by a person, machine, or organization.<br><br><strong>Example:</strong> The factory increased its daily output by 15 percent."
+    },
+    {
+        question: "What is the meaning of \"Reside\"?",
+        options: ["Live in a particular place", "Travel frequently", "Work temporarily", "Leave a place"],
+        answer: 0,
+        explanation: "Reside means to live in a particular place.<br><br><strong>Example:</strong> She currently resides in London."
+    },
+    {
+        question: "What is the meaning of \"Respond\"?",
+        options: ["Refuse", "Reply or react", "Forget", "Hide"],
+        answer: 1,
+        explanation: "Respond means to reply or react to something that has been said, asked, or done.<br><br><strong>Example:</strong> Please respond to my email as soon as possible."
+    },
+    {
+        question: "What is the meaning of \"Rotate\"?",
+        options: ["Move in a circle around a central point", "Stop completely", "Move backward", "Become larger"],
+        answer: 0,
+        explanation: "Rotate means to turn or move around a central point or axis.<br><br><strong>Example:</strong> The Earth rotates on its axis once every 24 hours."
+    },
+    {
+        question: "What is the meaning of \"Shift\"?",
+        options: ["To destroy", "To measure", "To move or change", "To repair"],
         answer: 2,
-        explanation: "Vulnerable means exposed to the possibility of harm or attack.<br><br><strong>Example:</strong> Small businesses are particularly vulnerable to economic shocks."
+        explanation: "Shift means to move or change from one position, place, or situation to another.<br><br><strong>Example:</strong> The company decided to shift its focus toward online sales."
     },
     {
-        question: "What is the meaning of \"Relieve\"?",
-        options: ["Conceal", "Reduce suffering", "Prevent completely", "Worsen"],
+        question: "What is the meaning of \"Sip\"?",
+        options: ["Drink a small amount", "Eat quickly", "Pour something out", "Throw something"],
+        answer: 0,
+        explanation: "Sip means to drink something slowly in small amounts.<br><br><strong>Example:</strong> She took a sip of coffee before starting the meeting."
+    },
+    {
+        question: "What is the meaning of \"Stack\"?",
+        options: ["A single object", "A large room", "A type of machine", "A pile of things placed one on top of another"],
+        answer: 3,
+        explanation: "Stack means a pile of things placed one on top of another.<br><br><strong>Example:</strong> There was a stack of books on the desk."
+    },
+    {
+        question: "What is the meaning of \"Scrape\"?",
+        options: ["To polish something", "To remove or rub something using a rough edge", "To build something", "To wash something"],
         answer: 1,
-        explanation: "Relieve means to reduce pain, difficulty, or distress.<br><br><strong>Example:</strong> The new measures may relieve pressure on low-income families."
+        explanation: "Scrape means to remove something from a surface by rubbing or dragging a rough or sharp object over it.<br><br><strong>Example:</strong> He used a knife to scrape the paint from the wall."
     },
     {
-        question: "What is the meaning of \"Enhance\"?",
-        options: ["Hide", "Reduce", "Improve", "Destroy"],
+        question: "What is the meaning of \"Scrub\"?",
+        options: ["To cut into pieces", "To dry quickly", "To clean by rubbing hard", "To cover completely"],
         answer: 2,
-        explanation: "Enhance means to improve the quality, value, or effectiveness of something.<br><br><strong>Example:</strong> The training program was designed to enhance employees' skills."
+        explanation: "Scrub means to clean something by rubbing it hard, usually with a brush or cloth.<br><br><strong>Example:</strong> Please scrub the floor before the guests arrive."
     },
     {
-        question: "What is the meaning of \"Obsolete\"?",
-        options: ["No longer useful", "Essential", "Modern", "Expensive"],
+        question: "What is the meaning of \"Lively\"?",
+        options: ["Quiet and boring", "Full of energy and enthusiasm", "Very dangerous", "Extremely old"],
+        answer: 1,
+        explanation: "Lively means full of energy, activity, and enthusiasm.<br><br><strong>Example:</strong> The restaurant has a lively atmosphere in the evening."
+    },
+    {
+        question: "What is the meaning of \"Litter\"?",
+        options: ["Valuable objects", "Furniture", "Food supplies", "Waste or rubbish left in public places"],
+        answer: 3,
+        explanation: "Litter means waste or rubbish that people leave in public places.<br><br><strong>Example:</strong> People should not throw litter on the streets."
+    },
+    {
+        question: "What is the meaning of \"Massive\"?",
+        options: ["Very small", "Extremely large", "Very light", "Very cheap"],
+        answer: 1,
+        explanation: "Massive means extremely large or heavy.<br><br><strong>Example:</strong> The company made a massive investment in the new factory."
+    },
+    {
+        question: "What is the meaning of \"Mutual\"?",
+        options: ["Belonging to or shared by two or more people", "Belonging to one person", "Completely different", "Impossible"],
         answer: 0,
-        explanation: "Obsolete means no longer useful or necessary because something newer exists.<br><br><strong>Example:</strong> Many traditional technologies have become obsolete."
+        explanation: "Mutual means shared by two or more people or groups.<br><br><strong>Example:</strong> They reached an agreement based on mutual respect."
     },
     {
-        question: "What is the meaning of \"Ambiguous\"?",
-        options: ["Complete", "Accurate", "Uncertain in meaning", "Clear"],
+        question: "What is the meaning of \"Prior\"?",
+        options: ["Coming after something", "Very expensive", "Coming before something in time or order", "Completely unrelated"],
         answer: 2,
-        explanation: "Ambiguous means open to more than one interpretation.<br><br><strong>Example:</strong> The wording of the agreement was ambiguous and caused confusion."
+        explanation: "Prior means existing or happening before something else.<br><br><strong>Example:</strong> You need prior approval before starting the project."
     },
     {
-        question: "What is the meaning of \"Inevitable\"?",
-        options: ["Uncertain", "Certain to happen", "Avoidable", "Unusual"],
-        answer: 1,
-        explanation: "Inevitable means certain to happen and impossible to avoid.<br><br><strong>Example:</strong> Some degree of change is inevitable in a growing organization."
-    },
-    {
-        question: "What is the meaning of \"Feasible\"?",
-        options: ["Impossible", "Extremely expensive", "Unnecessary", "Practical and possible"],
+        question: "What is the meaning of \"Reliable\"?",
+        options: ["Likely to fail", "Very expensive", "Difficult to use", "Able to be trusted or depended on"],
         answer: 3,
-        explanation: "Feasible means possible and practical to achieve.<br><br><strong>Example:</strong> The committee concluded that the proposed project was financially feasible."
+        explanation: "Reliable means able to be trusted or depended on to work properly or behave as expected.<br><br><strong>Example:</strong> We need a reliable supplier for our business."
     },
     {
-        question: "What is the meaning of \"Adverse\"?",
-        options: ["Temporary", "Favorable", "Harmful or unfavorable", "Predictable"],
+        question: "What is the meaning of \"Specific\"?",
+        options: ["Clearly defined or identified", "General and unclear", "Very large", "Completely optional"],
+        answer: 0,
+        explanation: "Specific means clearly defined, identified, or stated.<br><br><strong>Example:</strong> Please provide specific details about the problem."
+    },
+    {
+        question: "What is the meaning of \"Substitute\"?",
+        options: ["A permanent solution", "A replacement for something or someone", "A mistake", "A measurement"],
+        answer: 1,
+        explanation: "Substitute means a person or thing used instead of another person or thing.<br><br><strong>Example:</strong> We used a substitute material because the original was unavailable."
+    },
+    {
+        question: "What is the meaning of \"Trend\"?",
+        options: ["A sudden accident", "A fixed rule", "A general direction or pattern of change", "A financial loss"],
         answer: 2,
-        explanation: "Adverse means harmful or unfavorable.<br><br><strong>Example:</strong> The company faced adverse economic conditions."
+        explanation: "Trend means a general direction in which something is developing or changing.<br><br><strong>Example:</strong> Online shopping is a growing trend around the world."
     },
     {
-        question: "What is the meaning of \"Allocate\"?",
-        options: ["Remove", "Distribute", "Combine", "Delay"],
-        answer: 1,
-        explanation: "Allocate means to distribute something for a particular purpose.<br><br><strong>Example:</strong> The government allocated additional funds to education."
-    },
-    {
-        question: "What is the meaning of \"Relinquish\"?",
-        options: ["Acquire", "Improve", "Protect", "Give up"],
+        question: "What is the meaning of \"Vendor\"?",
+        options: ["A customer", "A manager", "A government official", "A person or company that sells goods or services"],
         answer: 3,
-        explanation: "Relinquish means to voluntarily give up or surrender something.<br><br><strong>Example:</strong> The director agreed to relinquish control of the project."
+        explanation: "Vendor means a person or company that sells goods or services.<br><br><strong>Example:</strong> The company selected a new vendor to supply packaging materials."
     },
     {
-        question: "What is the meaning of \"Scrutinize\"?",
-        options: ["Examine carefully", "Simplify", "Ignore completely", "Approve immediately"],
+        question: "What is the meaning of \"Verify\"?",
+        options: ["To check that something is true or accurate", "To hide information", "To change something", "To ignore something"],
         answer: 0,
-        explanation: "Scrutinize means to examine something very carefully.<br><br><strong>Example:</strong> The auditors scrutinized the company's financial records."
+        explanation: "Verify means to check or confirm that something is true, accurate, or correct.<br><br><strong>Example:</strong> Please verify the information before submitting the report."
     },
     {
-        question: "What is the meaning of \"Substantial\"?",
-        options: ["Very small", "Uncertain", "Temporary", "Significant or considerable"],
-        answer: 3,
-        explanation: "Substantial means considerable in size, importance, or value.<br><br><strong>Example:</strong> The company made a substantial investment in technology."
-    },
-    {
-        question: "What is the meaning of \"Coherent\"?",
-        options: ["Incomplete", "Logical and well organized", "Unrelated", "Extremely difficult"],
+        question: "What is the meaning of \"Variety\"?",
+        options: ["A single type", "A range of different types of something", "A fixed amount", "A serious problem"],
         answer: 1,
-        explanation: "Coherent means logical, consistent, and easy to understand.<br><br><strong>Example:</strong> The candidate presented a coherent argument during the interview."
+        explanation: "Variety means a range of different things or types of something.<br><br><strong>Example:</strong> The store offers a wide variety of products."
     },
     {
-        question: "What is the meaning of \"Resilient\"?",
-        options: ["Able to recover quickly", "Easily discouraged", "Unpredictable", "Completely dependent"],
-        answer: 0,
-        explanation: "Resilient means able to recover from difficulties or setbacks.<br><br><strong>Example:</strong> The economy proved remarkably resilient after the crisis."
-    },
-    {
-        question: "What is the meaning of \"Commence\"?",
-        options: ["Cancel", "End", "Repeat", "Begin"],
-        answer: 3,
-        explanation: "Commence means to begin or start.<br><br><strong>Example:</strong> The meeting will commence at nine o'clock."
-    },
-    {
-        question: "What is the meaning of \"Cease\"?",
-        options: ["Continue", "Stop", "Improve", "Begin"],
-        answer: 1,
-        explanation: "Cease means to stop or come to an end.<br><br><strong>Example:</strong> The company decided to cease operations in the region."
-    },
-    {
-        question: "What is the meaning of \"Explicit\"?",
-        options: ["Uncertain", "Implied", "Clearly stated", "Secret"],
+        question: "What is the meaning of \"Variation\"?",
+        options: ["A complete failure", "A fixed condition", "A difference or change in something", "A written agreement"],
         answer: 2,
-        explanation: "Explicit means clearly and directly stated.<br><br><strong>Example:</strong> The contract contains explicit instructions regarding confidentiality."
+        explanation: "Variation means a difference or change in the form, amount, or condition of something.<br><br><strong>Example:</strong> There is some variation in the quality of the products."
     },
     {
-        question: "What is the meaning of \"Imply\"?",
-        options: ["Suggest without saying directly", "State directly", "Explain repeatedly", "Reject formally"],
-        answer: 0,
-        explanation: "Imply means to suggest something without stating it directly.<br><br><strong>Example:</strong> His remarks implied that further negotiations might be necessary."
-    },
-    {
-        question: "What is the meaning of \"Infer\"?",
-        options: ["Avoid a conclusion", "Draw a conclusion from evidence", "State something loudly", "Change the evidence"],
+        question: "What is the meaning of \"Vacant\"?",
+        options: ["Full of people", "Not occupied or being used", "Very expensive", "Recently repaired"],
         answer: 1,
-        explanation: "Infer means to reach a conclusion based on evidence or reasoning.<br><br><strong>Example:</strong> From the available data, researchers inferred that demand was declining."
+        explanation: "Vacant means empty or not being used or occupied.<br><br><strong>Example:</strong> The company has a vacant office on the second floor."
     },
     {
-        question: "What is the meaning of \"Proficient\"?",
-        options: ["Highly skilled", "Unwilling", "Completely inexperienced", "Uncertain"],
-        answer: 0,
-        explanation: "Proficient means skilled or competent at doing something.<br><br><strong>Example:</strong> She is proficient in English and Mandarin."
-    },
-    {
-        question: "What is the meaning of \"Commend\"?",
-        options: ["Question", "Criticize", "Punish", "Praise"],
+        question: "What is the meaning of \"Vanish\"?",
+        options: ["Become stronger", "Move closer", "Become larger", "Become impossible to see or find"],
         answer: 3,
-        explanation: "Commend means to praise someone or something officially or publicly.<br><br><strong>Example:</strong> The officer was commended for his exceptional service."
+        explanation: "Vanish means to disappear suddenly or completely.<br><br><strong>Example:</strong> The clouds vanished as the weather improved."
     },
     {
-        question: "What is the meaning of \"Deter\"?",
-        options: ["Discourage", "Permit", "Reward", "Encourage"],
+        question: "What is the meaning of \"Waxy\"?",
+        options: ["Made of or resembling wax", "Made of metal", "Very rough", "Extremely dry"],
         answer: 0,
-        explanation: "Deter means to discourage someone from doing something.<br><br><strong>Example:</strong> Higher penalties may deter people from violating the law."
+        explanation: "Waxy means resembling wax, especially in appearance or texture.<br><br><strong>Example:</strong> The leaves have a waxy surface that helps prevent water loss."
     },
     {
-        question: "What is the meaning of \"Plausible\"?",
-        options: ["Impossible to believe", "Seemingly reasonable or believable", "Completely proven", "Obviously false"],
+        question: "What is the meaning of \"Wither\"?",
+        options: ["Become fresh and healthy", "Become dry, weak, or dead", "Grow rapidly", "Move quickly"],
         answer: 1,
-        explanation: "Plausible means seeming reasonable or likely to be true.<br><br><strong>Example:</strong> The researcher offered a plausible explanation for the unexpected result."
+        explanation: "Wither means to become dry, weak, or dead, especially because of a lack of water.<br><br><strong>Example:</strong> The flowers began to wither without enough water."
     },
     {
-        question: "What is the meaning of \"Versatile\"?",
-        options: ["Able to perform many different functions", "Difficult to control", "Completely unreliable", "Limited to one purpose"],
+        question: "What is the meaning of \"Wrath\"?",
+        options: ["Happiness", "Fear", "Confusion", "Extreme anger"],
+        answer: 3,
+        explanation: "Wrath means extreme anger or fury.<br><br><strong>Example:</strong> The decision caused the wrath of many customers."
+    },
+    {
+        question: "What is the meaning of \"Convert\"?",
+        options: ["To change something into a different form", "To destroy something", "To hide something", "To measure something"],
         answer: 0,
-        explanation: "Versatile means able to adapt to many different uses, activities, or situations.<br><br><strong>Example:</strong> Her versatile skills made her an effective member of the management team."
+        explanation: "Convert means to change something from one form, use, or system into another.<br><br><strong>Example:</strong> The software can convert PDF files into Word documents."
+    },
+    {
+        question: "What is the meaning of \"Decline\"?",
+        options: ["To increase rapidly", "To celebrate", "To become smaller, weaker, or less", "To repair"],
+        answer: 2,
+        explanation: "Decline means to become smaller, weaker, or less, or to refuse something.<br><br><strong>Example:</strong> Sales began to decline during the final quarter."
+    },
+    {
+        question: "What is the meaning of \"Detect\"?",
+        options: ["To create something", "To discover or notice something", "To remove something", "To predict the future"],
+        answer: 1,
+        explanation: "Detect means to discover or notice something, especially something that is not easy to see or find.<br><br><strong>Example:</strong> The machine can detect small defects in the products."
+    },
+    {
+        question: "What is the meaning of \"Durable\"?",
+        options: ["Easily broken", "Very expensive", "Difficult to carry", "Able to last for a long time"],
+        answer: 3,
+        explanation: "Durable means strong and able to last for a long time without being damaged.<br><br><strong>Example:</strong> These shoes are made from durable materials."
+    },
+    {
+        question: "What is the meaning of \"Ingredients\"?",
+        options: ["The parts or substances used to make something", "Finished products", "Tools used in a factory", "Written instructions"],
+        answer: 0,
+        explanation: "Ingredients are the foods or substances used to make a particular dish, product, or mixture.<br><br><strong>Example:</strong> Check the ingredients before preparing the recipe."
+    },
+    {
+        question: "What is the meaning of \"Inhabit\"?",
+        options: ["To leave a place", "To build a house", "To live in a particular place", "To travel frequently"],
+        answer: 2,
+        explanation: "Inhabit means to live in a particular place or area.<br><br><strong>Example:</strong> Many species of birds inhabit this forest."
+    },
+    {
+        question: "What is the meaning of \"Initiate\"?",
+        options: ["To begin or start something", "To finish something", "To prevent something", "To copy something"],
+        answer: 0,
+        explanation: "Initiate means to cause something to begin or to start a process.<br><br><strong>Example:</strong> The manager initiated a new training program for employees."
+    },
+    {
+        question: "What is the meaning of \"Modify\"?",
+        options: ["To completely destroy something", "To change something slightly", "To ignore something", "To purchase something"],
+        answer: 1,
+        explanation: "Modify means to change something slightly, especially in order to improve it or make it more suitable.<br><br><strong>Example:</strong> We need to modify the design before production begins."
     }
 ];
 
