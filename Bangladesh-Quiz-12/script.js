@@ -11,7 +11,7 @@
 // FACEBOOK POST URL
 // ============================================================
 
-const FACEBOOK_POST_URL = "https://www.facebook.com/photo/?fbid=122112219681435742&set=a.122102731923435742";
+const FACEBOOK_POST_URL = "https://www.facebook.com/photo/?fbid=122112928365435742&set=a.122102731923435742";
 
 
 // ============================================================
