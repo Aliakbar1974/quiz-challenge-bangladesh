@@ -1,9 +1,9 @@
 // ============================================================
-// BANGLADESH QUIZ 11
-// Web Quiz Engine
-// 23 Questions + Learning Mode + Exam Mode
+// ENGLISH VOCABULARY QUIZ 12
+// 20 Questions
+// Learning Mode + Exam Mode
 // 15 Seconds per Question
-// Sound Engine + Facebook Return + Result Screen
+// English-Only Interface
 // ============================================================
 
 
@@ -11,7 +11,8 @@
 // FACEBOOK POST URL
 // ============================================================
 
-const FACEBOOK_POST_URL = "https://www.facebook.com/photo/?fbid=122112928365435742&set=a.122102731923435742";
+const FACEBOOK_POST_URL =
+    "https://www.facebook.com/photo?fbid=122113236543435742&set=a.122102731923435742";
 
 
 // ============================================================
@@ -30,13 +31,17 @@ const sounds = {
 
 
 function playSound(soundName) {
+
     const sound = sounds[soundName];
+
     if (!sound) return;
 
     sound.currentTime = 0;
+
     sound.play().catch(error => {
         console.log("Sound could not play:", error);
     });
+
 }
 
 
@@ -46,326 +51,343 @@ function playSound(soundName) {
 
 const quizData = [
 
-    // =========================
-    // BD277
-    // =========================
     {
-        id: "BD277",
-        question: "বাংলাদেশের জাতীয় সংসদে সংরক্ষিত নারী আসনের সদস্যরা কীভাবে নির্বাচিত হন?",
+        id: "VOC321",
+        question: "What does 'Recluse' mean?",
         options: [
-            "রাষ্ট্রপতির মনোনয়নে",
-            "সংসদ সদস্যদের দ্বারা আনুপাতিক প্রতিনিধিত্বের ভিত্তিতে",
-            "সরাসরি জনগণের ভোটে",
-            "প্রধানমন্ত্রীর মনোনয়নে"
-        ],
-        answer: 1,
-        explanation: "জাতীয় সংসদের সংরক্ষিত নারী আসনের সদস্যরা সংসদ সদস্যদের দ্বারা আনুপাতিক প্রতিনিধিত্বের ভিত্তিতে নির্বাচিত হন।"
-    },
-
-    // =========================
-    // BD278
-    // =========================
-    {
-        id: "BD278",
-        question: "বাংলাদেশের সর্বোচ্চ বিচারালয় কোনটি?",
-        options: [
-            "জেলা জজ আদালত",
-            "হাইকোর্ট বিভাগ",
-            "বাংলাদেশ সুপ্রিম কোর্ট",
-            "আপিল বিভাগ"
-        ],
-        answer: 2,
-        explanation: "বাংলাদেশের সর্বোচ্চ বিচারালয় হলো বাংলাদেশ সুপ্রিম কোর্ট।"
-    },
-
-    // =========================
-    // BD279
-    // =========================
-    {
-        id: "BD279",
-        question: "বাংলাদেশ সুপ্রিম কোর্টের দুটি বিভাগ কোনগুলো?",
-        options: [
-            "হাইকোর্ট বিভাগ ও আপিল বিভাগ",
-            "দেওয়ানি ও ফৌজদারি",
-            "প্রশাসনিক ও সাংবিধানিক বিভাগ",
-            "জেলা ও দায়রা বিভাগ"
+            "A person who avoids social contact and lives in seclusion",
+            "A person who enjoys meeting large groups of people",
+            "A person who travels frequently for business",
+            "A person who leads a political organization"
         ],
         answer: 0,
-        explanation: "বাংলাদেশ সুপ্রিম কোর্ট দুটি বিভাগ নিয়ে গঠিত—হাইকোর্ট বিভাগ ও আপিল বিভাগ।"
+        explanation:
+            "'Recluse' means a person who lives alone and avoids the company of others.",
+        example:
+            "The old man was a recluse who rarely left his house."
     },
 
-    // =========================
-    // BD280
-    // =========================
+
     {
-        id: "BD280",
-        question: "বাংলাদেশের স্থানীয় সরকার ব্যবস্থায় গ্রামীণ পর্যায়ের সবচেয়ে নিম্নস্তরের নির্বাচিত প্রতিষ্ঠান কোনটি?",
+        id: "VOC322",
+        question: "What is the meaning of 'Recollection'?",
         options: [
-            "উপজেলা পরিষদ",
-            "জেলা পরিষদ",
-            "সিটি কর্পোরেশন",
-            "ইউনিয়ন পরিষদ"
+            "A sudden feeling of anger",
+            "The act or power of remembering something",
+            "A careful examination of evidence",
+            "A formal agreement between two parties"
+        ],
+        answer: 1,
+        explanation:
+            "'Recollection' means the act or ability to remember something from the past.",
+        example:
+            "I have a clear recollection of my first day at school."
+    },
+
+
+    {
+        id: "VOC323",
+        question: "What does 'Reconcile' mean?",
+        options: [
+            "To reject something completely",
+            "To make something more complicated",
+            "To restore friendly relations or bring two things into agreement",
+            "To delay an important decision"
+        ],
+        answer: 2,
+        explanation:
+            "'Reconcile' means to restore harmony or make two different ideas or situations compatible.",
+        example:
+            "The two friends finally reconciled after their argument."
+    },
+
+
+    {
+        id: "VOC324",
+        question: "What does 'Reiterate' mean?",
+        options: [
+            "To carefully investigate something",
+            "To permanently remove something",
+            "To criticize someone publicly",
+            "To repeat something for emphasis or clarity"
         ],
         answer: 3,
-        explanation: "গ্রামীণ স্থানীয় সরকার ব্যবস্থার সবচেয়ে নিম্নস্তরের নির্বাচিত প্রতিষ্ঠান হলো ইউনিয়ন পরিষদ।"
+        explanation:
+            "'Reiterate' means to say or state something again, especially to emphasize it.",
+        example:
+            "The teacher reiterated the importance of regular practice."
     },
 
-    // =========================
-    // BD281
-    // =========================
-    {
-        id: "BD281",
-        question: "বাংলাদেশের কেন্দ্রীয় ব্যাংক কোনটি?",
-        options: [
-            "জনতা ব্যাংক",
-            "বাংলাদেশ ব্যাংক",
-            "সোনালী ব্যাংক",
-            "বাংলাদেশ কৃষি ব্যাংক"
-        ],
-        answer: 1,
-        explanation: "বাংলাদেশের কেন্দ্রীয় ব্যাংকের নাম বাংলাদেশ ব্যাংক।"
-    },
 
-    // =========================
-    // BD282
-    // =========================
     {
-        id: "BD282",
-        question: "বাংলাদেশ ব্যাংক প্রতিষ্ঠিত হয় কোন সালে?",
+        id: "VOC325",
+        question: "What is a 'Remnant'?",
         options: [
-            "১৯৭২",
-            "১৯৭১",
-            "১৯৭৫",
-            "১৯৭৩"
+            "A small remaining part of something",
+            "A newly created object",
+            "A person with great authority",
+            "A sudden change in behavior"
         ],
         answer: 0,
-        explanation: "বাংলাদেশ ব্যাংক ১৯৭২ সালে প্রতিষ্ঠিত হয়।"
+        explanation:
+            "'Remnant' means a small piece or amount that remains after the rest has been used, removed, or destroyed.",
+        example:
+            "Only a small remnant of the ancient wall remains."
     },
 
-    
 
-    // =========================
-    // BD284
-    // =========================
     {
-        id: "BD284",
-        question: "বাংলাদেশের তৈরি পোশাক খাত বৈদেশিক মুদ্রা আয়ের প্রধানত কোন উৎসের সঙ্গে সম্পর্কিত?",
+        id: "VOC326",
+        question: "What does 'Renowned' mean?",
         options: [
-            "সরকারি ঋণ",
-            "রপ্তানি আয়",
-            "কৃষি ভর্তুকি",
-            "অভ্যন্তরীণ কর"
+            "Unknown and unnoticed",
+            "Widely known and respected",
+            "Unwilling to take responsibility",
+            "Unable to make a decision"
         ],
         answer: 1,
-        explanation: "তৈরি পোশাক খাত বাংলাদেশের অন্যতম প্রধান রপ্তানি খাত এবং বৈদেশিক মুদ্রা আয়ের গুরুত্বপূর্ণ উৎস।"
+        explanation:
+            "'Renowned' means famous and highly respected for a particular quality or achievement.",
+        example:
+            "She is a renowned scientist with many international awards."
     },
 
-    // =========================
-    // BD285
-    // =========================
+
     {
-        id: "BD285",
-        question: "বাংলাদেশের তৈরি পোশাক শিল্পের প্রধান রপ্তানি বাজারগুলোর মধ্যে কোন দুটি বিশেষভাবে গুরুত্বপূর্ণ?",
+        id: "VOC327",
+        question: "What does 'Repel' mean?",
         options: [
-            "দক্ষিণ আমেরিকা ও মধ্য এশিয়া",
-            "অস্ট্রেলিয়া ও নিউজিল্যান্ড",
-            "আফ্রিকা ও অ্যান্টার্কটিকা",
-            "ইউরোপীয় ইউনিয়ন ও যুক্তরাষ্ট্র"
+            "To attract strongly",
+            "To remember something clearly",
+            "To drive away or push back",
+            "To accept something willingly"
+        ],
+        answer: 2,
+        explanation:
+            "'Repel' means to drive away, resist, or cause something to move away.",
+        example:
+            "This chemical can repel insects."
+    },
+
+
+    {
+        id: "VOC328",
+        question: "What does 'Reproach' mean?",
+        options: [
+            "To praise someone highly",
+            "To forgive someone completely",
+            "To help someone in difficulty",
+            "To express disapproval or disappointment"
         ],
         answer: 3,
-        explanation: "ইউরোপীয় ইউনিয়ন ও যুক্তরাষ্ট্র বাংলাদেশের তৈরি পোশাকের প্রধান ও গুরুত্বপূর্ণ রপ্তানি বাজার।"
+        explanation:
+            "'Reproach' means to criticize or express disappointment because of someone's actions.",
+        example:
+            "She reproached him for being careless with the documents."
     },
 
-    // =========================
-    // BD286
-    // =========================
+
     {
-        id: "BD286",
-        question: "বাংলাদেশের প্রথম কৃত্রিম উপগ্রহের নাম কী?",
+        id: "VOC329",
+        question: "What does 'Resolute' mean?",
         options: [
-            "বঙ্গবন্ধু-১",
-            "বাংলাদেশ-১",
-            "স্যাটেলাইট-৭১",
-            "বিজয়-১"
+            "Firmly determined and unwavering",
+            "Easily frightened and uncertain",
+            "Unwilling to communicate",
+            "Careless about important matters"
         ],
         answer: 0,
-        explanation: "বাংলাদেশের প্রথম কৃত্রিম উপগ্রহের নাম বঙ্গবন্ধু-১।"
+        explanation:
+            "'Resolute' means very determined and not likely to change one's decision.",
+        example:
+            "She remained resolute despite the difficulties."
     },
 
-    // =========================
-    // BD287
-    // =========================
-    {
-        id: "BD287",
-        question: "বঙ্গবন্ধু-১ স্যাটেলাইট উৎক্ষেপণ করা হয় কোন সালে?",
-        options: [
-            "২০১৭",
-            "২০১৯",
-            "২০১৮",
-            "২০১৬"
-        ],
-        answer: 2,
-        explanation: "বঙ্গবন্ধু-১ স্যাটেলাইট ২০১৮ সালে উৎক্ষেপণ করা হয়।"
-    },
 
-    // =========================
-    // BD288
-    // =========================
     {
-        id: "BD288",
-        question: "বঙ্গবন্ধু-১ স্যাটেলাইট কোন ধরনের কক্ষপথে স্থাপন করা হয়েছে?",
+        id: "VOC330",
+        question: "What does 'Restrain' mean?",
         options: [
-            "মেরু কক্ষপথ",
-            "ভূ-স্থির কক্ষপথ",
-            "চন্দ্র কক্ষপথ",
-            "নিম্ন-পৃথিবী কক্ষপথ"
+            "To encourage someone to act quickly",
+            "To hold back or prevent someone or something from acting freely",
+            "To make something more attractive",
+            "To explain something in detail"
         ],
         answer: 1,
-        explanation: "বঙ্গবন্ধু-১ একটি ভূ-স্থির কক্ষপথের যোগাযোগ উপগ্রহ।"
+        explanation:
+            "'Restrain' means to control, hold back, or prevent someone or something from doing something.",
+        example:
+            "The police had to restrain the angry crowd."
     },
 
-    // =========================
-    // BD289
-    // =========================
+
     {
-        id: "BD289",
-        question: "বাংলাদেশের প্রথম পারমাণবিক বিদ্যুৎকেন্দ্র কোনটি?",
+        id: "VOC331",
+        question: "What does 'Retain' mean?",
         options: [
-            "আশুগঞ্জ",
-            "ঘোড়াশাল",
-            "রূপপুর",
-            "কাপ্তাই"
+            "To lose something permanently",
+            "To criticize something openly",
+            "To keep or continue to have something",
+            "To divide something into several parts"
         ],
         answer: 2,
-        explanation: "বাংলাদেশের প্রথম পারমাণবিক বিদ্যুৎকেন্দ্র রূপপুরে নির্মিত হচ্ছে।"
+        explanation:
+            "'Retain' means to keep possession of something or continue to have it.",
+        example:
+            "The company wants to retain its experienced employees."
     },
 
-    // =========================
-    // BD290
-    // =========================
-    {
-        id: "BD290",
-        question: "রূপপুর পারমাণবিক বিদ্যুৎকেন্দ্র কোন জেলায় অবস্থিত?",
-        options: [
-            "পাবনা",
-            "রাজশাহী",
-            "কুষ্টিয়া",
-            "নাটোর"
-        ],
-        answer: 0,
-        explanation: "রূপপুর পারমাণবিক বিদ্যুৎকেন্দ্র পাবনা জেলার ঈশ্বরদীতে অবস্থিত।"
-    },
 
-    // =========================
-    // BD291
-    // =========================
     {
-        id: "BD291",
-        question: "বাংলাদেশের একমাত্র জলবিদ্যুৎকেন্দ্র কোনটি?",
+        id: "VOC332",
+        question: "What does 'Retard' mean?",
         options: [
-            "আশুগঞ্জ বিদ্যুৎকেন্দ্র",
-            "কাপ্তাই জলবিদ্যুৎকেন্দ্র",
-            "রূপপুর বিদ্যুৎকেন্দ্র",
-            "ঘোড়াশাল বিদ্যুৎকেন্দ্র"
-        ],
-        answer: 1,
-        explanation: "কাপ্তাই জলবিদ্যুৎকেন্দ্র বাংলাদেশের একমাত্র জলবিদ্যুৎকেন্দ্র।"
-    },
-
-    // =========================
-    // BD292
-    // =========================
-    {
-        id: "BD292",
-        question: "কাপ্তাই জলবিদ্যুৎকেন্দ্র কোন নদীর ওপর নির্মিত?",
-        options: [
-            "তিস্তা",
-            "যমুনা",
-            "কর্ণফুলী",
-            "সাঙ্গু"
-        ],
-        answer: 2,
-        explanation: "কাপ্তাই জলবিদ্যুৎকেন্দ্র কর্ণফুলী নদীর ওপর নির্মিত কাপ্তাই বাঁধের সঙ্গে সম্পর্কিত।"
-    },
-
-    // =========================
-    // BD293
-    // =========================
-    {
-        id: "BD293",
-        question: "বাংলাদেশের সবচেয়ে বড় কৃত্রিম জলাধার হিসেবে পরিচিত কোনটি?",
-        options: [
-            "হাকালুকি হাওর",
-            "বাইক্কা বিল",
-            "টাঙ্গুয়ার হাওর",
-            "কাপ্তাই হ্রদ"
+            "To accelerate a process",
+            "To improve something rapidly",
+            "To remove an obstacle",
+            "To slow down or delay the progress of something"
         ],
         answer: 3,
-        explanation: "কাপ্তাই হ্রদ বাংলাদেশের সবচেয়ে বড় কৃত্রিম জলাধার হিসেবে পরিচিত।"
+        explanation:
+            "As a verb, 'retard' means to slow down or delay the development or progress of something.",
+        example:
+            "Lack of investment can retard economic growth."
     },
 
-    // =========================
-    // BD295
-    // =========================
+
     {
-        id: "BD295",
-        question: "বাংলাদেশ প্রথম কোন সালে ক্রিকেট বিশ্বকাপে অংশগ্রহণ করে?",
+        id: "VOC333",
+        question: "What does 'Retort' mean?",
         options: [
-            "১৯৯৯",
-            "১৯৯৬",
-            "২০০৭",
-            "২০০৩"
+            "A sharp or quick reply, often in response to criticism",
+            "A formal written agreement",
+            "A long period of silence",
+            "A request for financial assistance"
         ],
         answer: 0,
-        explanation: "বাংলাদেশ প্রথমবার ১৯৯৯ সালে ক্রিকেট বিশ্বকাপে অংশগ্রহণ করে।"
+        explanation:
+            "'Retort' means a quick, sharp, or witty reply, especially one made in response to criticism.",
+        example:
+            "He retorted that he had done nothing wrong."
     },
 
-    // =========================
-    // BD296
-    // =========================
+
     {
-        id: "BD296",
-        question: "বাংলাদেশ কোন সালে টেস্ট ক্রিকেটের পূর্ণ সদস্যপদ লাভ করে?",
+        id: "VOC334",
+        question: "What does 'Revenue' mean?",
         options: [
-            "১৯৯৮",
-            "২০০০",
-            "১৯৯৭",
-            "২০০২"
+            "The total amount of money borrowed by a company",
+            "Income, especially money received by a government or organization",
+            "The amount of money spent on advertising",
+            "A person's personal savings"
         ],
         answer: 1,
-        explanation: "বাংলাদেশ ২০০০ সালে আইসিসির পূর্ণ সদস্য হয়ে টেস্ট মর্যাদা লাভ করে।"
+        explanation:
+            "'Revenue' means income received by a government, business, or organization.",
+        example:
+            "The government's tax revenue increased this year."
     },
 
-    // =========================
-    // BD297
-    // =========================
+
     {
-        id: "BD297",
-        question: "বাংলাদেশের প্রথম টেস্ট ক্রিকেট ম্যাচ কোন দলের বিপক্ষে অনুষ্ঠিত হয়?",
+        id: "VOC335",
+        question: "What does 'Rustic' mean?",
         options: [
-            "শ্রীলঙ্কা",
-            "ইংল্যান্ড",
-            "ভারত",
-            "পাকিস্তান"
+            "Highly modern and technologically advanced",
+            "Extremely expensive and luxurious",
+            "Characteristic of the countryside; simple and rural",
+            "Related to international politics"
         ],
         answer: 2,
-        explanation: "বাংলাদেশের প্রথম টেস্ট ম্যাচ ২০০০ সালে ভারতের বিপক্ষে ঢাকায় অনুষ্ঠিত হয়।"
+        explanation:
+            "'Rustic' describes something associated with the countryside or having a simple, rural character.",
+        example:
+            "We stayed in a charming rustic cottage in the countryside."
     },
 
-    // =========================
-    // BD299
-    // =========================
+
     {
-        id: "BD299",
-        question: "বাংলাদেশ জাতীয় জাদুঘর প্রতিষ্ঠিত হয় কোন সালে?",
+        id: "VOC336",
+        question: "What does 'Sagacity' mean?",
         options: [
-            "১৯৭৫",
-            "১৯৮৩",
-            "১৯৭৩",
-            "১৯৭২"
+            "A lack of confidence",
+            "A strong desire for wealth",
+            "A tendency to avoid responsibility",
+            "Good judgment and wisdom"
+        ],
+        answer: 3,
+        explanation:
+            "'Sagacity' means the quality of having good judgment, wisdom, and the ability to make sensible decisions.",
+        example:
+            "The leader was respected for his sagacity and experience."
+    },
+
+
+    {
+        id: "VOC337",
+        question: "What does 'Scant' mean?",
+        options: [
+            "Barely sufficient or inadequate in amount",
+            "Extremely abundant",
+            "Very expensive",
+            "Perfectly organized"
+        ],
+        answer: 0,
+        explanation:
+            "'Scant' means small in quantity and barely enough for what is needed.",
+        example:
+            "The researchers had only scant information about the incident."
+    },
+
+
+    {
+        id: "VOC338",
+        question: "What does 'Scornful' mean?",
+        options: [
+            "Showing great admiration",
+            "Showing strong disrespect or contempt",
+            "Showing deep concern",
+            "Showing complete agreement"
         ],
         answer: 1,
-        explanation: "বাংলাদেশ জাতীয় জাদুঘর ১৯৮৩ সালে প্রতিষ্ঠিত হয়। এর পূর্বসূরি ঢাকা জাদুঘর প্রতিষ্ঠিত হয়েছিল ১৯১৩ সালে।"
+        explanation:
+            "'Scornful' means showing strong disrespect, contempt, or a feeling that someone or something is unworthy.",
+        example:
+            "He gave a scornful laugh when he heard the proposal."
+    },
+
+
+    {
+        id: "VOC339",
+        question: "What does 'Scrutiny' mean?",
+        options: [
+            "A sudden emotional reaction",
+            "A public celebration",
+            "Careful and detailed examination",
+            "A formal invitation"
+        ],
+        answer: 2,
+        explanation:
+            "'Scrutiny' means careful and detailed examination of something.",
+        example:
+            "The proposal was subjected to close scrutiny before approval."
+    },
+
+
+    {
+        id: "VOC340",
+        question: "What does 'Sever' mean?",
+        options: [
+            "To strengthen a relationship",
+            "To combine two separate things",
+            "To repair something that is broken",
+            "To cut off or end something completely"
+        ],
+        answer: 3,
+        explanation:
+            "'Sever' means to cut, break, or end something completely, especially a connection or relationship.",
+        example:
+            "The company decided to sever its ties with the supplier."
     }
 
 ];
@@ -378,7 +400,7 @@ const quizData = [
 let currentQuestion = 0;
 let score = 0;
 let selectedMode = "";
-let timer;
+let timer = null;
 let timeLeft = 15;
 let answered = false;
 
@@ -387,30 +409,56 @@ let answered = false;
 // DOM ELEMENTS
 // ============================================================
 
-const startScreen = document.getElementById("start-screen");
-const quizScreen = document.getElementById("quiz-screen");
-const resultScreen = document.getElementById("result-screen");
+const startScreen =
+    document.getElementById("start-screen");
 
-const questionNumber = document.getElementById("question-number");
-const totalQuestions = document.getElementById("total-questions");
+const quizScreen =
+    document.getElementById("quiz-screen");
 
-const timerElement = document.getElementById("timer");
-const progressBar = document.getElementById("progress-bar");
+const resultScreen =
+    document.getElementById("result-screen");
 
-const questionElement = document.getElementById("question");
-const optionsElement = document.getElementById("options");
+const questionNumber =
+    document.getElementById("question-number");
 
-const feedbackElement = document.getElementById("feedback");
-const correctMessage = document.getElementById("correct-message");
-const wrongMessage = document.getElementById("wrong-message");
-const exampleText = document.getElementById("example-text");
+const totalQuestions =
+    document.getElementById("total-questions");
 
-const scoreElement = document.getElementById("score");
-const percentageElement = document.getElementById("percentage");
-const resultMessage = document.getElementById("result-message");
+const timerElement =
+    document.getElementById("timer");
 
-const statusElement = document.getElementById("status");
-const socialMessage = document.querySelector(".social-message");
+const progressBar =
+    document.getElementById("progress-bar");
+
+const questionElement =
+    document.getElementById("question");
+
+const optionsElement =
+    document.getElementById("options");
+
+const feedbackElement =
+    document.getElementById("feedback");
+
+const correctMessage =
+    document.getElementById("correct-message");
+
+const wrongMessage =
+    document.getElementById("wrong-message");
+
+const exampleText =
+    document.getElementById("example-text");
+
+const scoreElement =
+    document.getElementById("score");
+
+const percentageElement =
+    document.getElementById("percentage");
+
+const resultMessage =
+    document.getElementById("result-message");
+
+const statusElement =
+    document.getElementById("status");
 
 
 // ============================================================
@@ -439,20 +487,35 @@ if (feedbackElement) {
 // ============================================================
 
 function startQuiz(mode) {
+
     selectedMode = mode;
+
     currentQuestion = 0;
     score = 0;
     answered = false;
 
     clearInterval(timer);
 
-    if (startScreen) startScreen.style.display = "none";
-    if (resultScreen) resultScreen.style.display = "none";
-    if (quizScreen) quizScreen.style.display = "block";
-    if (statusElement) statusElement.textContent = "";
+    if (startScreen) {
+        startScreen.style.display = "none";
+    }
+
+    if (resultScreen) {
+        resultScreen.style.display = "none";
+    }
+
+    if (quizScreen) {
+        quizScreen.style.display = "block";
+    }
+
+    if (statusElement) {
+        statusElement.textContent = "";
+    }
 
     playSound("start");
+
     showQuestion();
+
 }
 
 
@@ -461,7 +524,9 @@ function startQuiz(mode) {
 // ============================================================
 
 function showQuestion() {
+
     clearInterval(timer);
+
     answered = false;
 
     const q = quizData[currentQuestion];
@@ -471,75 +536,225 @@ function showQuestion() {
         return;
     }
 
-    if (questionNumber) questionNumber.textContent = currentQuestion + 1;
-    if (totalQuestions) totalQuestions.textContent = quizData.length;
+
+    // --------------------------------------------------------
+    // Question Number
+    // --------------------------------------------------------
+
+    if (questionNumber) {
+        questionNumber.textContent =
+            currentQuestion + 1;
+    }
+
+
+    // --------------------------------------------------------
+    // Total Questions
+    // --------------------------------------------------------
+
+    if (totalQuestions) {
+        totalQuestions.textContent =
+            quizData.length;
+    }
+
+
+    // --------------------------------------------------------
+    // Progress Bar
+    // --------------------------------------------------------
 
     if (progressBar) {
-        const progress = ((currentQuestion + 1) / quizData.length) * 100;
-        progressBar.style.width = progress + "%";
+
+        const progress =
+            ((currentQuestion + 1) /
+            quizData.length) * 100;
+
+        progressBar.style.width =
+            progress + "%";
     }
 
-    if (questionElement) questionElement.textContent = q.question;
-    if (optionsElement) optionsElement.innerHTML = "";
 
-    if (feedbackElement) feedbackElement.style.display = "none";
-    if (correctMessage) correctMessage.textContent = "";
-    if (wrongMessage) wrongMessage.textContent = "";
-    if (exampleText) exampleText.textContent = "";
+    // --------------------------------------------------------
+    // Question
+    // --------------------------------------------------------
 
-    // Create answer buttons (CSS Class answer-option অনুযায়ী মেলানো হয়েছে)
-    q.options.forEach((option, index) => {
-        const button = document.createElement("button");
-        button.className = "answer-option";
-        button.type = "button";
+    if (questionElement) {
 
-        button.innerHTML = `
-            <span class="option-letter">${String.fromCharCode(65 + index)}</span>
-            <span class="option-text">${option}</span>
-        `;
+        // IMPORTANT:
+        // No q.word is used here.
+        // This prevents "undefined" from appearing.
 
-        button.addEventListener("click", function () {
-            selectAnswer(index, button);
-        });
+        questionElement.textContent =
+            q.question;
+    }
 
-        if (optionsElement) {
-            optionsElement.appendChild(button);
+
+    // --------------------------------------------------------
+    // Clear Old Options
+    // --------------------------------------------------------
+
+    if (optionsElement) {
+        optionsElement.innerHTML = "";
+    }
+
+
+    // --------------------------------------------------------
+    // Clear Feedback
+    // --------------------------------------------------------
+
+    if (feedbackElement) {
+        feedbackElement.style.display = "none";
+    }
+
+    if (correctMessage) {
+        correctMessage.textContent = "";
+    }
+
+    if (wrongMessage) {
+        wrongMessage.textContent = "";
+    }
+
+    if (exampleText) {
+        exampleText.innerHTML = "";
+    }
+
+
+    // --------------------------------------------------------
+    // Remove Old Next Button
+    // --------------------------------------------------------
+
+    const oldNextButton =
+        document.getElementById(
+            "next-question-btn"
+        );
+
+    if (oldNextButton) {
+        oldNextButton.remove();
+    }
+
+
+    // --------------------------------------------------------
+    // Create Answer Options
+    // --------------------------------------------------------
+
+    q.options.forEach(
+        (option, index) => {
+
+            const button =
+                document.createElement("button");
+
+            button.className =
+                "option-btn";
+
+            button.type =
+                "button";
+
+            button.innerHTML = `
+                <span class="option-letter">
+                    ${String.fromCharCode(65 + index)}
+                </span>
+
+                <span class="option-text">
+                    ${option}
+                </span>
+            `;
+
+            button.addEventListener(
+                "click",
+                function () {
+
+                    selectAnswer(
+                        index,
+                        button
+                    );
+
+                }
+            );
+
+            if (optionsElement) {
+                optionsElement.appendChild(button);
+            }
+
         }
-    });
+    );
+
+
+    // ========================================================
+    // EXAM MODE
+    // ========================================================
 
     if (selectedMode === "exam") {
+
         timeLeft = 15;
+
         updateTimer();
 
-        timer = setInterval(() => {
-            timeLeft--;
-            updateTimer();
+        timer = setInterval(
+            function () {
 
-            if (timeLeft <= 0) {
-                clearInterval(timer);
-                timeUp();
-            }
-        }, 1000);
-    } else {
-        if (timerElement) timerElement.textContent = "∞";
+                timeLeft--;
+
+                updateTimer();
+
+                if (timeLeft <= 0) {
+
+                    clearInterval(timer);
+
+                    timeUp();
+                }
+
+            },
+            1000
+        );
+
     }
+
+
+    // ========================================================
+    // LEARNING MODE
+    // ========================================================
+
+    else {
+
+        if (timerElement) {
+
+            timerElement.textContent =
+                "∞";
+
+            timerElement.classList.remove(
+                "timer-danger"
+            );
+        }
+    }
+
 }
 
 
 // ============================================================
-// TIMER DISPLAY
+// UPDATE TIMER
 // ============================================================
 
 function updateTimer() {
+
     if (!timerElement) return;
 
-    timerElement.textContent = timeLeft;
+    timerElement.textContent =
+        timeLeft;
 
     if (timeLeft <= 5) {
-        timerElement.classList.add("timer-danger");
-    } else {
-        timerElement.classList.remove("timer-danger");
+
+        timerElement.classList.add(
+            "timer-danger"
+        );
+
     }
+
+    else {
+
+        timerElement.classList.remove(
+            "timer-danger"
+        );
+
+    }
+
 }
 
 
@@ -547,52 +762,210 @@ function updateTimer() {
 // SELECT ANSWER
 // ============================================================
 
-function selectAnswer(selectedIndex, clickedButton) {
+function selectAnswer(
+    selectedIndex,
+    clickedButton
+) {
+
     if (answered) return;
+
     answered = true;
 
     clearInterval(timer);
 
-    const q = quizData[currentQuestion];
-    const buttons = optionsElement ? optionsElement.querySelectorAll(".answer-option") : [];
+    const q =
+        quizData[currentQuestion];
 
-    buttons.forEach(button => {
-        button.disabled = true;
-    });
+    const buttons =
+        optionsElement
+            ? optionsElement.querySelectorAll(
+                ".option-btn"
+            )
+            : [];
+
+
+    // --------------------------------------------------------
+    // Disable all options
+    // --------------------------------------------------------
+
+    buttons.forEach(
+        button => {
+            button.disabled = true;
+        }
+    );
+
+
+    // ========================================================
+    // CORRECT ANSWER
+    // ========================================================
 
     if (selectedIndex === q.answer) {
+
         score++;
-        if (clickedButton) clickedButton.classList.add("correct");
+
+        if (clickedButton) {
+
+            clickedButton.classList.add(
+                "correct"
+            );
+
+        }
 
         playSound("correct");
 
-        if (correctMessage) correctMessage.textContent = "✓ সঠিক উত্তর!";
-        if (wrongMessage) wrongMessage.textContent = "";
+
+        if (correctMessage) {
+
+            correctMessage.textContent =
+                "✓ Correct Answer!";
+
+        }
+
+
+        if (wrongMessage) {
+
+            wrongMessage.textContent =
+                "";
+
+        }
+
+
+        // ----------------------------------------------------
+        // Learning Mode Feedback
+        // ----------------------------------------------------
 
         if (selectedMode === "learning") {
-            if (feedbackElement) feedbackElement.style.display = "block";
-            if (exampleText && q.explanation) {
-                exampleText.innerHTML = `<strong>ব্যাখ্যা:</strong> ${q.explanation}`;
+
+            if (feedbackElement) {
+
+                feedbackElement.style.display =
+                    "block";
+
             }
+
+            if (exampleText) {
+
+                exampleText.innerHTML = `
+
+                    <strong>
+                        Example:
+                    </strong>
+
+                    ${q.example}
+
+                    <br><br>
+
+                    <strong>
+                        Explanation:
+                    </strong>
+
+                    ${q.explanation}
+
+                `;
+
+            }
+
         }
-    } else {
-        if (clickedButton) clickedButton.classList.add("wrong");
-        if (buttons[q.answer]) buttons[q.answer].classList.add("correct");
+
+    }
+
+
+    // ========================================================
+    // WRONG ANSWER
+    // ========================================================
+
+    else {
+
+        if (clickedButton) {
+
+            clickedButton.classList.add(
+                "wrong"
+            );
+
+        }
+
+
+        // ----------------------------------------------------
+        // Highlight Correct Answer
+        // ----------------------------------------------------
+
+        if (buttons[q.answer]) {
+
+            buttons[q.answer].classList.add(
+                "correct"
+            );
+
+        }
+
 
         playSound("wrong");
 
-        if (wrongMessage) wrongMessage.textContent = "✗ ভুল উত্তর!";
-        if (correctMessage) {
-            correctMessage.innerHTML = `সঠিক উত্তর: <strong>${q.options[q.answer]}</strong>`;
+
+        if (wrongMessage) {
+
+            wrongMessage.textContent =
+                "✗ Wrong Answer!";
+
         }
 
-        if (feedbackElement) feedbackElement.style.display = "block";
-        if (exampleText && q.explanation) {
-            exampleText.innerHTML = `<strong>ব্যাখ্যা:</strong> ${q.explanation}`;
+
+        if (correctMessage) {
+
+            correctMessage.innerHTML = `
+
+                Correct Answer:
+                <strong>
+                    ${q.options[q.answer]}
+                </strong>
+
+            `;
+
         }
+
+
+        // ----------------------------------------------------
+        // Show Explanation
+        // ----------------------------------------------------
+
+        if (feedbackElement) {
+
+            feedbackElement.style.display =
+                "block";
+
+        }
+
+
+        if (exampleText) {
+
+            exampleText.innerHTML = `
+
+                <strong>
+                    Example:
+                </strong>
+
+                ${q.example}
+
+                <br><br>
+
+                <strong>
+                    Explanation:
+                </strong>
+
+                ${q.explanation}
+
+            `;
+
+        }
+
     }
 
+
+    // --------------------------------------------------------
+    // Show Next Button
+    // --------------------------------------------------------
+
     showNextButton();
+
 }
 
 
@@ -601,60 +974,203 @@ function selectAnswer(selectedIndex, clickedButton) {
 // ============================================================
 
 function timeUp() {
+
     if (answered) return;
+
     answered = true;
 
     clearInterval(timer);
 
-    const q = quizData[currentQuestion];
-    const buttons = optionsElement ? optionsElement.querySelectorAll(".answer-option") : [];
+    const q =
+        quizData[currentQuestion];
 
-    buttons.forEach(button => {
-        button.disabled = true;
-    });
+    const buttons =
+        optionsElement
+            ? optionsElement.querySelectorAll(
+                ".option-btn"
+            )
+            : [];
 
-    if (buttons[q.answer]) buttons[q.answer].classList.add("correct");
+
+    // --------------------------------------------------------
+    // Disable all options
+    // --------------------------------------------------------
+
+    buttons.forEach(
+        button => {
+            button.disabled = true;
+        }
+    );
+
+
+    // --------------------------------------------------------
+    // Highlight Correct Answer
+    // --------------------------------------------------------
+
+    if (buttons[q.answer]) {
+
+        buttons[q.answer].classList.add(
+            "correct"
+        );
+
+    }
+
 
     playSound("tryAgain");
 
-    if (wrongMessage) wrongMessage.textContent = "⏰ সময় শেষ!";
-    if (correctMessage) {
-        correctMessage.innerHTML = `সঠিক উত্তর: <strong>${q.options[q.answer]}</strong>`;
+
+    if (wrongMessage) {
+
+        wrongMessage.textContent =
+            "⏰ Time's Up!";
+
     }
 
-    if (feedbackElement) feedbackElement.style.display = "block";
-    if (exampleText && q.explanation) {
-        exampleText.innerHTML = `<strong>ব্যাখ্যা:</strong> ${q.explanation}`;
+
+    if (correctMessage) {
+
+        correctMessage.innerHTML = `
+
+            Correct Answer:
+            <strong>
+                ${q.options[q.answer]}
+            </strong>
+
+        `;
+
     }
+
+
+    if (feedbackElement) {
+
+        feedbackElement.style.display =
+            "block";
+
+    }
+
+
+    if (exampleText) {
+
+        exampleText.innerHTML = `
+
+            <strong>
+                Example:
+            </strong>
+
+            ${q.example}
+
+            <br><br>
+
+            <strong>
+                Explanation:
+            </strong>
+
+            ${q.explanation}
+
+        `;
+
+    }
+
 
     showNextButton();
+
 }
 
 
 // ============================================================
-// NEXT QUESTION BUTTON
+// SHOW NEXT QUESTION BUTTON
 // ============================================================
 
 function showNextButton() {
-    const oldButton = document.getElementById("next-question-btn");
-    if (oldButton) oldButton.remove();
 
-    const nextButton = document.createElement("button");
-    nextButton.id = "next-question-btn";
-    nextButton.className = "next-question-btn";
-    nextButton.type = "button";
+    const oldButton =
+        document.getElementById(
+            "next-question-btn"
+        );
 
-    if (currentQuestion < quizData.length - 1) {
-        nextButton.textContent = "পরবর্তী প্রশ্ন →";
-        nextButton.addEventListener("click", nextQuestion);
-    } else {
-        nextButton.textContent = "ফলাফল দেখুন 🎉";
-        nextButton.addEventListener("click", showResult);
+    if (oldButton) {
+        oldButton.remove();
     }
 
-    if (quizScreen) {
-        quizScreen.appendChild(nextButton);
+
+    const nextButton =
+        document.createElement("button");
+
+    nextButton.id =
+        "next-question-btn";
+
+    nextButton.className =
+        "next-btn";
+
+    nextButton.type =
+        "button";
+
+
+    // --------------------------------------------------------
+    // More Questions
+    // --------------------------------------------------------
+
+    if (
+        currentQuestion <
+        quizData.length - 1
+    ) {
+
+        nextButton.textContent =
+            "Next Question →";
+
+        nextButton.addEventListener(
+            "click",
+            nextQuestion
+        );
+
     }
+
+
+    // --------------------------------------------------------
+    // Last Question
+    // --------------------------------------------------------
+
+    else {
+
+        nextButton.textContent =
+            "Show Result 🎉";
+
+        nextButton.addEventListener(
+            "click",
+            showResult
+        );
+
+    }
+
+
+    // --------------------------------------------------------
+    // Add Button to Quiz Container
+    // --------------------------------------------------------
+
+    const quizContainer =
+        quizScreen
+            ? quizScreen.querySelector(
+                ".quiz-container"
+            )
+            : null;
+
+
+    if (quizContainer) {
+
+        quizContainer.appendChild(
+            nextButton
+        );
+
+    }
+
+    else if (quizScreen) {
+
+        quizScreen.appendChild(
+            nextButton
+        );
+
+    }
+
 }
 
 
@@ -663,14 +1179,26 @@ function showNextButton() {
 // ============================================================
 
 function nextQuestion() {
+
     clearInterval(timer);
+
     currentQuestion++;
 
-    if (currentQuestion < quizData.length) {
+    if (
+        currentQuestion <
+        quizData.length
+    ) {
+
         showQuestion();
-    } else {
-        showResult();
+
     }
+
+    else {
+
+        showResult();
+
+    }
+
 }
 
 
@@ -679,36 +1207,214 @@ function nextQuestion() {
 // ============================================================
 
 function showResult() {
+
     clearInterval(timer);
 
-    if (quizScreen) quizScreen.style.display = "none";
-    if (resultScreen) resultScreen.style.display = "block";
 
-    const nextButton = document.getElementById("next-question-btn");
-    if (nextButton) nextButton.remove();
+    // --------------------------------------------------------
+    // Hide Quiz Screen
+    // --------------------------------------------------------
 
-    const percentage = Math.round((score / quizData.length) * 100);
+    if (quizScreen) {
 
-    if (scoreElement) scoreElement.textContent = `${score} / ${quizData.length}`;
-    if (percentageElement) percentageElement.textContent = `${percentage}%`;
+        quizScreen.style.display =
+            "none";
 
-    if (resultMessage) {
-        if (percentage >= 90) {
-            resultMessage.textContent = "🏆 অসাধারণ! আপনার প্রস্তুতি খুবই ভালো।";
-            playSound("victory");
-        } else if (percentage >= 75) {
-            resultMessage.textContent = "🌟 খুব ভালো! আরও একটু অনুশীলন করলে আরও ভালো করবেন।";
-            playSound("success");
-        } else if (percentage >= 50) {
-            resultMessage.textContent = "👍 ভালো চেষ্টা! নিয়মিত অনুশীলন চালিয়ে যান।";
-            playSound("complete");
-        } else {
-            resultMessage.textContent = "📚 আরও অনুশীলন করুন। পরবর্তী কুইজে আরও ভালো করবেন।";
-            playSound("tryAgain");
-        }
     }
 
-    if (socialMessage) socialMessage.style.display = "block";
+
+    // --------------------------------------------------------
+    // Show Result Screen
+    // --------------------------------------------------------
+
+    if (resultScreen) {
+
+        resultScreen.style.display =
+            "block";
+
+    }
+
+
+    // --------------------------------------------------------
+    // Remove Next Button
+    // --------------------------------------------------------
+
+    const nextButton =
+        document.getElementById(
+            "next-question-btn"
+        );
+
+    if (nextButton) {
+        nextButton.remove();
+    }
+
+
+    // --------------------------------------------------------
+    // Calculate Percentage
+    // --------------------------------------------------------
+
+    const percentage =
+        Math.round(
+            (score /
+            quizData.length) * 100
+        );
+
+
+    // --------------------------------------------------------
+    // Score
+    // --------------------------------------------------------
+
+    if (scoreElement) {
+
+        scoreElement.textContent =
+            `${score} / ${quizData.length}`;
+
+    }
+
+
+    // --------------------------------------------------------
+    // Percentage
+    // --------------------------------------------------------
+
+    if (percentageElement) {
+
+        percentageElement.textContent =
+            `${percentage}%`;
+
+    }
+
+
+    // ========================================================
+    // RESULT MESSAGE + SOUND
+    // ========================================================
+
+    if (resultMessage) {
+
+        if (percentage >= 90) {
+
+            resultMessage.textContent =
+                "🏆 Excellent! Outstanding performance!";
+
+            playSound("victory");
+
+        }
+
+        else if (percentage >= 75) {
+
+            resultMessage.textContent =
+                "🌟 Very Good! Keep improving your vocabulary.";
+
+            playSound("success");
+
+        }
+
+        else if (percentage >= 50) {
+
+            resultMessage.textContent =
+                "👍 Good Try! Keep practicing regularly.";
+
+            playSound("complete");
+
+        }
+
+        else {
+
+            resultMessage.textContent =
+                "📚 Keep Learning! Try Again and improve your score.";
+
+            playSound("tryAgain");
+
+        }
+
+    }
+
+
+    // ========================================================
+    // SOCIAL MESSAGE
+    // ========================================================
+
+    let socialBox =
+        document.getElementById(
+            "social-message"
+        );
+
+
+    // --------------------------------------------------------
+    // Create Social Message if Missing
+    // --------------------------------------------------------
+
+    if (!socialBox && resultScreen) {
+
+        const resultCard =
+            resultScreen.querySelector(
+                ".result-card"
+            );
+
+        if (resultCard) {
+
+            socialBox =
+                document.createElement(
+                    "div"
+                );
+
+            socialBox.id =
+                "social-message";
+
+            socialBox.className =
+                "social-message";
+
+            resultCard.appendChild(
+                socialBox
+            );
+
+        }
+
+    }
+
+
+    // --------------------------------------------------------
+    // Social Message Content
+    // --------------------------------------------------------
+
+    if (socialBox) {
+
+        socialBox.innerHTML = `
+
+            ❤️
+            <strong>
+                Did you enjoy the quiz?
+            </strong>
+
+            <br><br>
+
+            👍 Like our Facebook Post
+
+            <br>
+
+            💬 Comment your score
+
+            <br>
+
+            🔄 Share the quiz with your friends
+
+            <br>
+
+            ❤️ Follow our page for more quizzes!
+
+        `;
+
+        socialBox.style.display =
+            "block";
+
+    }
+
+
+    // --------------------------------------------------------
+    // Make sure Facebook button works
+    // --------------------------------------------------------
+
+    setupFacebookButton();
+
 }
 
 
@@ -717,11 +1423,58 @@ function showResult() {
 // ============================================================
 
 function returnToFacebook() {
-    if (FACEBOOK_POST_URL && FACEBOOK_POST_URL !== "PASTE_YOUR_FACEBOOK_POST_URL_HERE") {
-        window.location.href = FACEBOOK_POST_URL;
-    } else {
-        alert("Facebook post link এখনো যোগ করা হয়নি।\n\nscript.js-এর FACEBOOK_POST_URL-এ আপনার Facebook post link বসান।");
+
+    const facebookURL =
+        FACEBOOK_POST_URL;
+
+
+    if (!facebookURL) {
+
+        alert(
+            "Facebook post link is not available."
+        );
+
+        return;
     }
+
+
+    // --------------------------------------------------------
+    // Redirect directly to Facebook post
+    // --------------------------------------------------------
+
+    window.location.assign(
+        facebookURL
+    );
+
+}
+
+
+// ============================================================
+// FACEBOOK BUTTON SETUP
+// ============================================================
+
+function setupFacebookButton() {
+
+    const facebookButton =
+        document.getElementById(
+            "facebook-btn"
+        );
+
+
+    if (!facebookButton) return;
+
+
+    // --------------------------------------------------------
+    // Keep HTML onclick working
+    // --------------------------------------------------------
+
+    facebookButton.onclick =
+        function () {
+
+            returnToFacebook();
+
+        };
+
 }
 
 
@@ -730,19 +1483,101 @@ function returnToFacebook() {
 // ============================================================
 
 function reloadQuiz() {
+
     clearInterval(timer);
+
     currentQuestion = 0;
     score = 0;
     answered = false;
     selectedMode = "";
 
+
     playSound("start");
 
-    if (resultScreen) resultScreen.style.display = "none";
-    if (quizScreen) quizScreen.style.display = "none";
-    if (startScreen) startScreen.style.display = "block";
-    if (statusElement) statusElement.textContent = "";
+
+    // --------------------------------------------------------
+    // Hide Result
+    // --------------------------------------------------------
+
+    if (resultScreen) {
+
+        resultScreen.style.display =
+            "none";
+
+    }
+
+
+    // --------------------------------------------------------
+    // Hide Quiz
+    // --------------------------------------------------------
+
+    if (quizScreen) {
+
+        quizScreen.style.display =
+            "none";
+
+    }
+
+
+    // --------------------------------------------------------
+    // Show Start Screen
+    // --------------------------------------------------------
+
+    if (startScreen) {
+
+        startScreen.style.display =
+            "block";
+
+    }
+
+
+    // --------------------------------------------------------
+    // Reset Status
+    // --------------------------------------------------------
+
+    if (statusElement) {
+
+        statusElement.textContent =
+            "";
+
+    }
+
+
+    // --------------------------------------------------------
+    // Reset Timer
+    // --------------------------------------------------------
+
+    if (timerElement) {
+
+        timerElement.textContent =
+            "15";
+
+        timerElement.classList.remove(
+            "timer-danger"
+        );
+
+    }
+
+
+    // --------------------------------------------------------
+    // Reset Progress
+    // --------------------------------------------------------
+
+    if (progressBar) {
+
+        progressBar.style.width =
+            "0%";
+
+    }
+
 }
+
+
+// ============================================================
+// INITIALIZE FACEBOOK BUTTON
+// ============================================================
+
+setupFacebookButton();
 
 
 // ============================================================
@@ -750,13 +1585,27 @@ function reloadQuiz() {
 // ============================================================
 
 (function checkAnswerDistribution() {
-    const distribution = [0, 0, 0, 0];
 
-    quizData.forEach(q => {
-        if (Number.isInteger(q.answer) && q.answer >= 0 && q.answer <= 3) {
-            distribution[q.answer]++;
+    const distribution =
+        [0, 0, 0, 0];
+
+
+    quizData.forEach(
+        q => {
+
+            if (
+                Number.isInteger(q.answer) &&
+                q.answer >= 0 &&
+                q.answer <= 3
+            ) {
+
+                distribution[q.answer]++;
+
+            }
+
         }
-    });
+    );
+
 
     console.log(
         "Answer Distribution:",
@@ -765,4 +1614,11 @@ function reloadQuiz() {
         `C=${distribution[2]},`,
         `D=${distribution[3]}`
     );
+
+
 })();
+
+
+// ============================================================
+// END OF SCRIPT
+// ============================================================
