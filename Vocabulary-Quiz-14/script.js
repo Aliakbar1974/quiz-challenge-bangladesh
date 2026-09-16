@@ -55,7 +55,7 @@ const quizData = [
 
     {
         id: "VOC361",
-        question: "What is the meaning of <strong>Throng</strong>?",
+        question: "What is the meaning of 'Throng'?",
         options: [
             "A large, crowded group of people",
             "A quiet and empty place",
