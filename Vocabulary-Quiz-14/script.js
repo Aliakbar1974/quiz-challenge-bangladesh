@@ -69,7 +69,7 @@ const quizData = [
 
     {
         id: "VOC362",
-        question: "What is the meaning of <strong>Tolerance</strong>?",
+        question: "What is the meaning of 'Tolerance'?",
         options: [
             "The ability to control others",
             "The willingness to accept differences or difficulties",
@@ -83,7 +83,7 @@ const quizData = [
 
     {
         id: "VOC363",
-        question: "What does <strong>Touchy</strong> mean?",
+        question: "What does 'Touchy' mean?",
         options: [
             "Very cheerful and friendly",
             "Extremely confident",
@@ -97,7 +97,7 @@ const quizData = [
 
     {
         id: "VOC364",
-        question: "What is the meaning of <strong>Tranquil</strong>?",
+        question: "What is the meaning of 'Tranquil'?",
         options: [
             "Noisy and crowded",
             "Dangerous and uncertain",
@@ -111,7 +111,7 @@ const quizData = [
 
     {
         id: "VOC365",
-        question: "What does <strong>Transform</strong> mean?",
+        question: "What does 'Transform' mean?",
         options: [
             "To change something significantly",
             "To destroy something completely",
@@ -125,7 +125,7 @@ const quizData = [
 
     {
         id: "VOC366",
-        question: "What is the meaning of <strong>Traverse</strong>?",
+        question: "What is the meaning of 'Traverse'?",
         options: [
             "To avoid a place",
             "To travel across or through a place",
@@ -139,7 +139,7 @@ const quizData = [
 
     {
         id: "VOC367",
-        question: "What does <strong>Treacherous</strong> mean?",
+        question: "What does 'Treacherous' mean?",
         options: [
             "Very beautiful and attractive",
             "Easy and comfortable",
@@ -153,7 +153,7 @@ const quizData = [
 
     {
         id: "VOC368",
-        question: "What is the meaning of <strong>Tributary</strong>?",
+        question: "What is the meaning of 'Tributary'?",
         options: [
             "A large ocean",
             "A man-made canal",
@@ -167,7 +167,7 @@ const quizData = [
 
     {
         id: "VOC369",
-        question: "What does <strong>Trivial</strong> mean?",
+        question: "What does 'Trivial' mean?",
         options: [
             "Of little importance or significance",
             "Extremely difficult",
@@ -181,7 +181,7 @@ const quizData = [
 
     {
         id: "VOC370",
-        question: "What is the meaning of <strong>Troupe</strong>?",
+        question: "What is the meaning of 'Troupe'?",
         options: [
             "A group of soldiers",
             "A group of performers, especially actors or dancers",
@@ -195,7 +195,7 @@ const quizData = [
 
     {
         id: "VOC371",
-        question: "What does <strong>Tumult</strong> mean?",
+        question: "What does 'Tumult' mean?",
         options: [
             "A peaceful discussion",
             "A period of deep concentration",
@@ -209,7 +209,7 @@ const quizData = [
 
     {
         id: "VOC372",
-        question: "What is the meaning of <strong>Unanimous</strong>?",
+        question: "What is the meaning of 'Unanimous'?",
         options: [
             "Based on several different opinions",
             "Accepted by most people",
@@ -223,7 +223,7 @@ const quizData = [
 
     {
         id: "VOC373",
-        question: "What does <strong>Uncouth</strong> mean?",
+        question: "What does 'Uncouth' mean?",
         options: [
             "Lacking good manners or refinement",
             "Highly educated",
@@ -237,7 +237,7 @@ const quizData = [
 
     {
         id: "VOC374",
-        question: "What is the meaning of <strong>Unsophisticated</strong>?",
+        question: "What is the meaning of 'Unsophisticated'?",
         options: [
             "Extremely complicated",
             "Lacking experience, refinement, or worldly knowledge",
@@ -251,7 +251,7 @@ const quizData = [
 
     {
         id: "VOC375",
-        question: "What does <strong>Vagabond</strong> mean?",
+        question: "What does 'Vagabond' mean?",
         options: [
             "A successful businessman",
             "A professional traveler",
@@ -265,7 +265,7 @@ const quizData = [
 
     {
         id: "VOC376",
-        question: "What is the meaning of <strong>Vanity</strong>?",
+        question: "What is the meaning of 'Vanity'?",
         options: [
             "A fear of failure",
             "A desire to help others",
@@ -279,7 +279,7 @@ const quizData = [
 
     {
         id: "VOC377",
-        question: "What does <strong>Vehemence</strong> mean?",
+        question: "What does 'Vehemence' mean?",
         options: [
             "Great force, intensity, or passion in expression",
             "Calmness and patience",
@@ -293,7 +293,7 @@ const quizData = [
 
     {
         id: "VOC378",
-        question: "What is the meaning of <strong>Vicarious</strong>?",
+        question: "What is the meaning of 'Vicarious'?",
         options: [
             "Done secretly",
             "Experienced through another person rather than directly",
@@ -307,7 +307,7 @@ const quizData = [
 
     {
         id: "VOC379",
-        question: "What does <strong>Wayward</strong> mean?",
+        question: "What does 'Wayward' mean?",
         options: [
             "Very obedient and disciplined",
             "Extremely successful",
@@ -321,7 +321,7 @@ const quizData = [
 
     {
         id: "VOC380",
-        question: "What is the meaning of <strong>Abhor</strong>?",
+        question: "What is the meaning of 'Abhor'?",
         options: [
             "To admire deeply",
             "To tolerate patiently",
