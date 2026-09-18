@@ -152,18 +152,18 @@ const quizData = [
     },
 
     {
-        id: "VOC368",
-        question: "What is the meaning of 'Tributary'?",
-        options: [
-            "A large ocean",
-            "A man-made canal",
-            "A river that flows into another river",
-            "A lake surrounded by mountains"
-        ],
-        answer: 3,
-        explanation: "<strong>Tributary</strong> is a river or stream that flows into a larger river or body of water.",
-        example: "The small river is a tributary of the main river."
-    },
+    id: "VOC368",
+    question: "What is the meaning of 'Tributary'?",
+    options: [
+        "A large ocean",
+        "A man-made canal",
+        "A river or stream that flows into a larger river",
+        "A lake surrounded by mountains"
+    ],
+    answer: 2,
+    explanation: "<strong>Tributary</strong> means a river or stream that flows into a larger river or stream.",
+    example: "The small river is a tributary of the main river."
+},
 
     {
         id: "VOC369",
