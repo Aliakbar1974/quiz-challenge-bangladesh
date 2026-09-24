@@ -19,13 +19,13 @@ const FACEBOOK_POST_URL = "https://www.facebook.com/photo/?fbid=1221122196814357
 // ============================================================
 
 const sounds = {
-    start: new Audio("Sounds/Start.wav"),
-    correct: new Audio("Sounds/Correct.wav"),
-    wrong: new Audio("Sounds/Wrong.wav"),
-    tryAgain: new Audio("Sounds/TryAgain.wav"),
-    success: new Audio("Sounds/Success.wav"),
-    victory: new Audio("Sounds/Victory.wav"),
-    complete: new Audio("Sounds/Complete.wav")
+    start: new Audio("../Sounds/Start.wav"),
+    correct: new Audio("../Sounds/Correct.wav"),
+    wrong: new Audio("../Sounds/Wrong.wav"),
+    tryAgain: new Audio("../Sounds/TryAgain.wav"),
+    success: new Audio("../Sounds/Success.wav"),
+    victory: new Audio("../Sounds/Victory.wav"),
+    complete: new Audio("../Sounds/Complete.wav")
 };
 
 
