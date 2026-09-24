@@ -9,13 +9,13 @@
 // ==========================================
 
 const sounds = {
-    start: new Audio("Sounds/Start.wav"),
-    correct: new Audio("Sounds/Correct.wav"),
-    wrong: new Audio("Sounds/Wrong.wav"),
-    tryAgain: new Audio("Sounds/TryAgain.wav"),
-    success: new Audio("Sounds/Success.wav"),
-    victory: new Audio("Sounds/Victory.wav"),
-    complete: new Audio("Sounds/Complete.wav")
+    start: new Audio("../Sounds/Start.wav"),
+    correct: new Audio("../Sounds/Correct.wav"),
+    wrong: new Audio("../Sounds/Wrong.wav"),
+    tryAgain: new Audio("../Sounds/TryAgain.wav"),
+    success: new Audio("../Sounds/Success.wav"),
+    victory: new Audio("../Sounds/Victory.wav"),
+    complete: new Audio("../Sounds/Complete.wav")
 };
 
 function playSound(soundName) {
