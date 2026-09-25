@@ -712,7 +712,6 @@ playSound("victory");
     }
 
     main.innerHTML = `
-
         <div class="result-screen">
 
             <h1>🎉 Quiz Completed!</h1>
@@ -730,6 +729,24 @@ playSound("victory");
             <button onclick="playSound('start'); location.reload()">
                 🔄 Play Again
             </button>
+
+            <div class="result-actions" style="margin-top:20px;">
+                <button onclick="window.location.assign('https://aliakbar1974.github.io/Quiz-Challenge-Bangladesh-Website/bangladesh-quizzes.html')">
+                    📚 More Bangladesh Quizzes
+                </button>
+
+                <button onclick="window.location.assign('https://aliakbar1974.github.io/Quiz-Challenge-Bangladesh-Website/')">
+                    🏠 Back to Home
+                </button>
+
+                <button onclick="window.location.assign('https://www.facebook.com/QuizChallengeBangladesh')">
+                    ↩️ Return to Facebook
+                </button>
+
+                <p style="margin-top:15px;">
+                    👍 Enjoyed the quiz? Visit our Facebook Page and share your score.
+                </p>
+            </div>
 
         </div>
     `;
