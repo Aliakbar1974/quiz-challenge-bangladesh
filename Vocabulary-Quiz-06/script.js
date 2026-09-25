@@ -716,7 +716,6 @@ playSound("victory");
     }
 
     main.innerHTML = `
-
         <div class="result-screen">
 
             <h1>🎉 Quiz Completed!</h1>
@@ -735,8 +734,35 @@ playSound("victory");
                 🔄 Play Again
             </button>
 
+            <div class="social-message" style="margin-top:20px;">
+
+                <p>❤️ Enjoyed the Quiz?</p>
+                <p>👍 Like our Facebook Page</p>
+                <p>💬 Comment or share your score</p>
+                <p>❤️ Follow our Page for more quizzes</p>
+
+            </div>
+
+            <div class="result-actions" style="margin-top:20px;">
+
+                <button onclick="window.location.assign('https://aliakbar1974.github.io/Quiz-Challenge-Bangladesh-Website/vocabulary-quizzes.html')">
+                    📚 More Vocabulary Quizzes
+                </button>
+
+                <button onclick="window.location.assign('https://aliakbar1974.github.io/Quiz-Challenge-Bangladesh-Website/')">
+                    🏠 Back to Home
+                </button>
+
+                <button onclick="window.location.assign('https://www.facebook.com/QuizChallengeBangladesh')">
+                    ↩️ Return to Facebook
+                </button>
+
+            </div>
+
         </div>
     `;
+
+
 }
 
 
