@@ -874,6 +874,14 @@ function showResult() {
                 🔄 Play Again
             </button>
 
+            <button onclick="window.location.assign('https://quizchallengebd.com/vocabulary-quizzes.html')" style="margin-top:12px;">
+                📚 MORE VOCABULARY QUIZZES
+            </button>
+
+            <button onclick="window.location.assign('https://quizchallengebd.com/')" style="margin-top:12px;">
+                🏠 HOME PAGE
+            </button>
+
         </div>
     `;
 }
