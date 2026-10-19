@@ -33,66 +33,66 @@ function playSound(soundName) {
 const quizData = [
     {
         question: "What is the meaning of \"Mitigate\"?",
-        options: ["Reduce", "Increase", "Ignore", "Create"],
-        answer: 0,
+        options: ["Create", "Ignore", "Reduce", "Increase"],
+        answer: 2,
         explanation: "Mitigate means to reduce the severity or harmful effect of something.<br><br><strong>Example:</strong> The government introduced new measures to mitigate the impact of inflation."
     },
 
     {
         question: "What is the meaning of \"Abundant\"?",
-        options: ["Limited", "Plentiful", "Expensive", "Scarce"],
-        answer: 1,
+        options: ["Plentiful", "Limited", "Expensive", "Scarce"],
+        answer: 0,
         explanation: "Abundant means existing in large quantities; plentiful.<br><br><strong>Example:</strong> The region has abundant natural resources."
     },
 
 {
         question: "What is the meaning of \"Reluctant\"?",
-        options: ["Prepared", "Excited", "Unwilling", "Certain"],
-        answer: 2,
+        options: ["Certain", "Prepared", "Excited", "Unwilling"],
+        answer: 3,
         explanation: "Reluctant means unwilling or hesitant to do something.<br><br><strong>Example:</strong> He was reluctant to accept the offer without further discussion."
     },
     
 {
         question: "What is the meaning of \"Diligent\"?",
-        options: ["Careless", "Impatient", "Confused", "Hardworking"],
-        answer: 3,
+        options: ["Confused", "Hardworking", "Impatient", "Careless"],
+        answer: 1,
         explanation: "Diligent means showing careful and persistent effort.<br><br><strong>Example:</strong> She is a diligent employee who always completes her work on time."
     },
 
 {
         question: "What is the meaning of \"Concise\"?",
-        options: ["Brief", "Emotional", "Repetitive", "Complicated"],
-        answer: 0,
+        options: ["Emotional", "Repetitive", "Complicated", "Brief"],
+        answer: 3,
         explanation: "Concise means expressing something clearly in a few words.<br><br><strong>Example:</strong> The manager asked for a concise summary of the proposal."
     },
 {
         question: "What is the meaning of \"Compel\"?",
-        options: ["Permit", "Force", "Prevent", "Delay"],
+        options: ["Delay", "Force", "Permit", "Prevent"],
         answer: 1,
         explanation: "Compel means to force someone to do something.<br><br><strong>Example:</strong> The evidence compelled the committee to reconsider its decision."
     },
 {
         question: "What is the meaning of \"Vulnerable\"?",
-        options: ["Protected", "Powerful", "Easily harmed", "Independent"],
-        answer: 2,
+        options: ["Easily harmed", "Independent", "Powerful", "Protected"],
+        answer: 0,
         explanation: "Vulnerable means exposed to the possibility of harm or attack.<br><br><strong>Example:</strong> Small businesses are particularly vulnerable to economic shocks."
     },
 {
         question: "What is the meaning of \"Relieve\"?",
-        options: ["Conceal", "Prevent completely", "Worsen", "Reduce suffering"],
-        answer: 3,
+        options: ["Conceal", "Prevent completely", "Reduce suffering", "Worsen"],
+        answer: 2,
         explanation: "Relieve means to reduce pain, difficulty, or distress.<br><br><strong>Example:</strong> The new measures may relieve pressure on low-income families."
     },
 {
         question: "What is the meaning of \"Enhance\"?",
-        options: ["Improve", "Hide", "Destroy", "Reduce"],
-        answer: 0,
+        options: ["Reduce", "Improve", "Hide", "Destroy"],
+        answer: 1,
         explanation: "Enhance means to improve the quality, value, or effectiveness of something.<br><br><strong>Example:</strong> The training program was designed to enhance employees' skills."
     },
 {
         question: "What is the meaning of \"Obsolete\"?",
-        options: ["Modern", "No longer useful", "Essential", "Expensive"],
-        answer: 1,
+        options: ["Expensive", "Essential", "Modern", "No longer useful"],
+        answer: 3,
         explanation: "Obsolete means no longer useful or necessary because something newer exists.<br><br><strong>Example:</strong> Many traditional technologies have become obsolete."
     },
 {
@@ -103,32 +103,32 @@ const quizData = [
     },
 {
         question: "What is the meaning of \"Inevitable\"?",
-        options: ["Unusual", "Avoidable", "Uncertain", "Certain to happen"],
-        answer: 3,
+        options: ["Certain to happen", "Uncertain", "Unusual", "Avoidable"],
+        answer: 0,
         explanation: "Inevitable means certain to happen and impossible to avoid.<br><br><strong>Example:</strong> Some degree of change is inevitable in a growing organization."
     },
 {
         question: "What is the meaning of \"Feasible\"?",
-        options: ["Practical and possible", "Extremely expensive", "Impossible", "Unnecessary"],
-        answer: 0,
+        options: ["Unnecessary", "Impossible", "Extremely expensive", "Practical and possible"],
+        answer: 3,
         explanation: "Feasible means possible and practical to achieve.<br><br><strong>Example:</strong> The committee concluded that the proposed project was financially feasible."
     },
 {
         question: "What is the meaning of \"Adverse\"?",
-        options: ["Temporary", "Harmful or unfavorable", "Predictable", "Favorable"],
-        answer: 1,
+        options: ["Temporary", "Predictable", "Harmful or unfavorable", "Favorable"],
+        answer: 2,
         explanation: "Adverse means harmful or unfavorable.<br><br><strong>Example:</strong> The company faced adverse economic conditions."
     },
 {
         question: "What is the meaning of \"Allocate\"?",
-        options: ["Delay", "Remove", "Distribute", "Combine"],
-        answer: 2,
+        options: ["Combine", "Distribute", "Delay", "Remove"],
+        answer: 1,
         explanation: "Allocate means to distribute something for a particular purpose.<br><br><strong>Example:</strong> The government allocated additional funds to education."
     },
 {
         question: "What is the meaning of \"Relinquish\"?",
-        options: ["Acquire", "Protect", "Improve", "Give up"],
-        answer: 3,
+        options: ["Give up", "Improve", "Protect", "Acquire"],
+        answer: 0,
         explanation: "Relinquish means to voluntarily give up or surrender something.<br><br><strong>Example:</strong> The director agreed to relinquish control of the project."
     },
 {
@@ -139,80 +139,80 @@ const quizData = [
     },
 {
         question: "What is the meaning of \"Substantial\"?",
-        options: ["Uncertain", "Significant or considerable", "Very small", "Temporary"],
-        answer: 1,
+        options: ["Temporary", "Uncertain", "Very small", "Significant or considerable"],
+        answer: 3,
         explanation: "Substantial means considerable in size, importance, or value.<br><br><strong>Example:</strong> The company made a substantial investment in technology."
     },
 {
         question: "What is the meaning of \"Coherent\"?",
-        options: ["Extremely difficult", "Unrelated", "Logical and well organized", "Incomplete"],
+        options: ["Incomplete", "Unrelated", "Logical and well organized", "Extremely difficult"],
         answer: 2,
         explanation: "Coherent means logical, consistent, and easy to understand.<br><br><strong>Example:</strong> The candidate presented a coherent argument during the interview."
     },
 {
         question: "What is the meaning of \"Resilient\"?",
-        options: ["Completely dependent", "Unpredictable", "Easily discouraged", "Able to recover quickly"],
-        answer: 3,
+        options: ["Completely dependent", "Able to recover quickly", "Unpredictable", "Easily discouraged"],
+        answer: 1,
         explanation: "Resilient means able to recover from difficulties or setbacks.<br><br><strong>Example:</strong> The economy proved remarkably resilient after the crisis."
     },
 {
         question: "What is the meaning of \"Commence\"?",
-        options: ["Begin", "Repeat", "End", "Cancel"],
-        answer: 0,
+        options: ["Cancel", "Repeat", "Begin", "End"],
+        answer: 2,
         explanation: "Commence means to begin or start.<br><br><strong>Example:</strong> The meeting will commence at nine o'clock."
     },
 {
         question: "What is the meaning of \"Cease\"?",
-        options: ["Continue", "Stop", "Begin", "Improve"],
-        answer: 1,
+        options: ["Stop", "Improve", "Begin", "Continue"],
+        answer: 0,
         explanation: "Cease means to stop or come to an end.<br><br><strong>Example:</strong> The company decided to cease operations in the region."
     },
 {
         question: "What is the meaning of \"Explicit\"?",
-        options: ["Uncertain", "Implied", "Clearly stated", "Secret"],
-        answer: 2,
+        options: ["Uncertain", "Implied", "Secret", "Clearly stated"],
+        answer: 3,
         explanation: "Explicit means clearly and directly stated.<br><br><strong>Example:</strong> The contract contains explicit instructions regarding confidentiality."
     },
 {
         question: "What is the meaning of \"Imply\"?",
-        options: ["Explain repeatedly", "State directly", "Reject formally", "Suggest without saying directly"],
-        answer: 3,
+        options: ["Reject formally", "Suggest without saying directly", "Explain repeatedly", "State directly"],
+        answer: 1,
         explanation: "Imply means to suggest something without stating it directly.<br><br><strong>Example:</strong> His remarks implied that further negotiations might be necessary."
     },
 {
         question: "What is the meaning of \"Infer\"?",
-        options: ["Draw a conclusion from evidence", "Avoid a conclusion", "State something loudly", "Change the evidence"],
-        answer: 0,
+        options: ["Change the evidence", "Draw a conclusion from evidence", "State something loudly", "Avoid a conclusion"],
+        answer: 1,
         explanation: "Infer means to reach a conclusion based on evidence or reasoning.<br><br><strong>Example:</strong> From the available data, researchers inferred that demand was declining."
     },
 {
         question: "What is the meaning of \"Proficient\"?",
-        options: ["Unwilling", "Highly skilled", "Uncertain", "Completely inexperienced"],
-        answer: 1,
+        options: ["Unwilling", "Uncertain", "Completely inexperienced", "Highly skilled"],
+        answer: 3,
         explanation: "Proficient means skilled or competent at doing something.<br><br><strong>Example:</strong> She is proficient in English and Mandarin."
     },
 {
         question: "What is the meaning of \"Commend\"?",
-        options: ["Question", "Criticize", "Praise", "Punish"],
-        answer: 2,
+        options: ["Praise", "Punish", "Question", "Criticize"],
+        answer: 0,
         explanation: "Commend means to praise someone or something officially or publicly.<br><br><strong>Example:</strong> The officer was commended for his exceptional service."
     },
 {
         question: "What is the meaning of \"Deter\"?",
-        options: ["Encourage", "Reward", "Permit", "Discourage"],
-        answer: 3,
+        options: ["Permit", "Reward", "Discourage", "Encourage"],
+        answer: 2,
         explanation: "Deter means to discourage someone from doing something.<br><br><strong>Example:</strong> Higher penalties may deter people from violating the law."
     },
 {
         question: "What is the meaning of \"Plausible\"?",
-        options: ["Seemingly reasonable or believable", "Completely proven", "Obviously false", "Impossible to believe"],
-        answer: 0,
+        options: ["Completely proven", "Obviously false", "Impossible to believe", "Seemingly reasonable or believable"],
+        answer: 3,
         explanation: "Plausible means seeming reasonable or likely to be true.<br><br><strong>Example:</strong> The researcher offered a plausible explanation for the unexpected result."
     },
 {
         question: "What is the meaning of \"Versatile\"?",
-        options: ["Completely unreliable", "Able to perform many different functions", "Limited to one purpose", "Difficult to control"],
-        answer: 1,
+        options: ["Able to perform many different functions", "Difficult to control", "Completely unreliable", "Limited to one purpose"],
+        answer: 0,
         explanation: "Versatile means able to adapt to many different uses, activities, or situations.<br><br><strong>Example:</strong> Her versatile skills made her an effective member of the management team."
     }
 ];
