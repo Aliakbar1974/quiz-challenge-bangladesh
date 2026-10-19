@@ -1,7 +1,7 @@
 // ==========================================
 // QUIZ CHALLENGE BANGLADESH
 // Web Quiz Engine - Version 1.1
-// 30 Questions + 15 Second Timer
+// 31 Questions + 15 Second Timer
 // ==========================================
 
 // ==========================================
