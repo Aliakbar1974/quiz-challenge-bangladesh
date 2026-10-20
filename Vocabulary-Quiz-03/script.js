@@ -73,7 +73,7 @@ const quizData = [
             "To change something to the opposite direction or order"
         ],
         answer: 3,
-        explanation: "everse means to change something to the opposite direction, position, or order.<br><br><strong>Example:</strong> The driver had to reverse the car carefully."
+        explanation: "Reverse means to change something to the opposite direction, position, or order.<br><br><strong>Example:</strong> The driver had to reverse the car carefully."
     },
     {
         question: "What is the meaning of \"Roam\"?",
