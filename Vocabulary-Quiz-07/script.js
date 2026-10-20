@@ -43,7 +43,8 @@ const quizData = [
     ],
     answer: 1,
     explanation: "'Abhor' means to hate or detest something very strongly."
-  },
+  
+    example: "She abhors cruelty and refuses to support it.",},
 
   {
     word: "Abruptly",
@@ -56,7 +57,8 @@ const quizData = [
     ],
     answer: 3,
     explanation: "'Abruptly' means suddenly, unexpectedly, or in a sudden manner."
-  },
+  
+    example: "The meeting ended abruptly when the fire alarm rang.",},
 
   {
     word: "Admonish",
@@ -69,7 +71,8 @@ const quizData = [
     ],
     answer: 0,
     explanation: "'Admonish' means to warn, advise, or mildly scold someone because of their behavior."
-  },
+  
+    example: "The teacher admonished the students for arriving late.",},
 
   {
     word: "Arduous",
@@ -82,7 +85,8 @@ const quizData = [
     ],
     answer: 2,
     explanation: "'Arduous' describes something difficult, tiring, and requiring a lot of effort."
-  },
+  
+    example: "Climbing the steep mountain was an arduous task.",},
 
   {
     word: "Assuage",
@@ -95,7 +99,8 @@ const quizData = [
     ],
     answer: 1,
     explanation: "'Assuage' means to make something unpleasant, such as pain, fear, or worry, less severe."
-  },
+  
+    example: "A sincere apology may assuage someone's anger.",},
 
   {
     word: "Avarice",
@@ -108,7 +113,8 @@ const quizData = [
     ],
     answer: 0,
     explanation: "'Avarice' means an extreme desire for wealth or material possessions."
-  },
+  
+    example: "His avarice made him unwilling to share his wealth.",},
 
   {
     word: "Blandishment",
@@ -121,7 +127,8 @@ const quizData = [
     ],
     answer: 2,
     explanation: "'Blandishment' means flattering or persuasive speech used to influence someone."
-  },
+  
+    example: "The salesperson used blandishments to persuade the customer.",},
 
   {
     word: "Blithe",
@@ -134,7 +141,8 @@ const quizData = [
     ],
     answer: 3,
     explanation: "'Blithe' means cheerful, carefree, or showing little concern."
-  },
+  
+    example: "She remained blithe despite the minor setbacks.",},
 
   {
     word: "Castigate",
@@ -147,7 +155,8 @@ const quizData = [
     ],
     answer: 0,
     explanation: "'Castigate' means to criticize or punish someone severely for their actions."
-  },
+  
+    example: "The judge warned that the court would castigate anyone who ignored its orders.",},
 
   {
     word: "Cataclysm",
@@ -160,7 +169,8 @@ const quizData = [
     ],
     answer: 3,
     explanation: "'Cataclysm' means a large-scale and violent event that causes great destruction or change."
-  },
+  
+    example: "The earthquake was a cataclysm that changed the entire region.",},
 
   {
     word: "Clamorous",
@@ -173,7 +183,8 @@ const quizData = [
     ],
     answer: 1,
     explanation: "'Clamorous' means making or involving a loud, noisy, and often confused sound."
-  },
+  
+    example: "A clamorous crowd gathered outside the stadium.",},
 
   {
     word: "Clemency",
@@ -186,7 +197,8 @@ const quizData = [
     ],
     answer: 2,
     explanation: "'Clemency' means mercy or leniency, especially toward someone who has been punished or convicted."
-  },
+  
+    example: "The governor granted clemency to the prisoner.",},
 
   {
     word: "Coerce",
@@ -199,7 +211,8 @@ const quizData = [
     ],
     answer: 0,
     explanation: "'Coerce' means to force or pressure someone to do something against their will."
-  },
+  
+    example: "No employer should coerce workers into unpaid overtime.",},
 
   {
     word: "Cogent",
@@ -212,7 +225,8 @@ const quizData = [
     ],
     answer: 3,
     explanation: "'Cogent' means clear, logical, and convincing, especially when describing an argument."
-  },
+  
+    example: "She presented a cogent argument supported by evidence.",},
 
   {
     word: "Concoct",
@@ -225,7 +239,8 @@ const quizData = [
     ],
     answer: 1,
     explanation: "'Concoct' means to create or prepare something, especially by combining different elements."
-  },
+  
+    example: "He concocted a story to explain his absence.",},
 
   {
     word: "Concord",
@@ -238,7 +253,8 @@ const quizData = [
     ],
     answer: 0,
     explanation: "'Concord' means agreement, harmony, or peaceful relations between people or groups."
-  },
+  
+    example: "After years of conflict, concord finally returned to the community.",},
 
   {
     word: "Concurrence",
@@ -251,7 +267,8 @@ const quizData = [
     ],
     answer: 2,
     explanation: "'Concurrence' means agreement, especially with an opinion, decision, or action."
-  },
+  
+    example: "The proposal proceeded with the concurrence of the committee.",},
 
   {
     word: "Condone",
@@ -264,7 +281,8 @@ const quizData = [
     ],
     answer: 1,
     explanation: "'Condone' means to accept or overlook behavior that is considered wrong or unacceptable."
-  },
+  
+    example: "Managers should not condone dishonest behavior.",},
 
   {
     word: "Confiscate",
@@ -277,7 +295,8 @@ const quizData = [
     ],
     answer: 3,
     explanation: "'Confiscate' means to officially take something away, usually because it is illegal or against the rules."
-  },
+  
+    example: "Customs officers may confiscate prohibited goods.",},
 
   {
     word: "Congeal",
@@ -290,7 +309,8 @@ const quizData = [
     ],
     answer: 0,
     explanation: "'Congeal' means to become thick or solid, especially after cooling."
-  },
+  
+    example: "As the soup cooled, the fat began to congeal.",},
 
   {
     word: "Congenial",
@@ -303,7 +323,8 @@ const quizData = [
     ],
     answer: 1,
     explanation: "'Congenial' means pleasant, friendly, and suitable to one's nature or preferences."
-  },
+  
+    example: "The friendly, congenial atmosphere helped everyone relax.",},
 
   {
     word: "Congestion",
@@ -316,7 +337,8 @@ const quizData = [
     ],
     answer: 2,
     explanation: "'Congestion' means a state of being overcrowded or blocked, such as heavy traffic on a road."
-  },
+  
+    example: "Traffic congestion delayed the ambulance.",},
 
   {
     word: "Conjecture",
@@ -329,7 +351,8 @@ const quizData = [
     ],
     answer: 3,
     explanation: "'Conjecture' means an opinion or conclusion based on incomplete information rather than definite evidence."
-  },
+  
+    example: "Without enough evidence, the cause of the failure remains conjecture.",},
 
   {
     word: "Conventional",
@@ -342,7 +365,8 @@ const quizData = [
     ],
     answer: 0,
     explanation: "'Conventional' means traditional, usual, or generally accepted by society."
-  },
+  
+    example: "The school follows a conventional dress code.",},
 
   {
     word: "Credulous",
@@ -355,7 +379,8 @@ const quizData = [
     ],
     answer: 2,
     explanation: "'Credulous' describes someone who is too ready to believe what other people say."
-  },
+  
+    example: "Credulous readers may believe online rumors without checking them.",},
 
   {
     word: "Creed",
@@ -368,7 +393,8 @@ const quizData = [
     ],
     answer: 1,
     explanation: "'Creed' means a set of beliefs, principles, or religious ideas that someone follows."
-  },
+  
+    example: "Her personal creed emphasizes honesty and compassion.",},
 
   {
     word: "Culpable",
@@ -381,7 +407,8 @@ const quizData = [
     ],
     answer: 0,
     explanation: "'Culpable' means responsible for a wrongdoing and therefore deserving blame."
-  },
+  
+    example: "The report found the official culpable for the misconduct.",},
 
   {
     word: "Decrepit",
@@ -394,7 +421,8 @@ const quizData = [
     ],
     answer: 3,
     explanation: "'Decrepit' describes something old, worn out, weak, or in very poor condition."
-  },
+  
+    example: "The decrepit building was unsafe to enter.",},
 
   {
     word: "Deprecate",
@@ -407,7 +435,8 @@ const quizData = [
     ],
     answer: 1,
     explanation: "'Deprecate' means to express disapproval of something or to criticize it."
-  },
+  
+    example: "The author used the article to deprecate the proposed policy.",},
 
   {
     word: "Diffidence",
@@ -420,7 +449,8 @@ const quizData = [
     ],
     answer: 2,
     explanation: "'Diffidence' means modesty, shyness, or a lack of confidence in one's abilities."
-  }
+  
+    example: "His diffidence made it difficult for him to speak in public.",}
 
 ];
 
