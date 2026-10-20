@@ -64,11 +64,11 @@ const quizData = [
     question: "What does 'Perilous' mean?",
     options: [
         "Safe and comfortable",
-        "Dangerous or risky",
         "Easy and simple",
+        "Dangerous or risky",
         "Pleasant and enjoyable"
     ],
-    answer: 1,
+    answer: 2,
     explanation: "Perilous means dangerous or involving serious risk or danger.",
     example: "The climbers began their perilous journey up the mountain."
   },
@@ -78,11 +78,11 @@ const quizData = [
     question: "What does 'Perpetual' mean?",
     options: [
         "Temporary",
-        "Occasional",
         "Continuing forever or for a very long time",
+        "Occasional",
         "Sudden and unexpected"
     ],
-    answer: 2,
+    answer: 1,
     explanation: "Perpetual means continuing indefinitely, without ending, or occurring repeatedly.",
     example: "The machine requires perpetual maintenance."
   },
@@ -93,10 +93,10 @@ const quizData = [
     options: [
         "To confuse someone",
         "To punish someone",
-        "To avoid someone",
-        "To convince someone to do or believe something"
+        "To convince someone to do or believe something",
+        "To avoid someone"
     ],
-    answer: 3,
+    answer: 2,
     explanation: "Persuade means to convince someone to do something or accept an idea.",
     example: "She persuaded her brother to apply for the job."
   },
@@ -120,11 +120,11 @@ const quizData = [
     question: "What does 'Placate' mean?",
     options: [
         "To make someone angry",
-        "To calm or satisfy someone who is angry",
+        "To ignore a problem",
         "To criticize someone publicly",
-        "To ignore a problem"
+        "To calm or satisfy someone who is angry"
     ],
-    answer: 1,
+    answer: 3,
     explanation: "Placate means to calm someone who is angry or upset by satisfying their demands or concerns.",
     example: "The manager tried to placate the angry customer."
   },
@@ -133,12 +133,12 @@ const quizData = [
     id: "VOC277",
     question: "What does 'Plea' mean?",
     options: [
-        "A celebration",
-        "A command",
         "A serious request or appeal",
+        "A command",
+        "A celebration",
         "A formal award"
     ],
-    answer: 2,
+    answer: 0,
     explanation: "Plea means a serious and emotional request for something or for help.",
     example: "The victim made a plea for justice."
   },
@@ -148,11 +148,11 @@ const quizData = [
     question: "What does 'Plump' mean?",
     options: [
         "Very thin",
-        "Extremely tall",
+        "Slightly fat or pleasantly rounded",
         "Weak and sickly",
-        "Slightly fat or pleasantly rounded"
+        "Extremely tall"
     ],
-    answer: 3,
+    answer: 1,
     explanation: "Plump means having a pleasantly rounded or somewhat fat body shape.",
     example: "The farmer raised several plump chickens."
   },
@@ -161,12 +161,12 @@ const quizData = [
     id: "VOC279",
     question: "What does 'Ponder' mean?",
     options: [
-        "To think about something carefully",
-        "To forget something quickly",
         "To shout at someone",
+        "To forget something quickly",
+        "To think about something carefully",
         "To move very quickly"
     ],
-    answer: 0,
+    answer: 2,
     explanation: "Ponder means to think carefully and deeply about something.",
     example: "He sat quietly to ponder the difficult decision."
   },
@@ -190,11 +190,11 @@ const quizData = [
     question: "What does 'Acrid' mean?",
     options: [
         "Sweet and pleasant",
-        "Soft and smooth",
         "Having a strong, unpleasant smell or taste",
+        "Soft and smooth",
         "Completely tasteless"
     ],
-    answer: 2,
+    answer: 1,
     explanation: "Acrid describes a strong and unpleasant smell or taste that can irritate the senses.",
     example: "An acrid smell filled the room after the fire."
   },
@@ -232,11 +232,11 @@ const quizData = [
     question: "What does 'Audacious' mean?",
     options: [
         "Very shy and timid",
-        "Bold and willing to take risks",
+        "Quiet and obedient",
         "Extremely careless",
-        "Quiet and obedient"
+        "Bold and willing to take risks"
     ],
-    answer: 1,
+    answer: 3,
     explanation: "Audacious means bold, daring, and willing to take risks, sometimes in a shocking way.",
     example: "The audacious plan surprised everyone in the meeting."
   },
@@ -246,11 +246,11 @@ const quizData = [
     question: "What does 'Beneficiary' mean?",
     options: [
         "A person who causes a problem",
-        "A person who gives a donation",
         "A person who receives a benefit or advantage",
+        "A person who gives a donation",
         "A person who investigates a crime"
     ],
-    answer: 2,
+    answer: 1,
     explanation: "A beneficiary is a person or organization that receives a benefit, especially from a will, insurance policy, or trust.",
     example: "She was the main beneficiary of her father's will."
   },
@@ -261,10 +261,10 @@ const quizData = [
     options: [
         "Kind and compassionate",
         "Highly intelligent",
-        "Very nervous",
-        "Showing no concern for the feelings of others"
+        "Showing no concern for the feelings of others",
+        "Very nervous"
     ],
-    answer: 3,
+    answer: 2,
     explanation: "Callous means emotionally insensitive and showing little concern for other people's feelings or suffering.",
     example: "His callous remarks hurt the feelings of his colleagues."
   },
@@ -288,11 +288,11 @@ const quizData = [
     question: "What does 'Contaminate' mean?",
     options: [
         "To clean completely",
-        "To make something impure or polluted",
+        "To improve the quality of something",
         "To protect something",
-        "To improve the quality of something"
+        "To make something impure or polluted"
     ],
-    answer: 1,
+    answer: 3,
     explanation: "Contaminate means to make something dirty, polluted, or harmful by adding unwanted substances.",
     example: "Chemicals can contaminate the drinking water."
   },
@@ -301,12 +301,12 @@ const quizData = [
     id: "VOC289",
     question: "What does 'Contraction' mean?",
     options: [
-        "A large expansion",
-        "A complete disappearance",
         "A reduction in size, amount, or length",
+        "A complete disappearance",
+        "A large expansion",
         "A sudden celebration"
     ],
-    answer: 2,
+    answer: 0,
     explanation: "Contraction means the process of becoming smaller or reducing in size, amount, or extent.",
     example: "The economy experienced a contraction last year."
   },
@@ -358,11 +358,11 @@ const quizData = [
     question: "What does 'Diffidence' mean?",
     options: [
         "Great confidence",
-        "Strong determination",
         "Shyness or lack of self-confidence",
+        "Strong determination",
         "Extreme anger"
     ],
-    answer: 2,
+    answer: 1,
     explanation: "Diffidence means shyness or a lack of confidence in one's own abilities.",
     example: "His diffidence prevented him from speaking at the meeting."
   },
@@ -385,12 +385,12 @@ const quizData = [
     id: "VOC295",
     question: "What does 'Eloquence' mean?",
     options: [
-        "The ability to speak or write clearly and effectively",
-        "The inability to communicate",
         "A fear of public speaking",
+        "The inability to communicate",
+        "The ability to speak or write clearly and effectively",
         "A tendency to remain silent"
     ],
-    answer: 0,
+    answer: 2,
     explanation: "Eloquence means the ability to express ideas clearly, effectively, and persuasively.",
     example: "The speaker impressed the audience with her eloquence."
   },
@@ -429,10 +429,10 @@ const quizData = [
     options: [
         "Absolutely certain",
         "Very honest and direct",
-        "Easy to understand",
-        "Open to more than one interpretation"
+        "Open to more than one interpretation",
+        "Easy to understand"
     ],
-    answer: 3,
+    answer: 2,
     explanation: "Equivocal means ambiguous or unclear because it can be understood in more than one way.",
     example: "His equivocal answer left everyone confused."
   },
@@ -441,12 +441,12 @@ const quizData = [
     id: "VOC299",
     question: "What does 'Erudite' mean?",
     options: [
-        "Highly educated and knowledgeable",
+        "Extremely shy",
         "Uneducated and inexperienced",
         "Careless and irresponsible",
-        "Extremely shy"
+        "Highly educated and knowledgeable"
     ],
-    answer: 0,
+    answer: 3,
     explanation: "Erudite means highly educated and possessing extensive knowledge, especially from study.",
     example: "The erudite professor wrote several books on history."
   },
@@ -455,12 +455,12 @@ const quizData = [
     id: "VOC300",
     question: "What does 'Exacting' mean?",
     options: [
-        "Easy to satisfy",
         "Demanding and requiring great care or effort",
+        "Easy to satisfy",
         "Careless and relaxed",
         "Unimportant and simple"
     ],
-    answer: 1,
+    answer: 0,
     explanation: "Exacting means demanding a great deal of care, effort, accuracy, or attention.",
     example: "The job requires exacting attention to detail."
   }
