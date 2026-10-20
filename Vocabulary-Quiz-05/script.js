@@ -35,11 +35,11 @@ const quizData = [
         question: "What does the word 'Conceal' mean?",
         options: [
             "To reveal something",
-            "To hide something",
+            "To copy something",
             "To improve something",
-            "To copy something"
+            "To hide something"
         ],
-        answer: 1,
+        answer: 3,
         explanation: "'Conceal' means to hide something or keep it from being seen or known."
     },
 
@@ -71,11 +71,11 @@ const quizData = [
         question: "What does the word 'Crude' mean?",
         options: [
             "Very elegant and refined",
-            "Simple, rough, or lacking refinement",
+            "Very accurate",
             "Extremely expensive",
-            "Very accurate"
+            "Simple, rough, or lacking refinement"
         ],
-        answer: 1,
+        answer: 3,
         explanation: "'Crude' can mean simple, rough, or lacking refinement. It can also refer to something in a natural or unprocessed state."
     },
 
@@ -83,11 +83,11 @@ const quizData = [
         question: "What does the word 'Curt' mean?",
         options: [
             "Very polite and friendly",
-            "Brief and sometimes rude",
+            "Carefully explained",
             "Extremely emotional",
-            "Carefully explained"
+            "Brief and sometimes rude"
         ],
-        answer: 1,
+        answer: 3,
         explanation: "'Curt' means brief and direct, often in a way that seems rude or unfriendly."
     },
 
@@ -107,11 +107,11 @@ const quizData = [
         question: "What does the word 'Deform' mean?",
         options: [
             "To make something beautiful",
-            "To change something into an unnatural or damaged shape",
+            "To hide something",
             "To repair something completely",
-            "To hide something"
+            "To change something into an unnatural or damaged shape"
         ],
-        answer: 1,
+        answer: 3,
         explanation: "'Deform' means to change or damage the shape or appearance of something."
     },
 
@@ -155,11 +155,11 @@ const quizData = [
         question: "What does the word 'Deprive' mean?",
         options: [
             "To give someone more than they need",
-            "To prevent someone from having something",
+            "To protect someone",
             "To congratulate someone",
-            "To protect someone"
+            "To prevent someone from having something"
         ],
-        answer: 1,
+        answer: 3,
         explanation: "'Deprive' means to prevent someone from having something that they need or normally have."
     },
 
@@ -179,11 +179,11 @@ const quizData = [
         question: "What does the word 'Deviate' mean?",
         options: [
             "To follow a route exactly",
-            "To move away from a usual course or standard",
+            "To repeat something",
             "To improve a system",
-            "To repeat something"
+            "To move away from a usual course or standard"
         ],
-        answer: 1,
+        answer: 3,
         explanation: "'Deviate' means to move away from a usual, expected, or planned course."
     },
 
