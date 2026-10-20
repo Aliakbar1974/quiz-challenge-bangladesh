@@ -42,6 +42,7 @@ const quizData = [
       "To hide"
     ],
     answer: 2,
+    explanation: "'Discern' means to recognize or understand something clearly, often by noticing a distinction.",
     example: "It was difficult to discern the truth from the rumors."
   },
 
@@ -55,6 +56,7 @@ const quizData = [
       "To reject"
     ],
     answer: 1,
+    explanation: "'Disseminate' means to spread information, ideas, or knowledge widely.",
     example: "The organization disseminates information about public health."
   },
 
@@ -68,6 +70,7 @@ const quizData = [
       "Completely safe"
     ],
     answer: 1,
+    explanation: "'Elusive' describes something difficult to find, catch, achieve, or understand.",
     example: "The solution to the problem remained elusive."
   },
 
@@ -81,6 +84,7 @@ const quizData = [
       "To weaken or drain energy"
     ],
     answer: 3,
+    explanation: "'Enervate' means to weaken someone or drain their energy.",
     example: "The extreme heat enervated the workers."
   },
 
@@ -94,6 +98,7 @@ const quizData = [
       "Easy to understand"
     ],
     answer: 2,
+    explanation: "'Equivocal' means ambiguous or open to more than one interpretation.",
     example: "His equivocal answer confused everyone."
   },
 
@@ -107,6 +112,7 @@ const quizData = [
       "To increase"
     ],
     answer: 0,
+    explanation: "'Eradicate' means to destroy or eliminate something completely.",
     example: "The government aims to eradicate the disease."
   },
 
@@ -120,6 +126,7 @@ const quizData = [
       "A secret message"
     ],
     answer: 0,
+    explanation: "A 'eulogy' is a speech or piece of writing that praises someone, especially someone who has died.",
     example: "He delivered a moving eulogy for his friend."
   },
 
@@ -133,6 +140,7 @@ const quizData = [
       "A high mountain"
     ],
     answer: 1,
+    explanation: "An 'expanse' is a wide, open area or a large stretch of something.",
     example: "We could see a vast expanse of ocean."
   },
 
@@ -146,6 +154,7 @@ const quizData = [
       "To reject"
     ],
     answer: 1,
+    explanation: "'Expound' means to explain or discuss an idea in detail.",
     example: "The professor expounded his theory to the students."
   },
 
@@ -159,6 +168,7 @@ const quizData = [
       "Unclear"
     ],
     answer: 1,
+    explanation: "'Facile' can mean easy to do; it can also suggest an answer is overly simple or superficial.",
     example: "She found a facile solution to the problem."
   },
 
@@ -172,6 +182,7 @@ const quizData = [
       "Joyful"
     ],
     answer: 2,
+    explanation: "'Furtive' means secretive, often because someone wants to avoid being noticed.",
     example: "He gave her a furtive glance."
   },
 
@@ -185,6 +196,7 @@ const quizData = [
       "Excessively talkative"
     ],
     answer: 3,
+    explanation: "'Garrulous' describes someone who talks a great deal, often about unimportant matters.",
     example: "The garrulous old man talked for hours."
   },
 
@@ -198,6 +210,7 @@ const quizData = [
       "Fluent but superficial"
     ],
     answer: 3,
+    explanation: "'Glib' describes fluent, smooth speech that may seem insincere or lack depth.",
     example: "His glib response did not satisfy the interviewer."
   },
 
@@ -211,6 +224,7 @@ const quizData = [
       "Sadness"
     ],
     answer: 2,
+    explanation: "A 'hubbub' is loud noise, activity, or confusion caused by many people.",
     example: "The hubbub of the crowd made it difficult to hear."
   },
 
@@ -224,6 +238,7 @@ const quizData = [
       "Already finished"
     ],
     answer: 2,
+    explanation: "'Imminent' means about to happen very soon.",
     example: "The arrival of the storm was imminent."
   },
 
@@ -237,6 +252,7 @@ const quizData = [
       "Continuous or never-ending"
     ],
     answer: 3,
+    explanation: "'Incessant' means continuing without stopping or frequent interruption.",
     example: "The incessant rain caused flooding."
   },
 
@@ -250,6 +266,7 @@ const quizData = [
       "Essential"
     ],
     answer: 0,
+    explanation: "'Incidental' means happening as a minor accompaniment or by chance rather than being the main thing.",
     example: "The damage was incidental to the main accident."
   },
 
@@ -263,6 +280,7 @@ const quizData = [
       "Irrelevant"
     ],
     answer: 1,
+    explanation: "'Incisive' describes analysis or remarks that are clear, sharp, and perceptive.",
     example: "She made an incisive analysis of the issue."
   },
 
@@ -276,6 +294,7 @@ const quizData = [
       "Unnecessary"
     ],
     answer: 2,
+    explanation: "'Incredible' means difficult to believe, or exceptionally impressive.",
     example: "The athlete achieved an incredible record."
   },
 
@@ -289,6 +308,7 @@ const quizData = [
       "To cancel"
     ],
     answer: 0,
+    explanation: "'Induce' means to cause something to happen or to persuade someone to act.",
     example: "The medicine may induce sleep."
   },
 
@@ -302,6 +322,7 @@ const quizData = [
       "Enthusiastic"
     ],
     answer: 2,
+    explanation: "'Inert' means inactive or lacking movement or the ability to act.",
     example: "The chemical is inert under normal conditions."
   },
 
@@ -315,6 +336,7 @@ const quizData = [
       "Overrun with harmful animals or insects"
     ],
     answer: 3,
+    explanation: "'Infested' describes a place overwhelmed by unwanted animals, insects, or other pests.",
     example: "The old house was infested with rats."
   },
 
@@ -328,6 +350,7 @@ const quizData = [
       "Angry"
     ],
     answer: 0,
+    explanation: "'Inquisitive' means curious and eager to learn or discover information.",
     example: "The inquisitive student asked many questions."
   },
 
@@ -341,6 +364,7 @@ const quizData = [
       "To combine or bring together"
     ],
     answer: 3,
+    explanation: "'Integrate' means to combine parts into a whole or bring them together.",
     example: "We need to integrate the new system with the existing one."
   },
 
@@ -354,6 +378,7 @@ const quizData = [
       "Sick"
     ],
     answer: 0,
+    explanation: "'Intrepid' means brave and fearless when facing danger or difficulty.",
     example: "The intrepid explorer traveled through the jungle."
   },
 
@@ -367,6 +392,7 @@ const quizData = [
       "Unnecessary"
     ],
     answer: 1,
+    explanation: "'Intricate' means complicated and containing many connected details.",
     example: "The artist created an intricate design."
   },
 
@@ -380,6 +406,7 @@ const quizData = [
       "To enter or interfere without permission"
     ],
     answer: 3,
+    explanation: "'Intrude' means to enter a place or become involved without invitation or permission.",
     example: "I do not want to intrude on your private conversation."
   },
 
@@ -393,6 +420,7 @@ const quizData = [
       "Temporary"
     ],
     answer: 0,
+    explanation: "'Invariable' means never changing or always remaining the same.",
     example: "Her invariable kindness impressed everyone."
   },
 
@@ -406,6 +434,7 @@ const quizData = [
       "To praise"
     ],
     answer: 0,
+    explanation: "'Irritate' means to annoy someone or cause discomfort.",
     example: "The noise began to irritate him."
   },
 
@@ -419,6 +448,7 @@ const quizData = [
       "Opportunity"
     ],
     answer: 2,
+    explanation: "'Jeopardy' means danger or exposure to the possibility of harm or loss.",
     example: "His careless decision put the project in jeopardy."
   }
 ];
