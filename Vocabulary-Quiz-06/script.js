@@ -42,7 +42,8 @@ const quizData = [
         ],
         answer: 3,
         explanation: "Exploit means to use someone or something unfairly or selfishly for personal benefit."
-    },
+    
+        example: "The company was accused of exploiting workers by paying them unfairly.",},
 
     {
         question: "If something covers a large area or involves a large amount, which word describes it?",
@@ -54,7 +55,8 @@ const quizData = [
         ],
         answer: 1,
         explanation: "Extensive means covering a large area or involving a large amount of something."
-    },
+    
+        example: "The research team conducted an extensive study across several regions.",},
 
     {
         question: "What does 'extinct' mean when we talk about a species?",
@@ -66,7 +68,8 @@ const quizData = [
         ],
         answer: 2,
         explanation: "Extinct means no longer existing, especially because all members of a species have died."
-    },
+    
+        example: "The dodo became extinct centuries ago.",},
 
     {
         question: "What is meant by 'extravagance'?",
@@ -78,7 +81,8 @@ const quizData = [
         ],
         answer: 0,
         explanation: "Extravagance refers to excessive or unnecessary spending, especially on luxury or comfort."
-    },
+    
+        example: "His extravagance left him with very little money.",},
 
     {
         question: "Someone who is 'exultant' is most likely feeling what?",
@@ -90,7 +94,8 @@ const quizData = [
         ],
         answer: 3,
         explanation: "Exultant means showing or feeling great happiness and triumph."
-    },
+    
+        example: "The team was exultant after winning the championship.",},
 
     {
         question: "If a book completely holds your attention, it can be said to ____ you.",
@@ -102,7 +107,8 @@ const quizData = [
         ],
         answer: 1,
         explanation: "Fascinate means to attract and hold someone's attention or interest strongly."
-    },
+    
+        example: "The documentary was fascinating and held the audience's attention.",},
 
     {
         question: "A long-lasting and bitter disagreement between two families is called a ____.",
@@ -114,7 +120,8 @@ const quizData = [
         ],
         answer: 2,
         explanation: "A feud is a long and bitter conflict or disagreement between people or groups."
-    },
+    
+        example: "A feud between the two families lasted for generations.",},
 
     {
         question: "What does it mean to 'flatter' someone?",
@@ -126,7 +133,8 @@ const quizData = [
         ],
         answer: 0,
         explanation: "Flatter means to praise someone excessively, often to gain their favor or make them feel pleased."
-    },
+    
+        example: "She tried to flatter her manager by praising every decision.",},
 
     {
         question: "What does 'flee' mean?",
@@ -138,7 +146,8 @@ const quizData = [
         ],
         answer: 3,
         explanation: "Flee means to run away quickly from danger, trouble, or an unpleasant situation."
-    },
+    
+        example: "The villagers had to flee when the wildfire approached.",},
 
     {
         question: "Which word means to predict or expect something before it happens?",
@@ -150,7 +159,8 @@ const quizData = [
         ],
         answer: 1,
         explanation: "Foresee means to predict or expect that something will happen in the future."
-    },
+    
+        example: "We must foresee possible problems before launching the project.",},
 
     {
         question: "What is 'fraud'?",
@@ -162,7 +172,8 @@ const quizData = [
         ],
         answer: 2,
         explanation: "Fraud is intentional deception used to gain money, property, or another advantage."
-    },
+    
+        example: "The investigation uncovered a fraud involving fake invoices.",},
 
     {
         question: "If someone constantly worries about a problem, which word best describes this behavior?",
@@ -174,7 +185,8 @@ const quizData = [
         ],
         answer: 0,
         explanation: "Fret means to worry or feel anxious about something, often unnecessarily."
-    },
+    
+        example: "Try not to fret about things you cannot control.",},
 
     {
         question: "Which word describes extremely cold weather?",
@@ -186,7 +198,8 @@ const quizData = [
         ],
         answer: 3,
         explanation: "Frigid means extremely cold. It can also describe someone who is emotionally cold or unfriendly."
-    },
+    
+        example: "The lake remained frigid throughout the winter.",},
 
     {
         question: "If an effort produces no useful result, it can be described as ____.",
@@ -198,7 +211,8 @@ const quizData = [
         ],
         answer: 1,
         explanation: "Futile means incapable of producing any useful or successful result."
-    },
+    
+        example: "Arguing with someone who refuses to listen may prove futile.",},
 
     {
         question: "What happens when a seed begins to grow?",
@@ -210,7 +224,8 @@ const quizData = [
         ],
         answer: 2,
         explanation: "Germinate means to begin to grow, especially when a seed starts developing into a plant."
-    },
+    
+        example: "The seeds will germinate if they receive enough warmth and water.",},
 
     {
         question: "What is the 'gist' of a speech?",
@@ -222,7 +237,8 @@ const quizData = [
         ],
         answer: 0,
         explanation: "Gist means the main idea or essential meaning of something."
-    },
+    
+        example: "The gist of the report is that costs are rising.",},
 
     {
         question: "Which word best describes something attractive, fashionable, and associated with luxury?",
@@ -234,7 +250,8 @@ const quizData = [
         ],
         answer: 3,
         explanation: "Glamorous means attractive, exciting, and fashionable, often associated with luxury or elegance."
-    },
+    
+        example: "The actress wore a glamorous dress to the award ceremony.",},
 
     {
         question: "If an employee makes a formal complaint about unfair treatment, the complaint may be called a ____.",
@@ -246,7 +263,8 @@ const quizData = [
         ],
         answer: 1,
         explanation: "A grievance is a complaint about something considered unfair, wrong, or unsatisfactory."
-    },
+    
+        example: "The employee submitted a grievance about the unfair schedule.",},
 
     {
         question: "Which word describes a person who is easily annoyed and often in a bad mood?",
@@ -258,7 +276,8 @@ const quizData = [
         ],
         answer: 2,
         explanation: "Grouchy means easily annoyed, irritable, or in a bad mood."
-    },
+    
+        example: "He became grouchy after sleeping badly.",},
 
     {
         question: "What is a 'grudge'?",
@@ -270,7 +289,8 @@ const quizData = [
         ],
         answer: 0,
         explanation: "A grudge is a lasting feeling of resentment or anger toward someone because of a past action."
-    },
+    
+        example: "She still held a grudge over the broken promise.",},
 
     {
         question: "If someone's memory of an event is unclear, it can be described as ____.",
@@ -282,7 +302,8 @@ const quizData = [
         ],
         answer: 3,
         explanation: "Hazy means unclear, indistinct, or difficult to remember or understand."
-    },
+    
+        example: "The mountain looked hazy through the morning mist.",},
 
     {
         question: "A very busy day filled with many activities can be described as ____.",
@@ -294,7 +315,8 @@ const quizData = [
         ],
         answer: 1,
         explanation: "Hectic describes a situation or period that is extremely busy, active, and often stressful."
-    },
+    
+        example: "It was a hectic week with meetings every day.",},
 
     {
         question: "Which word means extremely funny?",
@@ -306,7 +328,8 @@ const quizData = [
         ],
         answer: 2,
         explanation: "Hilarious means extremely funny or causing a lot of laughter."
-    },
+    
+        example: "The comedian told a hilarious story that made everyone laugh.",},
 
     {
         question: "What does it mean if someone's voice is 'hoarse'?",
@@ -318,7 +341,8 @@ const quizData = [
         ],
         answer: 0,
         explanation: "Hoarse describes a rough, harsh, or weak voice, often caused by illness or overuse."
-    },
+    
+        example: "After shouting at the match, his voice became hoarse.",},
 
     {
         question: "What is a 'hoax'?",
@@ -330,7 +354,8 @@ const quizData = [
         ],
         answer: 3,
         explanation: "A hoax is a deliberately created false story or deception intended to trick people."
-    },
+    
+        example: "The online message turned out to be a hoax.",},
 
     {
         question: "What does 'humid' mean when describing the weather?",
@@ -342,7 +367,8 @@ const quizData = [
         ],
         answer: 1,
         explanation: "Humid means that the air contains a high amount of water vapor or moisture."
-    },
+    
+        example: "The weather is hot and humid during the rainy season.",},
 
     {
         question: "If two documents are exactly the same, which word can describe them?",
@@ -354,7 +380,8 @@ const quizData = [
         ],
         answer: 2,
         explanation: "Identical means exactly the same in appearance, characteristics, or nature."
-    },
+    
+        example: "The two documents are identical in every detail.",},
 
     {
         question: "A person who lacks knowledge or awareness about a subject may be described as ____.",
@@ -366,7 +393,8 @@ const quizData = [
         ],
         answer: 0,
         explanation: "Ignorant means lacking knowledge, information, or awareness about something."
-    },
+    
+        example: "People who are ignorant of the rules may make avoidable mistakes.",},
 
     {
         question: "If a storm gradually becomes less severe, which word best describes the change?",
@@ -378,7 +406,8 @@ const quizData = [
         ],
         answer: 3,
         explanation: "Abate means to become less intense, severe, or widespread, or to make something less intense."
-    },
+    
+        example: "The heavy rain began to abate by evening.",},
 
     {
         question: "Which word means to strongly dislike or hate something?",
@@ -390,7 +419,8 @@ const quizData = [
         ],
         answer: 1,
         explanation: "Abhor means to strongly dislike or hate something because it is considered extremely unpleasant or wrong."
-    }
+    
+        example: "I abhor cruelty to animals.",}
 
 ];
 
