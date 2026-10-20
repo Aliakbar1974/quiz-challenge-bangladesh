@@ -59,85 +59,99 @@ const quizData = [
     question: "What is the meaning of \"Limpid\"?",
     options: ["Muddy", "Clear and transparent", "Complex", "Heavy"],
     answer: 1, // B
-    explanation: "Limpid means completely clear and transparent.<br><br><strong>Example:</strong> We could see the fish swimming in the limpid stream."
+    example: "We could see the fish swimming in the limpid stream.",
+    explanation: "Limpid means completely clear and transparent."
   },
   {
     question: "What is the meaning of \"Invariable\"?",
     options: ["Unpredictable", "Temporary", "Never changing", "Frequent"],
     answer: 2, // C
-    explanation: "Invariable means never changing, constant, or consistent.<br><br><strong>Example:</strong> His invariable good humor put everyone at ease."
+    example: "His invariable good humor put everyone at ease.",
+    explanation: "Invariable means never changing, constant, or consistent."
   },
   {
     question: "What is the meaning of \"Intrepid\"?",
     options: ["Fearful", "Tired", "Fearless and adventurous", "Cautious"],
     answer: 2, // C
-    explanation: "Intrepid means fearless, brave, and adventurous.<br><br><strong>Example:</strong> The intrepid explorer journeyed into the heart of the jungle."
+    example: "The intrepid explorer journeyed into the heart of the jungle.",
+    explanation: "Intrepid means fearless, brave, and adventurous."
   },
   {
     question: "What is the meaning of \"Intricate\"?",
     options: ["Simple", "Very complicated or detailed", "Smooth", "Short"],
     answer: 1, // B
-    explanation: "Intricate means very complicated or detailed.<br><br><strong>Example:</strong> The watchmaker repaired the intricate mechanism with patience."
+    example: "The watchmaker repaired the intricate mechanism with patience.",
+    explanation: "Intricate means very complicated or detailed."
   },
   {
     question: "What is the meaning of \"Imminent\"?",
     options: ["Distant", "Unlikely", "Past", "About to happen soon"],
     answer: 3, // D
-    explanation: "Imminent means about to happen very soon.<br><br><strong>Example:</strong> The dark clouds indicated that rain was imminent."
+    example: "The dark clouds indicated that rain was imminent.",
+    explanation: "Imminent means about to happen very soon."
   },
   {
     question: "What is the meaning of \"Furtive\"?",
     options: ["Open", "Honest", "Loud", "Secretive or stealthy"],
     answer: 3, // D
-    explanation: "Furtive means attempting to avoid notice or attention, usually out of guilt or secrecy.<br><br><strong>Example:</strong> He cast a furtive glance over his shoulder."
+    example: "He cast a furtive glance over his shoulder.",
+    explanation: "Furtive means attempting to avoid notice or attention, usually out of guilt or secrecy."
   },
   {
     question: "What is the meaning of \"Eradicate\"?",
     options: ["To completely destroy or remove", "To create", "To support", "To postpone"],
     answer: 0, // A
-    explanation: "Eradicate means to destroy completely or put an end to something.<br><br><strong>Example:</strong> Vaccination programs helped eradicate the disease."
+    example: "Vaccination programs helped eradicate the disease.",
+    explanation: "Eradicate means to destroy completely or put an end to something."
   },
   {
     question: "What is the meaning of \"Expound\"?",
     options: ["To present and explain in detail", "To hide", "To shorten", "To confuse"],
     answer: 0, // A
-    explanation: "Expound means to present and explain a theory or idea in detail.<br><br><strong>Example:</strong> The professor expounded his new economic theory during the lecture."
+    example: "The professor expounded his new economic theory during the lecture.",
+    explanation: "Expound means to present and explain a theory or idea in detail."
   },
   {
     question: "What is the meaning of \"Exultant\"?",
     options: ["Sad", "Triumphantly happy", "Anxious", "Bored"],
     answer: 1, // B
-    explanation: "Exultant means feeling or showing triumphant joy or delight.<br><br><strong>Example:</strong> The exultant crowd cheered as their team won the trophy."
+    example: "The exultant crowd cheered as their team won the trophy.",
+    explanation: "Exultant means feeling or showing triumphant joy or delight."
   },
   {
     question: "What is the meaning of \"Equitable\"?",
     options: ["Fair and impartial", "Biased", "Expensive", "Unequal"],
     answer: 0, // A
-    explanation: "Equitable means fair, reasonable, and impartial.<br><br><strong>Example:</strong> They reached an equitable agreement that satisfied both parties."
+    example: "They reached an equitable agreement that satisfied both parties.",
+    explanation: "Equitable means fair, reasonable, and impartial."
   },
   {
     question: "What is the meaning of \"Congeal\"?",
     options: ["To melt", "To evaporate", "To become thick or solid", "To dissolve"],
     answer: 2, // C
-    explanation: "Congeal means to become thick or solid, especially by cooling.<br><br><strong>Example:</strong> The fat began to congeal on top of the cold soup."
+    example: "The fat began to congeal on top of the cold soup.",
+    explanation: "Congeal means to become thick or solid, especially by cooling."
   },
   {
     question: "What is the meaning of \"Congenial\"?",
     options: ["Pleasant and agreeable", "Hostile", "Rude", "Strict"],
     answer: 0, // A
-    explanation: "Congenial means pleasant, friendly, or suited to one's tastes.<br><br><strong>Example:</strong> They worked together in a very congenial atmosphere."
+    example: "They worked together in a very congenial atmosphere.",
+    explanation: "Congenial means pleasant, friendly, or suited to one's tastes."
   },
   {
     question: "What is the meaning of \"Credulous\"?",
     options: ["Skeptical", "Wise", "Stubborn", "Too ready to believe things"],
     answer: 3, // D
-    explanation: "Credulous means having or showing too great a readiness to believe things (gullible).<br><br><strong>Example:</strong> She was credulous enough to believe his wild stories."
+    example: "She was credulous enough to believe his wild stories.",
+    explanation: "Credulous means having or showing too great a readiness to believe things (gullible)."
   },
   {
     question: "What is the meaning of \"Arraign\"?",
     options: ["To praise", "To call before a court to answer charges", "To forgive", "To reward"],
     answer: 1, // B
-    explanation: "Arraign means to call or bring someone before a court to answer a criminal charge.<br><br><strong>Example:</strong> The suspect will be arraigned in court tomorrow morning."
+    example: "The suspect will be arraigned in court tomorrow morning.",
+    explanation: "Arraign means to call or bring someone before a court to answer a criminal charge."
   }
 ];
 
@@ -1052,7 +1066,7 @@ function showResult() {
         else if (percentage >= 75) {
 
             resultMessage.textContent =
-                "🌟 Very Good! Keep improving your Grammar.";
+                "🌟 Very Good! Keep improving your Vocabulary.";
 
             playSound("success");
 
