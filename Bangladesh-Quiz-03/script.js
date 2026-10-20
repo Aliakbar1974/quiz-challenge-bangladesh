@@ -452,7 +452,7 @@ function showQuestion() {
             <div class="quiz-top">
 
                 <div class="score">
-                    Score: <span id="score">0</span>/${quizData.length}
+                    Score: <span id="score">${score}</span>/${quizData.length}
                 </div>
 
                 <div class="question-number">
