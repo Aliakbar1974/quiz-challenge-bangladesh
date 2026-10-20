@@ -132,7 +132,7 @@ const quizData = [
         ],
         answer: 1,
         explanation: "Aspire means to have a strong desire or ambition to achieve something."
-        example: "She hopes to aspire to a leadership role through hard work."
+        example: "She aspires to a leadership role through hard work."
     },
 
     {
