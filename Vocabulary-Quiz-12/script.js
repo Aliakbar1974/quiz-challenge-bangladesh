@@ -234,7 +234,7 @@ const quizData = [
             "To slow down or delay the progress of something"
         ],
         answer: 3,
-        explanation: "As a verb, 'retard' means to slow down or delay the development or progress of something.",
+        explanation: "As a verb, 'retard' can mean to slow down or delay progress, especially in formal writing. Note: when used as a label for a person, this word is offensive and should be avoided.",
         example: "Lack of investment can retard economic growth."
     },
 
