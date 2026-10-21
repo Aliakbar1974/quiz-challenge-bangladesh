@@ -40,7 +40,7 @@ const quizData = [
             "To love or admire someone very much"
         ],
         answer: 3,
-        explanation: "Adore means to love, admire, or like someone or something very much."
+        explanation: "Adore means to love, admire, or like someone or something very much.",
         example: "Children often adore stories about brave heroes."
     },
 
@@ -53,7 +53,7 @@ const quizData = [
             "Unable to make decisions"
         ],
         answer: 0,
-        explanation: "Adroit means skillful, clever, and effective, especially when handling difficult situations."
+        explanation: "Adroit means skillful, clever, and effective, especially when handling difficult situations.",
         example: "The adroit mechanic repaired the engine quickly."
     },
 
@@ -66,7 +66,7 @@ const quizData = [
             "Working without payment"
         ],
         answer: 1,
-        explanation: "Affluent means having a lot of money and a high standard of living."
+        explanation: "Affluent means having a lot of money and a high standard of living.",
         example: "The affluent family donated generously to the local school."
     },
 
@@ -79,7 +79,7 @@ const quizData = [
             "To remove something completely"
         ],
         answer: 2,
-        explanation: "Aggravate means to make a problem, situation, or condition worse."
+        explanation: "Aggravate means to make a problem, situation, or condition worse.",
         example: "Lack of sleep can aggravate a headache."
     },
 
@@ -92,7 +92,7 @@ const quizData = [
             "To increase the strength, amount, or effect of something"
         ],
         answer: 3,
-        explanation: "Amplify means to increase the strength, amount, volume, or effect of something."
+        explanation: "Amplify means to increase the strength, amount, volume, or effect of something.",
         example: "The microphone will amplify the speaker's voice."
     },
 
@@ -105,7 +105,7 @@ const quizData = [
             "To repair an object"
         ],
         answer: 0,
-        explanation: "Appraise means to examine something and estimate its value, quality, or importance."
+        explanation: "Appraise means to examine something and estimate its value, quality, or importance.",
         example: "An expert was asked to appraise the painting."
     },
 
@@ -118,7 +118,7 @@ const quizData = [
             "Always willing to accept criticism"
         ],
         answer: 2,
-        explanation: "Arrogant means behaving as if you are more important, intelligent, or capable than others."
+        explanation: "Arrogant means behaving as if you are more important, intelligent, or capable than others.",
         example: "His arrogant attitude made teamwork difficult."
     },
 
@@ -131,7 +131,7 @@ const quizData = [
             "To copy another person's behavior"
         ],
         answer: 1,
-        explanation: "Aspire means to have a strong desire or ambition to achieve something."
+        explanation: "Aspire means to have a strong desire or ambition to achieve something.",
         example: "She aspires to a leadership role through hard work."
     },
 
@@ -144,7 +144,7 @@ const quizData = [
             "To explain something clearly"
         ],
         answer: 0,
-        explanation: "Astound means to surprise or impress someone greatly."
+        explanation: "Astound means to surprise or impress someone greatly.",
         example: "The scientist's discovery astounded the entire research team."
     },
 
@@ -157,7 +157,7 @@ const quizData = [
             "Away from the correct path or direction"
         ],
         answer: 3,
-        explanation: "Astray means away from the correct path, direction, or intended course."
+        explanation: "Astray means away from the correct path, direction, or intended course.",
         example: "Without a map, the hikers went astray in the forest."
     },
 
@@ -170,7 +170,7 @@ const quizData = [
             "Afraid of ordinary decisions"
         ],
         answer: 1,
-        explanation: "Audacious means very bold, confident, or willing to take risks."
+        explanation: "Audacious means very bold, confident, or willing to take risks.",
         example: "It was an audacious plan to cross the desert alone."
     },
 
@@ -183,7 +183,7 @@ const quizData = [
             "To completely replace something"
         ],
         answer: 2,
-        explanation: "Augment means to increase the size, amount, value, or effectiveness of something."
+        explanation: "Augment means to increase the size, amount, value, or effectiveness of something.",
         example: "The company hired more staff to augment its existing team."
     },
 
@@ -196,7 +196,7 @@ const quizData = [
             "Designed only for temporary use"
         ],
         answer: 0,
-        explanation: "Autonomous means independent and able to operate or make decisions without external control."
+        explanation: "Autonomous means independent and able to operate or make decisions without external control.",
         example: "The region became autonomous and managed many of its own affairs."
     },
 
@@ -209,7 +209,7 @@ const quizData = [
             "A strong dislike or unwillingness toward something"
         ],
         answer: 3,
-        explanation: "Aversion means a strong feeling of dislike or opposition toward someone or something."
+        explanation: "Aversion means a strong feeling of dislike or opposition toward someone or something.",
         example: "He has a strong aversion to unnecessary risk."
     },
 
@@ -222,7 +222,7 @@ const quizData = [
             "To explain something clearly"
         ],
         answer: 1,
-        explanation: "Baffle means to confuse someone so that they cannot understand or solve something."
+        explanation: "Baffle means to confuse someone so that they cannot understand or solve something.",
         example: "The difficult puzzle continued to baffle the students."
     },
 
@@ -235,7 +235,7 @@ const quizData = [
             "A person who provides financial assistance"
         ],
         answer: 0,
-        explanation: "Beneficiary means a person or organization that receives money, property, or another benefit."
+        explanation: "Beneficiary means a person or organization that receives money, property, or another benefit.",
         example: "She was the beneficiary of her uncle's will."
     },
 
@@ -248,7 +248,7 @@ const quizData = [
             "To make someone confident"
         ],
         answer: 2,
-        explanation: "Bewilder means to confuse someone so much that they do not know what to do or think."
+        explanation: "Bewilder means to confuse someone so much that they do not know what to do or think.",
         example: "The confusing instructions bewildered the new employees."
     },
 
@@ -261,7 +261,7 @@ const quizData = [
             "To discuss an issue formally"
         ],
         answer: 1,
-        explanation: "Bicker means to argue repeatedly about small or unimportant matters."
+        explanation: "Bicker means to argue repeatedly about small or unimportant matters.",
         example: "The siblings often bicker over small things."
     },
 
@@ -274,7 +274,7 @@ const quizData = [
             "A careless or embarrassing mistake"
         ],
         answer: 3,
-        explanation: "Blunder means a careless, foolish, or serious mistake."
+        explanation: "Blunder means a careless, foolish, or serious mistake.",
         example: "Forgetting the deadline was a costly blunder."
     },
 
@@ -287,7 +287,7 @@ const quizData = [
             "A private conversation"
         ],
         answer: 0,
-        explanation: "Brawl means a noisy and uncontrolled physical fight, usually involving several people."
+        explanation: "Brawl means a noisy and uncontrolled physical fight, usually involving several people.",
         example: "The argument escalated into a brawl outside the stadium."
     },
 
@@ -300,7 +300,7 @@ const quizData = [
             "Heavy and extremely strong"
         ],
         answer: 2,
-        explanation: "Brittle means hard but easily broken, cracked, or damaged rather than bent."
+        explanation: "Brittle means hard but easily broken, cracked, or damaged rather than bent.",
         example: "The old plastic became brittle in the cold weather."
     },
 
@@ -313,7 +313,7 @@ const quizData = [
             "Extremely harsh, violent, or cruel"
         ],
         answer: 3,
-        explanation: "Brutal means extremely violent, cruel, harsh, or unpleasant."
+        explanation: "Brutal means extremely violent, cruel, harsh, or unpleasant.",
         example: "The team faced brutal conditions during the winter expedition."
     },
 
@@ -326,7 +326,7 @@ const quizData = [
             "A person who avoids conflict"
         ],
         answer: 0,
-        explanation: "A bully is someone who repeatedly uses strength or power to hurt, frighten, or control someone weaker."
+        explanation: "A bully is someone who repeatedly uses strength or power to hurt, frighten, or control someone weaker.",
         example: "The teacher intervened when she saw an older student bully a classmate."
     },
 
@@ -339,7 +339,7 @@ const quizData = [
             "Easily affected by emotions"
         ],
         answer: 1,
-        explanation: "Callous means showing little concern for the feelings, suffering, or problems of others."
+        explanation: "Callous means showing little concern for the feelings, suffering, or problems of others.",
         example: "His callous remarks hurt his colleague's feelings."
     },
 
@@ -352,7 +352,7 @@ const quizData = [
             "A person who voluntarily joins a group"
         ],
         answer: 2,
-        explanation: "Captive means a person or animal that has been captured and is being kept under control or in confinement."
+        explanation: "Captive means a person or animal that has been captured and is being kept under control or in confinement.",
         example: "The rescued animal had been held captive for years."
     },
 
@@ -365,7 +365,7 @@ const quizData = [
             "To criticize someone publicly"
         ],
         answer: 0,
-        explanation: "Captivate means to attract and hold someone's attention or interest very strongly."
+        explanation: "Captivate means to attract and hold someone's attention or interest very strongly.",
         example: "The storyteller's vivid descriptions captivated the audience."
     },
 
@@ -378,7 +378,7 @@ const quizData = [
             "A situation of complete control"
         ],
         answer: 1,
-        explanation: "Chaos means a state of complete confusion, disorder, or lack of organization."
+        explanation: "Chaos means a state of complete confusion, disorder, or lack of organization.",
         example: "The sudden power outage caused chaos in the office."
     },
 
@@ -391,7 +391,7 @@ const quizData = [
             "Abstaining from sexual activity or avoiding sexual immorality"
         ],
         answer: 3,
-        explanation: "Chaste generally means abstaining from sexual activity or avoiding behavior considered sexually immoral."
+        explanation: "Chaste generally means abstaining from sexual activity or avoiding behavior considered sexually immoral.",
         example: "The story portrays a chaste and respectful relationship."
     },
 
@@ -404,7 +404,7 @@ const quizData = [
             "Large and spacious"
         ],
         answer: 0,
-        explanation: "Cluttered means filled with too many objects or things in an untidy or disorganized way."
+        explanation: "Cluttered means filled with too many objects or things in an untidy or disorganized way.",
         example: "Her cluttered desk made it hard to find the report."
     },
 
@@ -417,7 +417,7 @@ const quizData = [
             "A lack of interest in others"
         ],
         answer: 2,
-        explanation: "Compassion means a feeling of sympathy and concern for someone who is suffering, together with a desire to help."
+        explanation: "Compassion means a feeling of sympathy and concern for someone who is suffering, together with a desire to help.",
         example: "The nurse treated every patient with compassion."
     }
 ];
