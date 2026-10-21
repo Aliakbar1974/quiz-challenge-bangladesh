@@ -56,7 +56,7 @@ function playSound(soundName) {
 
 const quizData = [
   {
-    id: "VOC261",
+    id: "VOC401",
     question: "What does 'Erudite' mean?",
     options: ["Extremely careless", "Lacking intelligence", "Highly educated and knowledgeable", "Easily frightened"],
     answer: 2,
@@ -64,7 +64,7 @@ const quizData = [
     example: "The erudite professor gave an impressive lecture on ancient history."
   },
   {
-    id: "VOC262",
+    id: "VOC402",
     question: "What is a 'Eulogy'?",
     options: ["A speech praising someone, especially after death", "A formal legal accusation", "A written set of instructions", "A heated disagreement"],
     answer: 0,
@@ -72,7 +72,7 @@ const quizData = [
     example: "She delivered a heartfelt eulogy at her grandfather's funeral."
   },
   {
-    id: "VOC263",
+    id: "VOC403",
     question: "What does 'Exacting' mean?",
     options: ["Easy and undemanding", "Talkative and sociable", "Calm and unemotional", "Demanding great care, effort, or precision"],
     answer: 3,
@@ -80,7 +80,7 @@ const quizData = [
     example: "The exacting job required patience and careful attention to detail."
   },
   {
-    id: "VOC264",
+    id: "VOC404",
     question: "What does 'Facile' mean?",
     options: ["Unwilling to forgive", "Easily achieved or done, sometimes without enough thought", "Deep and complicated", "Extremely productive"],
     answer: 1,
@@ -88,7 +88,7 @@ const quizData = [
     example: "The critic rejected his facile explanation of the complex problem."
   },
   {
-    id: "VOC265",
+    id: "VOC405",
     question: "What is the meaning of 'Forbearance'?",
     options: ["A strong desire for revenge", "The act of making a law", "Patience and self-control, especially when provoked", "The ability to speak fluently"],
     answer: 2,
@@ -96,7 +96,7 @@ const quizData = [
     example: "Her forbearance helped her remain calm during the disagreement."
   },
   {
-    id: "VOC266",
+    id: "VOC406",
     question: "What does 'Garrulous' mean?",
     options: ["Quiet and reserved", "Highly educated", "Difficult to understand", "Excessively talkative"],
     answer: 3,
@@ -104,7 +104,7 @@ const quizData = [
     example: "The garrulous passenger chatted throughout the entire journey."
   },
   {
-    id: "VOC267",
+    id: "VOC407",
     question: "What does 'Incisive' mean?",
     options: ["Clear, direct, and analytically sharp", "Unclear and confusing", "Overly flattering", "Slow and unproductive"],
     answer: 0,
@@ -112,7 +112,7 @@ const quizData = [
     example: "The journalist asked incisive questions during the interview."
   },
   {
-    id: "VOC268",
+    id: "VOC408",
     question: "What is an 'Indictment'?",
     options: ["A formal expression of praise", "A promise to obey a law", "A formal accusation of a serious crime", "A rule of good conduct"],
     answer: 2,
@@ -120,7 +120,7 @@ const quizData = [
     example: "The grand jury issued an indictment against the suspect."
   },
   {
-    id: "VOC269",
+    id: "VOC409",
     question: "What does 'Obsequious' mean?",
     options: ["Calm and emotionally controlled", "Extremely knowledgeable", "Strongly opposed to authority", "Excessively eager to please or obey someone"],
     answer: 3,
@@ -128,7 +128,7 @@ const quizData = [
     example: "His obsequious behavior toward the manager made his colleagues uncomfortable."
   },
   {
-    id: "VOC270",
+    id: "VOC410",
     question: "What does 'Phlegmatic' mean?",
     options: ["Easily angered", "Calm and unemotional, even in difficult situations", "Excessively talkative", "Highly ambitious"],
     answer: 1,
@@ -136,7 +136,7 @@ const quizData = [
     example: "Despite the emergency, the phlegmatic doctor remained composed."
   },
   {
-    id: "VOC271",
+    id: "VOC411",
     question: "What does 'Posterity' mean?",
     options: ["People living in the present", "A group of close friends", "A person's ancestors", "Future generations"],
     answer: 3,
@@ -144,7 +144,7 @@ const quizData = [
     example: "We should protect the environment for posterity."
   },
   {
-    id: "VOC272",
+    id: "VOC412",
     question: "What is a 'Precept'?",
     options: ["A formal accusation", "A rule or principle that guides behavior", "A long and emotional speech", "A feeling of bitterness"],
     answer: 1,
@@ -152,7 +152,7 @@ const quizData = [
     example: "Honesty is an important precept in ethical leadership."
   },
   {
-    id: "VOC273",
+    id: "VOC413",
     question: "What does 'Profound' mean?",
     options: ["Superficial and shallow", "Easy to understand but unimportant", "Very deep, intense, or significant", "Unwilling to speak"],
     answer: 2,
@@ -160,7 +160,7 @@ const quizData = [
     example: "The book had a profound effect on her understanding of life."
   },
   {
-    id: "VOC274",
+    id: "VOC414",
     question: "What does 'Prolific' mean?",
     options: ["Producing very little", "Speaking in a confusing way", "Avoiding difficult tasks", "Producing a large amount of work or results"],
     answer: 3,
@@ -168,7 +168,7 @@ const quizData = [
     example: "The prolific writer published three novels in one year."
   },
   {
-    id: "VOC275",
+    id: "VOC415",
     question: "What does 'Promulgate' mean?",
     options: ["To officially announce or make a law or rule known", "To withdraw a legal rule", "To criticize someone harshly", "To repeat a statement privately"],
     answer: 0,
@@ -176,7 +176,7 @@ const quizData = [
     example: "The government promulgated new regulations to improve public safety."
   },
   {
-    id: "VOC276",
+    id: "VOC416",
     question: "What does 'Recondite' mean?",
     options: ["Common and familiar", "Difficult to understand because it is specialized or obscure", "Easy to understand", "Widely discussed in public"],
     answer: 1,
@@ -184,7 +184,7 @@ const quizData = [
     example: "The article explored a recondite topic in theoretical physics."
   },
   {
-    id: "VOC277",
+    id: "VOC417",
     question: "What does 'Reiterate' mean?",
     options: ["To reject a proposal formally", "To praise someone publicly", "To say something again for emphasis or clarity", "To approve a law officially"],
     answer: 2,
@@ -192,7 +192,7 @@ const quizData = [
     example: "The teacher had to reiterate the instructions before the exam."
   },
   {
-    id: "VOC278",
+    id: "VOC418",
     question: "What does 'Rancor' mean?",
     options: ["Deep respect and admiration", "Patience during hardship", "A formal public announcement", "Persistent bitterness or resentment"],
     answer: 3,
@@ -200,7 +200,7 @@ const quizData = [
     example: "Years of rancor prevented the two families from reconciling."
   },
   {
-    id: "VOC279",
+    id: "VOC419",
     question: "What does 'Ratify' mean?",
     options: ["To formally approve an agreement or treaty", "To challenge a decision publicly", "To explain something in detail", "To accuse someone of a crime"],
     answer: 0,
@@ -208,7 +208,7 @@ const quizData = [
     example: "The parliament voted to ratify the international treaty."
   },
   {
-    id: "VOC280",
+    id: "VOC420",
     question: "What does 'Rebut' mean?",
     options: ["To accept an argument without question", "To repeat an idea exactly", "To argue against a claim with evidence or reasoning", "To praise someone warmly"],
     answer: 2,
