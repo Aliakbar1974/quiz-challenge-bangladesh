@@ -237,19 +237,43 @@
     const issues = [];
     if (!Array.isArray(data) || data.length === 0) return ["window.QUIZ_DATA must be a non-empty array."];
     const ids = new Set();
+    const stems = new Set();
+    const distribution = [0, 0, 0, 0];
     data.forEach((q, i) => {
       const label = "Question " + (i + 1);
-      if (!q || typeof q.question !== "string" || !q.question.trim()) issues.push(label + ": missing question text.");
-      if (!Array.isArray(q.options) || q.options.length !== 4) issues.push(label + ": exactly four options are required.");
-      if (!Number.isInteger(q.answer) || q.answer < 0 || q.answer > 3) issues.push(label + ": answer must be an option index from 0 to 3.");
-      if (Array.isArray(q.options) && new Set(q.options.map(x => String(x).trim().toLowerCase())).size !== q.options.length) issues.push(label + ": duplicate options found.");
-      if (q.id) {
-        if (ids.has(q.id)) issues.push(label + ": duplicate question ID " + q.id + ".");
-        ids.add(q.id);
+      if (!q || typeof q.question !== "string" || !q.question.trim()) {
+        issues.push(label + ": missing question text.");
+      } else {
+        const stem = q.question.trim().toLowerCase();
+        if (stems.has(stem)) issues.push(label + ": duplicate question text found.");
+        stems.add(stem);
+      }
+      if (!Array.isArray(q.options) || q.options.length !== 4) {
+        issues.push(label + ": exactly four options are required.");
+      } else if (new Set(q.options.map(x => String(x).trim().toLowerCase())).size !== q.options.length) {
+        issues.push(label + ": duplicate options found.");
+      }
+      if (!Number.isInteger(q.answer) || q.answer < 0 || q.answer > 3) {
+        issues.push(label + ": answer must be an option index from 0 to 3.");
+      } else {
+        distribution[q.answer]++;
+      }
+      if (!q.id || !String(q.id).trim()) {
+        issues.push(label + ": a unique question ID is required.");
+      } else {
+        const id = String(q.id).trim();
+        if (ids.has(id)) issues.push(label + ": duplicate question ID " + id + ".");
+        ids.add(id);
       }
       if (!q.explanation || !String(q.explanation).trim()) issues.push(label + ": explanation is missing.");
       if (!q.example || !String(q.example).trim()) issues.push(label + ": example sentence is missing.");
     });
+    // For a normal-sized quiz, require at least three correct answers at each position.
+    if (data.length >= 12) {
+      distribution.forEach((count, index) => {
+        if (count < 3) issues.push("Answer distribution: option " + String.fromCharCode(65 + index) + " has only " + count + " correct answer(s); minimum is 3.");
+      });
+    }
     return issues;
   }
 
