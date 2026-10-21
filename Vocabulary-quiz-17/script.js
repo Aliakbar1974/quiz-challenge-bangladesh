@@ -56,7 +56,7 @@ function playSound(soundName) {
 
 const quizData = [
   {
-    id: "VOC281",
+    id: "VOC421",
     question: "What does 'Recluse' mean?",
     options: [
       "A person who travels frequently",
@@ -69,7 +69,7 @@ const quizData = [
     example: "The old man lived as a recluse in a small cottage in the hills."
   },
   {
-    id: "VOC282",
+    id: "VOC422",
     question: "What does 'Reconcile' mean?",
     options: [
       "To restore friendly relations or make things consistent",
@@ -82,7 +82,7 @@ const quizData = [
     example: "The two friends reconciled after discussing their misunderstanding."
   },
   {
-    id: "VOC283",
+    id: "VOC423",
     question: "What does 'Resolute' mean?",
     options: [
       "Easily confused",
@@ -95,7 +95,7 @@ const quizData = [
     example: "She remained resolute in her efforts to complete her education."
   },
   {
-    id: "VOC284",
+    id: "VOC424",
     question: "What is the meaning of 'Sagacity'?",
     options: [
       "A feeling of deep sadness",
@@ -108,7 +108,7 @@ const quizData = [
     example: "The leader's sagacity helped the team overcome a difficult challenge."
   },
   {
-    id: "VOC285",
+    id: "VOC425",
     question: "What does 'Scrutiny' mean?",
     options: [
       "A formal expression of gratitude",
@@ -121,7 +121,7 @@ const quizData = [
     example: "The financial records came under close scrutiny."
   },
   {
-    id: "VOC286",
+    id: "VOC426",
     question: "What does 'Sinuous' mean?",
     options: [
       "Having many curves or bends",
@@ -134,7 +134,7 @@ const quizData = [
     example: "A sinuous path wound through the green forest."
   },
   {
-    id: "VOC287",
+    id: "VOC427",
     question: "What does 'Taciturn' mean?",
     options: [
       "Fond of giving long speeches",
@@ -147,7 +147,7 @@ const quizData = [
     example: "The taciturn student usually listened carefully rather than joining every conversation."
   },
   {
-    id: "VOC288",
+    id: "VOC428",
     question: "What does 'Transcend' mean?",
     options: [
       "To reduce something gradually",
@@ -160,7 +160,7 @@ const quizData = [
     example: "Her achievements transcend the expectations of her early teachers."
   },
   {
-    id: "VOC289",
+    id: "VOC429",
     question: "What does 'Vehemence' mean?",
     options: [
       "Great force, intensity, or passion",
@@ -173,7 +173,7 @@ const quizData = [
     example: "He defended his proposal with great vehemence."
   },
   {
-    id: "VOC290",
+    id: "VOC430",
     question: "What does 'Vicarious' mean?",
     options: [
       "Experienced directly by oneself",
@@ -186,7 +186,7 @@ const quizData = [
     example: "She experienced vicarious excitement while watching her son compete."
   },
   {
-    id: "VOC291",
+    id: "VOC431",
     question: "What does 'Surfeit' mean?",
     options: [
       "A serious shortage of supplies",
@@ -199,7 +199,7 @@ const quizData = [
     example: "After a surfeit of rich food, he decided to eat lighter meals."
   },
   {
-    id: "VOC292",
+    id: "VOC432",
     question: "What does 'Supersede' mean?",
     options: [
       "To support an existing system",
@@ -212,7 +212,7 @@ const quizData = [
     example: "The new software will supersede the outdated system."
   },
   {
-    id: "VOC293",
+    id: "VOC433",
     question: "What does 'Quell' mean?",
     options: [
       "To encourage a conflict to grow",
@@ -225,7 +225,7 @@ const quizData = [
     example: "The police worked to quell the unrest in the city."
   },
   {
-    id: "VOC294",
+    id: "VOC434",
     question: "What does 'Proximity' mean?",
     options: [
       "The state of being near or close to something",
@@ -238,7 +238,7 @@ const quizData = [
     example: "The school's proximity to the library makes research convenient."
   },
   {
-    id: "VOC295",
+    id: "VOC435",
     question: "What does 'Perpetual' mean?",
     options: [
       "Lasting for a very short time",
@@ -251,7 +251,7 @@ const quizData = [
     example: "The perpetual noise from the construction site disturbed the residents."
   },
   {
-    id: "VOC296",
+    id: "VOC436",
     question: "What does 'Perilous' mean?",
     options: [
       "Comfortable and relaxing",
@@ -264,7 +264,7 @@ const quizData = [
     example: "The climbers faced a perilous journey across the icy mountain."
   },
   {
-    id: "VOC297",
+    id: "VOC437",
     question: "What does 'Obsequious' mean?",
     options: [
       "Excessively eager to please or obey someone",
@@ -277,7 +277,7 @@ const quizData = [
     example: "His obsequious behavior toward the manager made his colleagues uncomfortable."
   },
   {
-    id: "VOC298",
+    id: "VOC438",
     question: "What does 'Nadir' mean?",
     options: [
       "The highest point of success",
@@ -290,7 +290,7 @@ const quizData = [
     example: "The team's performance reached its nadir during the final match of the season."
   },
   {
-    id: "VOC299",
+    id: "VOC439",
     question: "What does 'Malign' mean?",
     options: [
       "To praise someone enthusiastically",
@@ -303,7 +303,7 @@ const quizData = [
     example: "It is unfair to malign someone's character without reliable evidence."
   },
   {
-    id: "VOC300",
+    id: "VOC440",
     question: "What does 'Lustrous' mean?",
     options: [
       "Dull and lacking brightness",
