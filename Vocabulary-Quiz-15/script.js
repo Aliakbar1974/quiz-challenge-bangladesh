@@ -54,7 +54,7 @@ function playSound(soundName) {
 const quizData = [
 
     {
-        id: "VOC361",
+        id: "VOC381",
         question: "What is the meaning of the word 'Abject'?",
         options: [
             "Extremely miserable or degraded",
@@ -68,7 +68,7 @@ const quizData = [
     },
 
     {
-        id: "VOC362",
+        id: "VOC382",
         question: "What is the meaning of the word 'Adroit'?",
         options: [
             "Careless and irresponsible",
@@ -82,7 +82,7 @@ const quizData = [
     },
 
     {
-        id: "VOC363",
+        id: "VOC383",
         question: "What is the meaning of the word 'Avarice'?",
         options: [
             "Extreme greed for wealth or material gain",
@@ -96,7 +96,7 @@ const quizData = [
     },
 
     {
-        id: "VOC364",
+        id: "VOC384",
         question: "What is the meaning of the word 'Blandishment'?",
         options: [
             "A serious accusation",
@@ -110,7 +110,7 @@ const quizData = [
     },
 
     {
-        id: "VOC365",
+        id: "VOC385",
         question: "What is the meaning of the word 'Castigate'?",
         options: [
             "To praise someone publicly",
@@ -124,7 +124,7 @@ const quizData = [
     },
 
     {
-        id: "VOC366",
+        id: "VOC386",
         question: "What is the meaning of the word 'Cataclysm'?",
         options: [
             "A peaceful agreement",
@@ -138,7 +138,7 @@ const quizData = [
     },
 
     {
-        id: "VOC367",
+        id: "VOC387",
         question: "What is the meaning of the word 'Clemency'?",
         options: [
             "Strict punishment",
@@ -152,7 +152,7 @@ const quizData = [
     },
 
     {
-        id: "VOC368",
+        id: "VOC388",
         question: "What is the meaning of the word 'Cogent'?",
         options: [
             "Clear, logical, and convincing",
@@ -166,7 +166,7 @@ const quizData = [
     },
 
     {
-        id: "VOC369",
+        id: "VOC389",
         question: "What is the meaning of the word 'Concurrence'?",
         options: [
             "A refusal to cooperate",
@@ -180,7 +180,7 @@ const quizData = [
     },
 
     {
-        id: "VOC370",
+        id: "VOC390",
         question: "What is the meaning of the word 'Conscientious'?",
         options: [
             "Extremely ambitious",
@@ -194,7 +194,7 @@ const quizData = [
     },
 
     {
-        id: "VOC371",
+        id: "VOC391",
         question: "What is the meaning of the word 'Conjecture'?",
         options: [
             "A proven scientific fact",
@@ -208,7 +208,7 @@ const quizData = [
     },
 
     {
-        id: "VOC372",
+        id: "VOC392",
         question: "What is the meaning of the word 'Cryptic'?",
         options: [
             "Very obvious and straightforward",
@@ -222,7 +222,7 @@ const quizData = [
     },
 
     {
-        id: "VOC373",
+        id: "VOC393",
         question: "What is the meaning of the word 'Culpable'?",
         options: [
             "Deserving blame or responsible for wrongdoing",
@@ -236,7 +236,7 @@ const quizData = [
     },
 
     {
-        id: "VOC374",
+        id: "VOC394",
         question: "What is the meaning of the word 'Deprecate'?",
         options: [
             "To strongly support something",
@@ -250,7 +250,7 @@ const quizData = [
     },
 
     {
-        id: "VOC375",
+        id: "VOC395",
         question: "What is the meaning of the word 'Diffidence'?",
         options: [
             "Excessive confidence",
@@ -264,7 +264,7 @@ const quizData = [
     },
 
     {
-        id: "VOC376",
+        id: "VOC396",
         question: "What is the meaning of the word 'Disseminate'?",
         options: [
             "To hide information",
@@ -278,7 +278,7 @@ const quizData = [
     },
 
     {
-        id: "VOC377",
+        id: "VOC397",
         question: "What is the meaning of the word 'Eloquence'?",
         options: [
             "The ability to express ideas fluently and persuasively",
@@ -292,7 +292,7 @@ const quizData = [
     },
 
     {
-        id: "VOC378",
+        id: "VOC398",
         question: "What is the meaning of the word 'Elucidate'?",
         options: [
             "To conceal the truth",
@@ -306,7 +306,7 @@ const quizData = [
     },
 
     {
-        id: "VOC379",
+        id: "VOC399",
         question: "What is the meaning of the word 'Enervate'?",
         options: [
             "To strengthen or encourage",
@@ -320,7 +320,7 @@ const quizData = [
     },
 
     {
-        id: "VOC380",
+        id: "VOC400",
         question: "What is the meaning of the word 'Equivocal'?",
         options: [
             "Completely certain and definite",
