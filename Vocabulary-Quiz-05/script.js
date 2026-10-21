@@ -40,7 +40,7 @@ const quizData = [
             "To hide something"
         ],
         answer: 3,
-        explanation: "'Conceal' means to hide something or keep it from being seen or known."
+        explanation: "'Conceal' means to hide something or keep it from being seen or known.",
         example: "She tried to conceal the surprise gift until his birthday."
     },
 
@@ -53,7 +53,7 @@ const quizData = [
             "To punish someone"
         ],
         answer: 0,
-        explanation: "'Confide' means to tell someone a secret or private matter because you trust them."
+        explanation: "'Confide' means to tell someone a secret or private matter because you trust them.",
         example: "You can confide in a trusted friend when you need advice."
     },
 
@@ -66,7 +66,7 @@ const quizData = [
             "To refuse something"
         ],
         answer: 0,
-        explanation: "'Crave' means to have a very strong desire for something."
+        explanation: "'Crave' means to have a very strong desire for something.",
         example: "After the long walk, they began to crave cold water."
     },
 
@@ -79,7 +79,7 @@ const quizData = [
             "Simple, rough, or lacking refinement"
         ],
         answer: 3,
-        explanation: "'Crude' can mean simple, rough, or lacking refinement. It can also refer to something in a natural or unprocessed state."
+        explanation: "'Crude' can mean simple, rough, or lacking refinement. It can also refer to something in a natural or unprocessed state.",
         example: "The workers built a crude shelter from branches and leaves."
     },
 
@@ -92,7 +92,7 @@ const quizData = [
             "Brief and sometimes rude"
         ],
         answer: 3,
-        explanation: "'Curt' means brief and direct, often in a way that seems rude or unfriendly."
+        explanation: "'Curt' means brief and direct, often in a way that seems rude or unfriendly.",
         example: "His curt reply made it clear that he was in a hurry."
     },
 
@@ -105,7 +105,7 @@ const quizData = [
             "Very dishonest"
         ],
         answer: 0,
-        explanation: "'Decent' means acceptable, satisfactory, or reasonably good."
+        explanation: "'Decent' means acceptable, satisfactory, or reasonably good.",
         example: "They found a decent hotel near the station."
     },
 
@@ -118,7 +118,7 @@ const quizData = [
             "To change something into an unnatural or damaged shape"
         ],
         answer: 3,
-        explanation: "'Deform' means to change or damage the shape or appearance of something."
+        explanation: "'Deform' means to change or damage the shape or appearance of something.",
         example: "A serious injury can deform a growing bone."
     },
 
@@ -131,7 +131,7 @@ const quizData = [
             "Very quickly"
         ],
         answer: 2,
-        explanation: "'Deliberately' means intentionally or knowingly, rather than by accident."
+        explanation: "'Deliberately' means intentionally or knowingly, rather than by accident.",
         example: "She deliberately checked every figure before submitting the report."
     },
 
@@ -144,7 +144,7 @@ const quizData = [
             "To decorate something"
         ],
         answer: 2,
-        explanation: "'Demolish' means to destroy a building or structure completely."
+        explanation: "'Demolish' means to destroy a building or structure completely.",
         example: "The city plans to demolish the unsafe building."
     },
 
@@ -157,7 +157,7 @@ const quizData = [
             "To borrow something"
         ],
         answer: 0,
-        explanation: "'Depict' means to represent or show something, especially in a picture, story, or description."
+        explanation: "'Depict' means to represent or show something, especially in a picture, story, or description.",
         example: "The painting depicts a quiet village beside a river."
     },
 
@@ -170,7 +170,7 @@ const quizData = [
             "To prevent someone from having something"
         ],
         answer: 3,
-        explanation: "'Deprive' means to prevent someone from having something that they need or normally have."
+        explanation: "'Deprive' means to prevent someone from having something that they need or normally have.",
         example: "A lack of sleep can deprive students of concentration."
     },
 
@@ -183,7 +183,7 @@ const quizData = [
             "To encourage someone"
         ],
         answer: 2,
-        explanation: "'Deride' means to mock, ridicule, or make fun of someone in a disrespectful way."
+        explanation: "'Deride' means to mock, ridicule, or make fun of someone in a disrespectful way.",
         example: "It is unkind to deride someone for making a mistake."
     },
 
@@ -196,7 +196,7 @@ const quizData = [
             "To move away from a usual course or standard"
         ],
         answer: 3,
-        explanation: "'Deviate' means to move away from a usual, expected, or planned course."
+        explanation: "'Deviate' means to move away from a usual, expected, or planned course.",
         example: "Please do not deviate from the agreed safety procedure."
     },
 
@@ -209,7 +209,7 @@ const quizData = [
             "Large and spacious"
         ],
         answer: 2,
-        explanation: "'Dingy' means dark, dirty, or shabby, especially because of age or lack of cleaning."
+        explanation: "'Dingy' means dark, dirty, or shabby, especially because of age or lack of cleaning.",
         example: "They moved out of the dingy apartment into a brighter home."
     },
 
@@ -222,7 +222,7 @@ const quizData = [
             "To purchase something"
         ],
         answer: 1,
-        explanation: "'Discard' means to throw something away because it is no longer wanted or useful."
+        explanation: "'Discard' means to throw something away because it is no longer wanted or useful.",
         example: "Remember to discard expired food safely."
     },
 
@@ -235,7 +235,7 @@ const quizData = [
             "To organize information"
         ],
         answer: 1,
-        explanation: "'Divulge' means to reveal secret, private, or previously unknown information."
+        explanation: "'Divulge' means to reveal secret, private, or previously unknown information.",
         example: "The lawyer refused to divulge confidential information."
     },
 
@@ -248,7 +248,7 @@ const quizData = [
             "To work continuously"
         ],
         answer: 0,
-        explanation: "'Doze' means to sleep lightly or briefly, often without intending to."
+        explanation: "'Doze' means to sleep lightly or briefly, often without intending to.",
         example: "He began to doze while reading on the sofa."
     },
 
@@ -261,7 +261,7 @@ const quizData = [
             "To heat something"
         ],
         answer: 1,
-        explanation: "'Drench' means to make something completely wet by covering or soaking it with liquid."
+        explanation: "'Drench' means to make something completely wet by covering or soaking it with liquid.",
         example: "The sudden downpour drenched everyone waiting outside."
     },
 
@@ -274,7 +274,7 @@ const quizData = [
             "Easy to understand"
         ],
         answer: 1,
-        explanation: "'Dubious' means doubtful, uncertain, or not completely trustworthy."
+        explanation: "'Dubious' means doubtful, uncertain, or not completely trustworthy.",
         example: "The manager was dubious about the unusually low price."
     },
 
@@ -287,7 +287,7 @@ const quizData = [
             "Highly organized"
         ],
         answer: 1,
-        explanation: "'Eccentric' describes someone or something that is unusual or unconventional, especially in behavior."
+        explanation: "'Eccentric' describes someone or something that is unusual or unconventional, especially in behavior.",
         example: "The eccentric artist wore brightly colored shoes every day."
     },
 
@@ -300,7 +300,7 @@ const quizData = [
             "To hide someone's work"
         ],
         answer: 1,
-        explanation: "'Emulate' means to imitate someone or something, usually with the aim of matching or surpassing them."
+        explanation: "'Emulate' means to imitate someone or something, usually with the aim of matching or surpassing them.",
         example: "Young players often try to emulate their favorite athletes."
     },
 
@@ -313,7 +313,7 @@ const quizData = [
             "A careless mistake"
         ],
         answer: 0,
-        explanation: "'Endeavor' means a serious attempt or effort to achieve something."
+        explanation: "'Endeavor' means a serious attempt or effort to achieve something.",
         example: "The team will endeavor to finish the project on time."
     },
 
@@ -326,7 +326,7 @@ const quizData = [
             "To ignore someone"
         ],
         answer: 1,
-        explanation: "'Entice' means to attract or tempt someone by offering something appealing."
+        explanation: "'Entice' means to attract or tempt someone by offering something appealing.",
         example: "The bakery used the smell of fresh bread to entice customers inside."
     },
 
@@ -339,7 +339,7 @@ const quizData = [
             "Feeling responsible for something"
         ],
         answer: 0,
-        explanation: "'Envious' means feeling unhappy because someone else has something that you wish you had."
+        explanation: "'Envious' means feeling unhappy because someone else has something that you wish you had.",
         example: "She felt envious of her colleague's promotion but congratulated him."
     },
 
@@ -352,7 +352,7 @@ const quizData = [
             "Difficult to understand"
         ],
         answer: 1,
-        explanation: "'Equitable' means fair and impartial, especially when distributing rights, benefits, or opportunities."
+        explanation: "'Equitable' means fair and impartial, especially when distributing rights, benefits, or opportunities.",
         example: "The committee aimed to create an equitable distribution of resources."
     },
 
@@ -365,7 +365,7 @@ const quizData = [
             "To destroy completely"
         ],
         answer: 0,
-        explanation: "'Evolve' means to develop or change gradually over time."
+        explanation: "'Evolve' means to develop or change gradually over time.",
         example: "Languages evolve as people and cultures change."
     },
 
@@ -378,7 +378,7 @@ const quizData = [
             "To surprise someone pleasantly"
         ],
         answer: 0,
-        explanation: "'Exasperate' means to make someone extremely annoyed, especially by repeated problems or actions."
+        explanation: "'Exasperate' means to make someone extremely annoyed, especially by repeated problems or actions.",
         example: "Repeated delays began to exasperate the passengers."
     },
 
@@ -391,7 +391,7 @@ const quizData = [
             "Difficult to remember"
         ],
         answer: 1,
-        explanation: "'Exhaustive' means complete and covering all or nearly all possibilities or details."
+        explanation: "'Exhaustive' means complete and covering all or nearly all possibilities or details.",
         example: "The report provides an exhaustive review of the available evidence."
     },
 
@@ -404,7 +404,7 @@ const quizData = [
             "Easy to obtain"
         ],
         answer: 1,
-        explanation: "'Exorbitant' means much higher than is reasonable, especially in price or cost."
+        explanation: "'Exorbitant' means much higher than is reasonable, especially in price or cost.",
         example: "They refused to pay the exorbitant fee."
     },
 
@@ -417,7 +417,7 @@ const quizData = [
             "To become stronger"
         ],
         answer: 1,
-        explanation: "'Expire' means to come to an end or become no longer valid, such as a contract, ticket, or license."
+        explanation: "'Expire' means to come to an end or become no longer valid, such as a contract, ticket, or license.",
         example: "This coupon will expire at the end of the month."
     }
 ];
