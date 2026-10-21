@@ -62,7 +62,7 @@ New vocabulary quizzes should use the shared engine so quiz logic is not rewritt
 5. In `quiz-data.js`, add the actual quiz questions. Each question needs a unique ID, question, exactly four options, a zero-based `answer` index, an explanation, and an example sentence.
 6. Open the new `index.html` on GitHub Pages and test both modes, sounds, result screen, and Facebook return link before publishing.
 
-The template loads the shared engine and shared CSS. Do not copy or edit the engine for each quiz. The engine validates missing question text, option count, answer index, duplicate options/IDs, explanation, and example fields before the quiz starts.
+The template loads the shared engine and shared CSS. Do not copy or edit the engine for each quiz. The engine validates missing question text, exactly four options, answer index, duplicate options/question stems/IDs, explanation, and example fields before the quiz starts. For quizzes with 12 or more questions, it also requires at least three correct answers at each option position (A/B/C/D).
 
 ### Question data format
 
