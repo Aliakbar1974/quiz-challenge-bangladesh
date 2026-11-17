@@ -72,11 +72,11 @@ const quizData = [
         question: "What is the meaning of the word 'Adroit'?",
         options: [
             "Careless and irresponsible",
-            "Unwilling to cooperate",
+            "Skillful and clever in using one's hands or dealing with situations",
             "Difficult to understand",
-            "Skillful and clever in using one's hands or dealing with situations"
+            "Unwilling to cooperate"
         ],
-        answer: 3,
+        answer: 1,
         explanation: "'Adroit' means skillful, clever, or quick in handling situations or performing tasks.",
         example: "She was adroit at solving difficult problems."
     },
@@ -128,11 +128,11 @@ const quizData = [
         question: "What is the meaning of the word 'Cataclysm'?",
         options: [
             "A peaceful agreement",
-            "A minor disagreement",
+            "A large-scale disaster or violent upheaval",
             "A period of economic growth",
-            "A large-scale disaster or violent upheaval"
+            "A minor disagreement"
         ],
-        answer: 3,
+        answer: 1,
         explanation: "'Cataclysm' refers to a sudden, violent, and destructive event that causes major change or damage.",
         example: "The earthquake was a devastating cataclysm for the region."
     },
