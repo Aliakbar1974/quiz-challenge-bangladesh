@@ -217,11 +217,11 @@ const quizData = [
         question: "What does the word 'Discard' mean?",
         options: [
             "To keep something carefully",
-            "To throw something away",
             "To repair something",
+            "To throw something away",
             "To purchase something"
         ],
-        answer: 1,
+        answer: 2,
         explanation: "'Discard' means to throw something away because it is no longer wanted or useful.",
         example: "Remember to discard expired food safely."
     },
