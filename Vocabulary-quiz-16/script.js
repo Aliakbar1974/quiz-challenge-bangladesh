@@ -58,8 +58,8 @@ const quizData = [
   {
     id: "VOC401",
     question: "What does 'Erudite' mean?",
-    options: ["Extremely careless", "Lacking intelligence", "Highly educated and knowledgeable", "Easily frightened"],
-    answer: 2,
+    options: ["Highly educated and knowledgeable", "Lacking intelligence", "Extremely careless", "Easily frightened"],
+    answer: 0,
     explanation: "'Erudite' means having extensive knowledge gained through study and learning.",
     example: "The erudite professor gave an impressive lecture on ancient history."
   },
@@ -74,8 +74,8 @@ const quizData = [
   {
     id: "VOC403",
     question: "What does 'Exacting' mean?",
-    options: ["Easy and undemanding", "Talkative and sociable", "Calm and unemotional", "Demanding great care, effort, or precision"],
-    answer: 3,
+    options: ["Easy and undemanding", "Demanding great care, effort, or precision", "Calm and unemotional", "Talkative and sociable"],
+    answer: 1,
     explanation: "'Exacting' describes something that requires great effort, attention, or precision.",
     example: "The exacting job required patience and careful attention to detail."
   },
