@@ -87,10 +87,10 @@ const quizData = [
         options: [
             "Very cheerful and friendly",
             "Extremely confident",
-            "Easily offended or upset",
-            "Very careful and patient"
+            "Very careful and patient",
+            "Easily offended or upset"
         ],
-        answer: 2,
+        answer: 3,
         explanation: "<strong>Touchy</strong> means easily offended, upset, or annoyed by something.",
         example: "He is touchy about comments concerning his work."
     },
