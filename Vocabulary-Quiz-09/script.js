@@ -488,6 +488,8 @@ function timeUp() {
             <strong>${q.options[q.answer]}</strong>
         </p>
 
+        <p>${q.explanation}</p>
+
         <p class="example-text"><strong>Example:</strong> ${q.example || ""}</p>
 
         <button onclick="nextQuestion()">
@@ -528,7 +530,9 @@ function selectAnswer(selected) {
                 ✔ Right Answer!
             </div>
 
-            <p class="example-text"><strong>Example:</strong> ${q.example || ""}</p>
+            <p>${q.explanation}</p>
+
+        <p class="example-text"><strong>Example:</strong> ${q.example || ""}</p>
 
             <button onclick="nextQuestion()">
                 Next Question →
@@ -555,7 +559,9 @@ function selectAnswer(selected) {
                 </strong>
             </p>
 
-            <p class="example-text"><strong>Example:</strong> ${q.example || ""}</p>
+            <p>${q.explanation}</p>
+
+        <p class="example-text"><strong>Example:</strong> ${q.example || ""}</p>
 
             <button onclick="nextQuestion()">
                 Next Question →
