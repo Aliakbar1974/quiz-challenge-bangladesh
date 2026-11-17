@@ -1230,3 +1230,10 @@ main {
     background: #123f70 !important;
     color: #ffffff !important;
 }
+
+
+/* Standard post-quiz navigation */
+.result-navigation{display:grid;gap:10px;margin-top:16px}
+.result-nav-btn{display:block;width:100%;min-height:48px;padding:14px 16px;border:0;border-radius:10px;text-align:center;text-decoration:none;font-weight:700;box-sizing:border-box}
+.more-vocabulary-btn{background:#334155;color:#fff}
+.home-page-btn{background:#7c3aed;color:#fff}
