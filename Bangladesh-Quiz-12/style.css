@@ -467,3 +467,22 @@ main, #quiz-screen, #result-screen {
         font-size: 17px;
     }
 }
+
+/* Consistent post-quiz navigation button colors */
+#result-screen .facebook-btn,
+#result-screen button[onclick*="returnToFacebook"] {
+    background: #1877f2 !important;
+    color: #ffffff !important;
+}
+
+#result-screen .play-again-btn,
+#result-screen button[onclick*="reloadQuiz"] {
+    background: #087f5b !important;
+    color: #ffffff !important;
+}
+
+#result-screen .more-quizzes-btn,
+#result-screen .home-btn {
+    background: #123f70 !important;
+    color: #ffffff !important;
+}
