@@ -768,11 +768,11 @@ playSound("victory");
             </button>
 
             <div class="result-actions" style="margin-top:20px;">
-                <button onclick="window.location.assign('https://aliakbar1974.github.io/Quiz-Challenge-Bangladesh-Website/bangladesh-quizzes.html')">
+                <button onclick="window.location.assign('https://quizchallengebd.com/bangladesh-quizzes.html')">
                     📚 More Bangladesh Quizzes
                 </button>
 
-                <button onclick="window.location.assign('https://aliakbar1974.github.io/Quiz-Challenge-Bangladesh-Website/')">
+                <button onclick="window.location.assign('https://quizchallengebd.com/')">
                     🏠 Back to Home
                 </button>
 
